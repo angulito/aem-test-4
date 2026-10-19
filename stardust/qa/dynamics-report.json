@@ -1,0 +1,22 @@
+{
+ "_provenance": {
+  "writtenBy": "stardust:dynamics check",
+  "writtenAt": "2026-09-28T14:20:50.079Z",
+  "origin": "https://main--e45f2fd7--aemcoder.aem.live",
+  "parity": "stardust/dynamics/parity.json"
+ },
+ "results": [
+  {
+   "feature": "static pages render without script errors",
+   "id": "static-baseline",
+   "class": "S",
+   "status": "done",
+   "type": "no-page-errors",
+   "pass": true,
+   "detail": "none on 15 page(s)",
+   "thirdParty": "",
+   "ms": 33742,
+   "environmentLimit": null
+  }
+ ]
+}

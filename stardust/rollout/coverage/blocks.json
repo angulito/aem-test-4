@@ -1,0 +1,284 @@
+{
+  "_provenance": {
+    "writtenBy": "stardust:rollout/blocks",
+    "writtenAt": "2026-09-28T11:58:37.775Z",
+    "readArtifacts": [
+      "stardust/rollout/coverage/pages.json"
+    ],
+    "stardustVersion": "0.0.0"
+  },
+  "generatedAt": "2026-09-28T13:53:50.192Z",
+  "blocks": [
+    {
+      "id": "article-cards",
+      "label": "article-cards",
+      "kind": "module",
+      "signature": "module:article-cards",
+      "source": null,
+      "usedByTemplates": [
+        "blog",
+        "index"
+      ],
+      "usedByPages": [
+        "blog",
+        "fashion-insights",
+        "fashion-trends-young-adults",
+        "index"
+      ],
+      "instanceCount": 4,
+      "delivery": {
+        "status": "deployed",
+        "edsBlockName": "article-cards",
+        "blockPath": null,
+        "convertedAt": null
+      }
+    },
+    {
+      "id": "blog-content",
+      "label": "blog-content",
+      "kind": "module",
+      "signature": "module:blog-content",
+      "source": null,
+      "usedByTemplates": [
+        "blog-ace-pro-court-polo"
+      ],
+      "usedByPages": [
+        "blog-ace-pro-court-polo",
+        "blog-fashion-blog-post",
+        "blog-fashion-trends-young-culture",
+        "blog-fashion-trends-young-style",
+        "blog-flip-flop-summer-style",
+        "blog-latest-trends-young-casual-fashion",
+        "blog-street-style-trends"
+      ],
+      "instanceCount": 7,
+      "delivery": {
+        "status": "deployed",
+        "edsBlockName": "blog-content",
+        "blockPath": null,
+        "convertedAt": null
+      }
+    },
+    {
+      "id": "contact-details",
+      "label": "contact-details",
+      "kind": "module",
+      "signature": "module:contact-details",
+      "source": null,
+      "usedByTemplates": [
+        "faq"
+      ],
+      "usedByPages": [
+        "faq"
+      ],
+      "instanceCount": 1,
+      "delivery": {
+        "status": "deployed",
+        "edsBlockName": "contact-details",
+        "blockPath": null,
+        "convertedAt": null
+      }
+    },
+    {
+      "id": "cta-band",
+      "label": "cta-band",
+      "kind": "module",
+      "signature": "module:cta-band",
+      "source": null,
+      "usedByTemplates": [
+        "blog",
+        "faq",
+        "index"
+      ],
+      "usedByPages": [
+        "blog",
+        "case-studies",
+        "faq",
+        "fashion-insights",
+        "fashion-trends-of-the-season",
+        "fashion-trends-young-adults",
+        "fashion-trends-young-adults-casual-sport",
+        "index"
+      ],
+      "instanceCount": 8,
+      "delivery": {
+        "status": "deployed",
+        "edsBlockName": "cta-band",
+        "blockPath": null,
+        "convertedAt": null
+      }
+    },
+    {
+      "id": "faq-accordion",
+      "label": "faq-accordion",
+      "kind": "module",
+      "signature": "module:faq-accordion",
+      "source": null,
+      "usedByTemplates": [
+        "faq",
+        "index"
+      ],
+      "usedByPages": [
+        "faq",
+        "index"
+      ],
+      "instanceCount": 2,
+      "delivery": {
+        "status": "deployed",
+        "edsBlockName": "faq-accordion",
+        "blockPath": null,
+        "convertedAt": null
+      }
+    },
+    {
+      "id": "featured-story",
+      "label": "featured-story",
+      "kind": "module",
+      "signature": "module:featured-story",
+      "source": null,
+      "usedByTemplates": [
+        "blog",
+        "index"
+      ],
+      "usedByPages": [
+        "blog",
+        "case-studies",
+        "fashion-insights",
+        "fashion-trends-of-the-season",
+        "fashion-trends-young-adults-casual-sport",
+        "index"
+      ],
+      "instanceCount": 6,
+      "delivery": {
+        "status": "deployed",
+        "edsBlockName": "featured-story",
+        "blockPath": null,
+        "convertedAt": null
+      }
+    },
+    {
+      "id": "hero",
+      "label": "hero",
+      "kind": "module",
+      "signature": "module:hero",
+      "source": null,
+      "usedByTemplates": [
+        "blog",
+        "blog-ace-pro-court-polo",
+        "faq",
+        "index"
+      ],
+      "usedByPages": [
+        "blog",
+        "blog-ace-pro-court-polo",
+        "blog-fashion-blog-post",
+        "blog-fashion-trends-young-culture",
+        "blog-fashion-trends-young-style",
+        "blog-flip-flop-summer-style",
+        "blog-latest-trends-young-casual-fashion",
+        "blog-street-style-trends",
+        "case-studies",
+        "faq",
+        "fashion-insights",
+        "fashion-trends-of-the-season",
+        "fashion-trends-young-adults",
+        "fashion-trends-young-adults-casual-sport",
+        "index"
+      ],
+      "instanceCount": 15,
+      "delivery": {
+        "status": "deployed",
+        "edsBlockName": "hero",
+        "blockPath": null,
+        "convertedAt": null
+      }
+    },
+    {
+      "id": "image-columns",
+      "label": "image-columns",
+      "kind": "module",
+      "signature": "module:image-columns",
+      "source": null,
+      "usedByTemplates": [
+        "index"
+      ],
+      "usedByPages": [
+        "fashion-trends-of-the-season",
+        "fashion-trends-young-adults"
+      ],
+      "instanceCount": 2,
+      "delivery": {
+        "status": "deployed",
+        "edsBlockName": "image-columns",
+        "blockPath": null,
+        "convertedAt": null
+      }
+    },
+    {
+      "id": "snapshot-gallery",
+      "label": "snapshot-gallery",
+      "kind": "module",
+      "signature": "module:snapshot-gallery",
+      "source": null,
+      "usedByTemplates": [
+        "blog",
+        "index"
+      ],
+      "usedByPages": [
+        "case-studies",
+        "fashion-insights",
+        "fashion-trends-of-the-season",
+        "fashion-trends-young-adults",
+        "index"
+      ],
+      "instanceCount": 5,
+      "delivery": {
+        "status": "deployed",
+        "edsBlockName": "snapshot-gallery",
+        "blockPath": null,
+        "convertedAt": null
+      }
+    },
+    {
+      "id": "testimonial-tabs",
+      "label": "testimonial-tabs",
+      "kind": "module",
+      "signature": "module:testimonial-tabs",
+      "source": null,
+      "usedByTemplates": [
+        "index"
+      ],
+      "usedByPages": [
+        "case-studies",
+        "index"
+      ],
+      "instanceCount": 2,
+      "delivery": {
+        "status": "deployed",
+        "edsBlockName": "testimonial-tabs",
+        "blockPath": null,
+        "convertedAt": null
+      }
+    },
+    {
+      "id": "trend-cards",
+      "label": "trend-cards",
+      "kind": "module",
+      "signature": "module:trend-cards",
+      "source": null,
+      "usedByTemplates": [
+        "index"
+      ],
+      "usedByPages": [
+        "fashion-trends-young-adults-casual-sport"
+      ],
+      "instanceCount": 1,
+      "delivery": {
+        "status": "deployed",
+        "edsBlockName": "trend-cards",
+        "blockPath": null,
+        "convertedAt": null
+      }
+    }
+  ]
+}

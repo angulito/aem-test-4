@@ -1,0 +1,14 @@
+{
+  "runtime": "vanilla-eds",
+  "source": "scripts/aem.js decorateBlock (L547) + scripts/scripts.js decorateButtons (L110), read 2026-09-28",
+  "blockWrapperClass": "block",
+  "blockWrapper": "div.<name>-wrapper around the block, section gains .<name>-container, block gets data-block-name + data-block-status",
+  "buttonClasses": ".button / .button.primary / .button.secondary / .button.accent, in p.button-wrapper",
+  "buttonization": "formatted-only",
+  "buttonizationDetail": "p a[href] alone in its <p>, wrapped in <strong> (primary) / <em> (secondary) / both (accent); the emphasis tag is REPLACED by the classed anchor; bare links stay links; links containing <img> and URL-display links are skipped",
+  "fragmentScriptPolicy": "inert-innerHTML",
+  "fragmentLoader": "blocks/fragment/fragment.js loadFragment(path) -> fetch <path>.plain.html, decorateMain, loadSections; returns <main> with .section children",
+  "chromeLoad": "loadHeader/loadFooter build an empty header/footer block, decorateBlock, loadBlock (lazy phase)",
+  "emptySectionCollapse": true,
+  "sectionStyleDelivery": "section-metadata style -> classes on the section div (rendering v2), metadata block removed from served HTML"
+}

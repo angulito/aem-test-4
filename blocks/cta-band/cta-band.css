@@ -1,0 +1,85 @@
+/* cta-band — photo band (inverse section) or centred band (accent section) */
+.cta-band .headline :is(h1, h2, h3) {
+  margin: 0;
+}
+
+.cta-band .lede {
+  margin-top: var(--space-md);
+}
+
+/* photo band */
+.cta-band .cta-card {
+  position: relative;
+  display: flex;
+  align-items: flex-end;
+  min-height: 28rem;
+  border-radius: var(--radius-card);
+  overflow: hidden;
+}
+
+.cta-band .cta-media {
+  position: absolute;
+  inset: 0;
+}
+
+.cta-band .cta-media picture,
+.cta-band .cta-media img {
+  width: 100%;
+  height: 100%;
+}
+
+.cta-band .cta-media img {
+  object-fit: cover;
+  border-radius: 0;
+}
+
+.cta-band .cta-overlay {
+  position: absolute;
+  inset: 0;
+  z-index: 1;
+  background: linear-gradient(to top, rgb(0 0 0 / 70%) 0%, transparent 60%);
+}
+
+.cta-band .cta-body {
+  position: relative;
+  z-index: 2;
+  max-width: 42rem;
+  padding: var(--space-3xl);
+}
+
+.cta-band .cta-body .headline {
+  font-family: var(--font-heading);
+  font-weight: 700;
+  font-size: var(--text-5xl);
+  line-height: var(--leading-tight);
+  letter-spacing: -0.02em;
+  text-transform: uppercase;
+}
+
+.cta-band .cta-body .headline :is(h1, h2, h3) {
+  font: inherit;
+  letter-spacing: inherit;
+}
+
+.cta-band .cta-body .lede {
+  font-family: var(--font-body);
+  font-size: var(--text-lg);
+  line-height: var(--leading-normal);
+  font-weight: 400;
+}
+
+/* centred band */
+.cta-band .cta-center {
+  max-width: 36rem;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.cta-band .cta-center .lede {
+  font-size: var(--text-lg);
+  line-height: var(--leading-normal);
+}
+
+.cta-band .cta-center .button-group {
+  justify-content: center;
+}

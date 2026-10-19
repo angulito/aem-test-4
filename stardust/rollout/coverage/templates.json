@@ -1,0 +1,108 @@
+{
+  "_provenance": {
+    "writtenBy": "stardust:rollout/inventory",
+    "writtenAt": "2026-09-28T11:57:48.631Z",
+    "readArtifacts": [
+      "stardust/migrated"
+    ],
+    "stardustVersion": "0.0.0"
+  },
+  "generatedAt": "2026-09-28T14:21:39.648Z",
+  "templates": [
+    {
+      "id": "blog",
+      "representativeSlug": "blog",
+      "pages": [
+        "blog",
+        "fashion-insights"
+      ],
+      "pageCount": 2,
+      "blocks": [
+        "article-cards",
+        "cta-band",
+        "featured-story",
+        "hero",
+        "snapshot-gallery"
+      ],
+      "delivery": {
+        "verified": 2,
+        "deployed": 0,
+        "contentPending": 0,
+        "pending": 0
+      }
+    },
+    {
+      "id": "blog-ace-pro-court-polo",
+      "representativeSlug": "blog-ace-pro-court-polo",
+      "pages": [
+        "blog-ace-pro-court-polo",
+        "blog-fashion-blog-post",
+        "blog-fashion-trends-young-culture",
+        "blog-fashion-trends-young-style",
+        "blog-flip-flop-summer-style",
+        "blog-latest-trends-young-casual-fashion",
+        "blog-street-style-trends"
+      ],
+      "pageCount": 7,
+      "blocks": [
+        "blog-content",
+        "hero"
+      ],
+      "delivery": {
+        "verified": 7,
+        "deployed": 0,
+        "contentPending": 0,
+        "pending": 0
+      }
+    },
+    {
+      "id": "faq",
+      "representativeSlug": "faq",
+      "pages": [
+        "faq"
+      ],
+      "pageCount": 1,
+      "blocks": [
+        "contact-details",
+        "cta-band",
+        "faq-accordion",
+        "hero"
+      ],
+      "delivery": {
+        "verified": 1,
+        "deployed": 0,
+        "contentPending": 0,
+        "pending": 0
+      }
+    },
+    {
+      "id": "index",
+      "representativeSlug": "index",
+      "pages": [
+        "case-studies",
+        "fashion-trends-of-the-season",
+        "fashion-trends-young-adults",
+        "fashion-trends-young-adults-casual-sport",
+        "index"
+      ],
+      "pageCount": 5,
+      "blocks": [
+        "article-cards",
+        "cta-band",
+        "faq-accordion",
+        "featured-story",
+        "hero",
+        "image-columns",
+        "snapshot-gallery",
+        "testimonial-tabs",
+        "trend-cards"
+      ],
+      "delivery": {
+        "verified": 5,
+        "deployed": 0,
+        "contentPending": 0,
+        "pending": 0
+      }
+    }
+  ]
+}

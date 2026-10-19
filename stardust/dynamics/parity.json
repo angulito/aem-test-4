@@ -1,0 +1,65 @@
+{
+  "_provenance": {
+    "writtenBy": "stardust:replica/handoff D2-dynamic",
+    "writtenAt": "2026-09-28T14:20:15.757Z",
+    "input": "stardust/dynamic-features.md; stardust/dynamics/dynamic-features.generated-plan.json (0 rows)"
+  },
+  "method": "detector (extract --dynamics, re-run at rollout B2 against the target origin) found 0 dynamic features on 15 pages; the two decided-out rows are listed without checks; one baseline no-page-errors check replays over every delivered page",
+  "features": [
+    {
+      "id": "static-baseline",
+      "feature": "static pages render without script errors",
+      "class": "S",
+      "pages": 15,
+      "disposition": "none",
+      "reproducibility": "self",
+      "status": "done",
+      "verifiedBy": "dynamics-check no-page-errors over 15 paths on the live origin",
+      "checks": [
+        {
+          "type": "no-page-errors",
+          "paths": [
+            "/",
+            "/blog",
+            "/blog/ace-pro-court-polo",
+            "/blog/fashion-blog-post",
+            "/blog/fashion-trends-young-culture",
+            "/blog/fashion-trends-young-style",
+            "/blog/flip-flop-summer-style",
+            "/blog/latest-trends-young-casual-fashion",
+            "/blog/street-style-trends",
+            "/case-studies",
+            "/faq",
+            "/fashion-insights",
+            "/fashion-trends-of-the-season",
+            "/fashion-trends-young-adults",
+            "/fashion-trends-young-adults-casual-sport"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "blog-listing-index",
+      "feature": "index-driven blog listing",
+      "class": "L",
+      "pages": 2,
+      "disposition": "decided-out",
+      "reproducibility": "self",
+      "status": "decided-out",
+      "verifiedBy": "source renders /blog and /fashion-insights cards statically (7 articles, all in scope); parity met by authored cards",
+      "owner": "after go-live: adopt a query-index listing so a new article appears without editing the listing page",
+      "checks": []
+    },
+    {
+      "id": "faq-accordion",
+      "feature": "FAQ accordion",
+      "class": "I",
+      "pages": 1,
+      "disposition": "decided-out",
+      "reproducibility": "self",
+      "status": "decided-out",
+      "verifiedBy": "motion-observe on /faq: open/closed behaviour mirrored in faq-accordion as observed at recreate",
+      "checks": []
+    }
+  ]
+}

@@ -1,0 +1,810 @@
+{
+  "archetype": "https://www.wknd-trendsetters.site/",
+  "width": 1440,
+  "tolerance": 2,
+  "probes": {
+    "hero": "main .section:first-of-type",
+    "card": ".article-card",
+    "tabs": ".tabs-wrapper",
+    "faq": ".faq-item",
+    "cta": ".inverse-section",
+    "secondary": ".secondary-section"
+  },
+  "archetypeRaw": {
+    "sections": [
+      {
+        "label": "secondary-section",
+        "h": 666
+      },
+      {
+        "label": "section[1]",
+        "h": 632
+      },
+      {
+        "label": "secondary-section",
+        "h": 1039
+      },
+      {
+        "label": "section[3]",
+        "h": 764
+      },
+      {
+        "label": "secondary-section",
+        "h": 705
+      },
+      {
+        "label": "section[5]",
+        "h": 595
+      },
+      {
+        "label": "inverse-section",
+        "h": 815
+      }
+    ],
+    "probes": {
+      "hero": {
+        "sel": "main .section:first-of-type",
+        "count": 2,
+        "first": {
+          "rect": {
+            "w": 1440,
+            "h": 666
+          },
+          "backgroundLayers": [],
+          "backgroundColor": "rgb(245, 245, 245)",
+          "color": "rgb(0, 0, 0)",
+          "padding": "128px 0px 128px 0px",
+          "font": "instrument sans 16px/25.6px 400",
+          "borderRadius": "0px",
+          "heading": "h1 syncopate 56px/61.6px 700 rgb(0, 0, 0)",
+          "image": {
+            "w": 268,
+            "h": 179
+          },
+          "listStyle": "disc",
+          "before": null
+        },
+        "clusters": 2,
+        "text": "Fresh looks, bold stories, real life Dive into our latest st"
+      },
+      "card": {
+        "sel": ".article-card",
+        "count": 4,
+        "first": {
+          "rect": {
+            "w": 276,
+            "h": 300
+          },
+          "backgroundLayers": [],
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "color": "rgb(0, 0, 0)",
+          "padding": "0px 0px 0px 0px",
+          "font": "instrument sans 16px/25.6px 400",
+          "borderRadius": "20px",
+          "heading": "h3 syncopate 18px/19.8px 700 rgb(0, 0, 0)",
+          "image": {
+            "w": 274,
+            "h": 171
+          },
+          "listStyle": "disc",
+          "before": null
+        },
+        "clusters": 1,
+        "text": "Casual Cool May 12 Tennis style, redefined"
+      },
+      "tabs": {
+        "sel": ".tabs-wrapper",
+        "count": 1,
+        "first": {
+          "rect": {
+            "w": 1152,
+            "h": 508
+          },
+          "backgroundLayers": [],
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "color": "rgb(0, 0, 0)",
+          "padding": "0px 0px 0px 0px",
+          "font": "instrument sans 16px/25.6px 400",
+          "borderRadius": "0px",
+          "heading": null,
+          "image": {
+            "w": 568,
+            "h": 426
+          },
+          "listStyle": "disc",
+          "before": null
+        },
+        "clusters": 1,
+        "text": "Alex Rivera Streetwear Enthusiast “Wearing new brands makes "
+      },
+      "faq": {
+        "sel": ".faq-item",
+        "count": 4,
+        "first": {
+          "rect": {
+            "w": 544,
+            "h": 79
+          },
+          "backgroundLayers": [],
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "color": "rgb(0, 0, 0)",
+          "padding": "0px 0px 0px 0px",
+          "font": "instrument sans 16px/25.6px 400",
+          "borderRadius": "16px",
+          "heading": null,
+          "image": null,
+          "listStyle": "disc",
+          "before": null
+        },
+        "clusters": 1,
+        "text": "How do I spot the latest trends? We keep it fresh! Check our"
+      },
+      "cta": {
+        "sel": ".inverse-section",
+        "count": 1,
+        "first": {
+          "rect": {
+            "w": 1440,
+            "h": 815
+          },
+          "backgroundLayers": [],
+          "backgroundColor": "rgb(0, 0, 0)",
+          "color": "rgb(255, 255, 255)",
+          "padding": "128px 0px 128px 0px",
+          "font": "instrument sans 16px/25.6px 400",
+          "borderRadius": "0px",
+          "heading": "h2 syncopate 56px/61.6px 700 rgb(255, 255, 255)",
+          "image": {
+            "w": 1152,
+            "h": 559
+          },
+          "listStyle": "disc",
+          "before": null
+        },
+        "clusters": 1,
+        "text": "Fresh looks, bold stories, real lifeDive into our latest cas"
+      },
+      "secondary": {
+        "sel": ".secondary-section",
+        "count": 3,
+        "first": {
+          "rect": {
+            "w": 1440,
+            "h": 666
+          },
+          "backgroundLayers": [],
+          "backgroundColor": "rgb(245, 245, 245)",
+          "color": "rgb(0, 0, 0)",
+          "padding": "128px 0px 128px 0px",
+          "font": "instrument sans 16px/25.6px 400",
+          "borderRadius": "0px",
+          "heading": "h1 syncopate 56px/61.6px 700 rgb(0, 0, 0)",
+          "image": {
+            "w": 268,
+            "h": 179
+          },
+          "listStyle": "disc",
+          "before": null
+        },
+        "clusters": 3,
+        "text": "Fresh looks, bold stories, real life Dive into our latest st"
+      }
+    }
+  },
+  "siblings": [
+    {
+      "url": "https://www.wknd-trendsetters.site/case-studies",
+      "findings": [
+        {
+          "kind": "SECTIONS",
+          "msg": "7 vs 5 top-level sections (archetype: secondary-section > section[1] > secondary-section > section[3] > secondary-section > section[5] > inverse-section; sibling: secondary-section > section[1] > secondary-section > section[3] > inverse-section) — a different template family or an extra/missing section"
+        },
+        {
+          "kind": "PROBE",
+          "probe": "hero",
+          "msg": "image [object Object] → null"
+        },
+        {
+          "kind": "MISSING",
+          "probe": "card",
+          "msg": "\".article-card\" matches 4 on the archetype, 0 on the sibling"
+        },
+        {
+          "kind": "MISSING",
+          "probe": "faq",
+          "msg": "\".faq-item\" matches 4 on the archetype, 0 on the sibling"
+        },
+        {
+          "kind": "PROBE",
+          "probe": "cta",
+          "msg": "rect{h 815 → 786}; image{h 559 → 530}"
+        },
+        {
+          "kind": "COUNT",
+          "probe": "secondary",
+          "msg": "3 → 2 matches"
+        },
+        {
+          "kind": "CLUSTERS",
+          "probe": "secondary",
+          "msg": "3 → 2 distinct style families among matches (a second visual family = a variant class)"
+        },
+        {
+          "kind": "PROBE",
+          "probe": "secondary",
+          "msg": "image [object Object] → null"
+        }
+      ],
+      "raw": {
+        "sections": [
+          {
+            "label": "secondary-section",
+            "h": 666
+          },
+          {
+            "label": "section[1]",
+            "h": 632
+          },
+          {
+            "label": "secondary-section",
+            "h": 1039
+          },
+          {
+            "label": "section[3]",
+            "h": 764
+          },
+          {
+            "label": "inverse-section",
+            "h": 786
+          }
+        ],
+        "probes": {
+          "hero": {
+            "sel": "main .section:first-of-type",
+            "count": 2,
+            "first": {
+              "rect": {
+                "w": 1440,
+                "h": 666
+              },
+              "backgroundLayers": [],
+              "backgroundColor": "rgb(245, 245, 245)",
+              "color": "rgb(0, 0, 0)",
+              "padding": "128px 0px 128px 0px",
+              "font": "instrument sans 16px/25.6px 400",
+              "borderRadius": "0px",
+              "heading": "h1 syncopate 56px/61.6px 700 rgb(0, 0, 0)",
+              "image": null,
+              "listStyle": "disc",
+              "before": null
+            },
+            "clusters": 2,
+            "text": "Fresh looks, bold stories, real life Dive into our latest st"
+          },
+          "card": {
+            "sel": ".article-card",
+            "count": 0
+          },
+          "tabs": {
+            "sel": ".tabs-wrapper",
+            "count": 1,
+            "first": {
+              "rect": {
+                "w": 1152,
+                "h": 508
+              },
+              "backgroundLayers": [],
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "color": "rgb(0, 0, 0)",
+              "padding": "0px 0px 0px 0px",
+              "font": "instrument sans 16px/25.6px 400",
+              "borderRadius": "0px",
+              "heading": null,
+              "image": {
+                "w": 568,
+                "h": 426
+              },
+              "listStyle": "disc",
+              "before": null
+            },
+            "clusters": 1,
+            "text": "Alex Rivera Streetwear Enthusiast “Wearing new brands makes "
+          },
+          "faq": {
+            "sel": ".faq-item",
+            "count": 0
+          },
+          "cta": {
+            "sel": ".inverse-section",
+            "count": 1,
+            "first": {
+              "rect": {
+                "w": 1440,
+                "h": 786
+              },
+              "backgroundLayers": [],
+              "backgroundColor": "rgb(0, 0, 0)",
+              "color": "rgb(255, 255, 255)",
+              "padding": "128px 0px 128px 0px",
+              "font": "instrument sans 16px/25.6px 400",
+              "borderRadius": "0px",
+              "heading": "h2 syncopate 56px/61.6px 700 rgb(255, 255, 255)",
+              "image": {
+                "w": 1152,
+                "h": 530
+              },
+              "listStyle": "disc",
+              "before": null
+            },
+            "clusters": 1,
+            "text": "Fresh looks, bold stories, real lifeDive into our latest cas"
+          },
+          "secondary": {
+            "sel": ".secondary-section",
+            "count": 2,
+            "first": {
+              "rect": {
+                "w": 1440,
+                "h": 666
+              },
+              "backgroundLayers": [],
+              "backgroundColor": "rgb(245, 245, 245)",
+              "color": "rgb(0, 0, 0)",
+              "padding": "128px 0px 128px 0px",
+              "font": "instrument sans 16px/25.6px 400",
+              "borderRadius": "0px",
+              "heading": "h1 syncopate 56px/61.6px 700 rgb(0, 0, 0)",
+              "image": null,
+              "listStyle": "disc",
+              "before": null
+            },
+            "clusters": 2,
+            "text": "Fresh looks, bold stories, real life Dive into our latest st"
+          }
+        }
+      }
+    },
+    {
+      "url": "https://www.wknd-trendsetters.site/fashion-trends-of-the-season",
+      "findings": [
+        {
+          "kind": "SECTIONS",
+          "msg": "7 vs 5 top-level sections (archetype: secondary-section > section[1] > secondary-section > section[3] > secondary-section > section[5] > inverse-section; sibling: secondary-section > section[1] > secondary-section > section[3] > accent-section) — a different template family or an extra/missing section"
+        },
+        {
+          "kind": "PROBE",
+          "probe": "hero",
+          "msg": "rect{h 666 → 757}"
+        },
+        {
+          "kind": "MISSING",
+          "probe": "card",
+          "msg": "\".article-card\" matches 4 on the archetype, 0 on the sibling"
+        },
+        {
+          "kind": "MISSING",
+          "probe": "tabs",
+          "msg": "\".tabs-wrapper\" matches 1 on the archetype, 0 on the sibling"
+        },
+        {
+          "kind": "MISSING",
+          "probe": "faq",
+          "msg": "\".faq-item\" matches 4 on the archetype, 0 on the sibling"
+        },
+        {
+          "kind": "MISSING",
+          "probe": "cta",
+          "msg": "\".inverse-section\" matches 1 on the archetype, 0 on the sibling"
+        },
+        {
+          "kind": "COUNT",
+          "probe": "secondary",
+          "msg": "3 → 2 matches"
+        },
+        {
+          "kind": "CLUSTERS",
+          "probe": "secondary",
+          "msg": "3 → 2 distinct style families among matches (a second visual family = a variant class)"
+        },
+        {
+          "kind": "PROBE",
+          "probe": "secondary",
+          "msg": "rect{h 666 → 757}"
+        }
+      ],
+      "raw": {
+        "sections": [
+          {
+            "label": "secondary-section",
+            "h": 757
+          },
+          {
+            "label": "section[1]",
+            "h": 781
+          },
+          {
+            "label": "secondary-section",
+            "h": 713
+          },
+          {
+            "label": "section[3]",
+            "h": 1233
+          },
+          {
+            "label": "accent-section",
+            "h": 515
+          }
+        ],
+        "probes": {
+          "hero": {
+            "sel": "main .section:first-of-type",
+            "count": 2,
+            "first": {
+              "rect": {
+                "w": 1440,
+                "h": 757
+              },
+              "backgroundLayers": [],
+              "backgroundColor": "rgb(245, 245, 245)",
+              "color": "rgb(0, 0, 0)",
+              "padding": "128px 0px 128px 0px",
+              "font": "instrument sans 16px/25.6px 400",
+              "borderRadius": "0px",
+              "heading": "h1 syncopate 56px/61.6px 700 rgb(0, 0, 0)",
+              "image": {
+                "w": 268,
+                "h": 179
+              },
+              "listStyle": "disc",
+              "before": null
+            },
+            "clusters": 2,
+            "text": "Fresh fits, bold moves — Trends for every vibe. From tennis "
+          },
+          "card": {
+            "sel": ".article-card",
+            "count": 0
+          },
+          "tabs": {
+            "sel": ".tabs-wrapper",
+            "count": 0
+          },
+          "faq": {
+            "sel": ".faq-item",
+            "count": 0
+          },
+          "cta": {
+            "sel": ".inverse-section",
+            "count": 0
+          },
+          "secondary": {
+            "sel": ".secondary-section",
+            "count": 2,
+            "first": {
+              "rect": {
+                "w": 1440,
+                "h": 757
+              },
+              "backgroundLayers": [],
+              "backgroundColor": "rgb(245, 245, 245)",
+              "color": "rgb(0, 0, 0)",
+              "padding": "128px 0px 128px 0px",
+              "font": "instrument sans 16px/25.6px 400",
+              "borderRadius": "0px",
+              "heading": "h1 syncopate 56px/61.6px 700 rgb(0, 0, 0)",
+              "image": {
+                "w": 268,
+                "h": 179
+              },
+              "listStyle": "disc",
+              "before": null
+            },
+            "clusters": 2,
+            "text": "Fresh fits, bold moves — Trends for every vibe. From tennis "
+          }
+        }
+      }
+    },
+    {
+      "url": "https://www.wknd-trendsetters.site/fashion-trends-young-adults",
+      "findings": [
+        {
+          "kind": "SECTIONS",
+          "msg": "7 vs 6 top-level sections (archetype: secondary-section > section[1] > secondary-section > section[3] > secondary-section > section[5] > inverse-section; sibling: secondary-section > section[1] > secondary-section > section[3] > secondary-section > accent-section) — a different template family or an extra/missing section"
+        },
+        {
+          "kind": "PROBE",
+          "probe": "hero",
+          "msg": "rect{h 666 → 757}"
+        },
+        {
+          "kind": "MISSING",
+          "probe": "tabs",
+          "msg": "\".tabs-wrapper\" matches 1 on the archetype, 0 on the sibling"
+        },
+        {
+          "kind": "MISSING",
+          "probe": "faq",
+          "msg": "\".faq-item\" matches 4 on the archetype, 0 on the sibling"
+        },
+        {
+          "kind": "MISSING",
+          "probe": "cta",
+          "msg": "\".inverse-section\" matches 1 on the archetype, 0 on the sibling"
+        },
+        {
+          "kind": "PROBE",
+          "probe": "secondary",
+          "msg": "rect{h 666 → 757}"
+        }
+      ],
+      "raw": {
+        "sections": [
+          {
+            "label": "secondary-section",
+            "h": 757
+          },
+          {
+            "label": "section[1]",
+            "h": 666
+          },
+          {
+            "label": "secondary-section",
+            "h": 405
+          },
+          {
+            "label": "section[3]",
+            "h": 664
+          },
+          {
+            "label": "secondary-section",
+            "h": 748
+          },
+          {
+            "label": "accent-section",
+            "h": 471
+          }
+        ],
+        "probes": {
+          "hero": {
+            "sel": "main .section:first-of-type",
+            "count": 2,
+            "first": {
+              "rect": {
+                "w": 1440,
+                "h": 757
+              },
+              "backgroundLayers": [],
+              "backgroundColor": "rgb(245, 245, 245)",
+              "color": "rgb(0, 0, 0)",
+              "padding": "128px 0px 128px 0px",
+              "font": "instrument sans 16px/25.6px 400",
+              "borderRadius": "0px",
+              "heading": "h1 syncopate 56px/61.6px 700 rgb(0, 0, 0)",
+              "image": {
+                "w": 268,
+                "h": 179
+              },
+              "listStyle": "disc",
+              "before": null
+            },
+            "clusters": 2,
+            "text": "Fresh fits, bold moves. Style that never sleeps Dive into th"
+          },
+          "card": {
+            "sel": ".article-card",
+            "count": 4,
+            "first": {
+              "rect": {
+                "w": 276,
+                "h": 300
+              },
+              "backgroundLayers": [],
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "color": "rgb(0, 0, 0)",
+              "padding": "0px 0px 0px 0px",
+              "font": "instrument sans 16px/25.6px 400",
+              "borderRadius": "20px",
+              "heading": "h3 syncopate 18px/19.8px 700 rgb(0, 0, 0)",
+              "image": {
+                "w": 274,
+                "h": 171
+              },
+              "listStyle": "disc",
+              "before": null
+            },
+            "clusters": 1,
+            "text": "Casual May 12 Tennis looks that serve"
+          },
+          "tabs": {
+            "sel": ".tabs-wrapper",
+            "count": 0
+          },
+          "faq": {
+            "sel": ".faq-item",
+            "count": 0
+          },
+          "cta": {
+            "sel": ".inverse-section",
+            "count": 0
+          },
+          "secondary": {
+            "sel": ".secondary-section",
+            "count": 3,
+            "first": {
+              "rect": {
+                "w": 1440,
+                "h": 757
+              },
+              "backgroundLayers": [],
+              "backgroundColor": "rgb(245, 245, 245)",
+              "color": "rgb(0, 0, 0)",
+              "padding": "128px 0px 128px 0px",
+              "font": "instrument sans 16px/25.6px 400",
+              "borderRadius": "0px",
+              "heading": "h1 syncopate 56px/61.6px 700 rgb(0, 0, 0)",
+              "image": {
+                "w": 268,
+                "h": 179
+              },
+              "listStyle": "disc",
+              "before": null
+            },
+            "clusters": 3,
+            "text": "Fresh fits, bold moves. Style that never sleeps Dive into th"
+          }
+        }
+      }
+    },
+    {
+      "url": "https://www.wknd-trendsetters.site/fashion-trends-young-adults-casual-sport",
+      "findings": [
+        {
+          "kind": "SECTIONS",
+          "msg": "7 vs 4 top-level sections (archetype: secondary-section > section[1] > secondary-section > section[3] > secondary-section > section[5] > inverse-section; sibling: secondary-section > section[1] > secondary-section > accent-section) — a different template family or an extra/missing section"
+        },
+        {
+          "kind": "PROBE",
+          "probe": "hero",
+          "msg": "rect{h 666 → 605}"
+        },
+        {
+          "kind": "MISSING",
+          "probe": "card",
+          "msg": "\".article-card\" matches 4 on the archetype, 0 on the sibling"
+        },
+        {
+          "kind": "MISSING",
+          "probe": "tabs",
+          "msg": "\".tabs-wrapper\" matches 1 on the archetype, 0 on the sibling"
+        },
+        {
+          "kind": "MISSING",
+          "probe": "faq",
+          "msg": "\".faq-item\" matches 4 on the archetype, 0 on the sibling"
+        },
+        {
+          "kind": "MISSING",
+          "probe": "cta",
+          "msg": "\".inverse-section\" matches 1 on the archetype, 0 on the sibling"
+        },
+        {
+          "kind": "COUNT",
+          "probe": "secondary",
+          "msg": "3 → 2 matches"
+        },
+        {
+          "kind": "CLUSTERS",
+          "probe": "secondary",
+          "msg": "3 → 2 distinct style families among matches (a second visual family = a variant class)"
+        },
+        {
+          "kind": "PROBE",
+          "probe": "secondary",
+          "msg": "rect{h 666 → 605}"
+        }
+      ],
+      "raw": {
+        "sections": [
+          {
+            "label": "secondary-section",
+            "h": 605
+          },
+          {
+            "label": "section[1]",
+            "h": 1262
+          },
+          {
+            "label": "secondary-section",
+            "h": 632
+          },
+          {
+            "label": "accent-section",
+            "h": 471
+          }
+        ],
+        "probes": {
+          "hero": {
+            "sel": "main .section:first-of-type",
+            "count": 2,
+            "first": {
+              "rect": {
+                "w": 1440,
+                "h": 605
+              },
+              "backgroundLayers": [],
+              "backgroundColor": "rgb(245, 245, 245)",
+              "color": "rgb(0, 0, 0)",
+              "padding": "128px 0px 128px 0px",
+              "font": "instrument sans 16px/25.6px 400",
+              "borderRadius": "0px",
+              "heading": "h1 syncopate 56px/61.6px 700 rgb(0, 0, 0)",
+              "image": {
+                "w": 268,
+                "h": 179
+              },
+              "listStyle": "disc",
+              "before": null
+            },
+            "clusters": 2,
+            "text": "Fresh fits, bold moves, all you From tennis courts to neon n"
+          },
+          "card": {
+            "sel": ".article-card",
+            "count": 0
+          },
+          "tabs": {
+            "sel": ".tabs-wrapper",
+            "count": 0
+          },
+          "faq": {
+            "sel": ".faq-item",
+            "count": 0
+          },
+          "cta": {
+            "sel": ".inverse-section",
+            "count": 0
+          },
+          "secondary": {
+            "sel": ".secondary-section",
+            "count": 2,
+            "first": {
+              "rect": {
+                "w": 1440,
+                "h": 605
+              },
+              "backgroundLayers": [],
+              "backgroundColor": "rgb(245, 245, 245)",
+              "color": "rgb(0, 0, 0)",
+              "padding": "128px 0px 128px 0px",
+              "font": "instrument sans 16px/25.6px 400",
+              "borderRadius": "0px",
+              "heading": "h1 syncopate 56px/61.6px 700 rgb(0, 0, 0)",
+              "image": {
+                "w": 268,
+                "h": 179
+              },
+              "listStyle": "disc",
+              "before": null
+            },
+            "clusters": 2,
+            "text": "Fresh fits, bold moves, all you From tennis courts to neon n"
+          }
+        }
+      }
+    }
+  ],
+  "summary": {
+    "siblings": 4,
+    "varying": 4,
+    "probesVarying": [
+      "SECTIONS",
+      "hero",
+      "card",
+      "faq",
+      "cta",
+      "secondary",
+      "tabs"
+    ]
+  }
+}

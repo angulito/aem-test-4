@@ -1,0 +1,97 @@
+{
+  "slug": "fashion-insights",
+  "type": "listing",
+  "renderBranch": "A'",
+  "template": "blog",
+  "modules": [
+    "hero",
+    "featured-story",
+    "article-cards",
+    "snapshot-gallery",
+    "cta-band"
+  ],
+  "slotsFilled": [
+    "section",
+    "section",
+    "section",
+    "section",
+    "section"
+  ],
+  "canonShas": {
+    "header": "6cfaaf755df6",
+    "footer": "560c4952a6ab",
+    "css": "bfc32bed2145"
+  },
+  "deviations": [],
+  "migrationDecisions": [
+    {
+      "kind": "internal-links-pending",
+      "hrefs": [
+        "/faq",
+        "/blog/latest-trends-young-casual-fashion",
+        "/blog/fashion-trends-young-culture",
+        "/blog/fashion-trends-young-style",
+        "/blog/fashion-blog-post"
+      ],
+      "reason": "in-inventory-not-migrated: targets render in render-article / render-static; re-render with --force after those units or let rollout E2 link audit resolve"
+    },
+    {
+      "kind": "internal-links-resolved",
+      "reason": "re-rendered with --force after render-static: every in-inventory target has a rendered file, brokenInternalLinks 0"
+    },
+    {
+      "kind": "overflow-live-mirrored",
+      "width": 360,
+      "build": "scrollWidth 423 (+63px)",
+      "live": "scrollWidth 423 (+63px) — measure.mjs overflow-live-pb1.txt on case-studies, fashion-insights, blog-fashion-blog-post (one per template; chrome identical on every page)",
+      "register": "R-01 (deferred)",
+      "reason": "same waiver the coordinator recorded for the four archetypes: the live .nav-inner row overflows the 360 viewport by the same 63px; pixel 0.00%/Δ0 at 360 — mirrored verbatim, not a build fault"
+    }
+  ],
+  "metadata": {
+    "title": "Fashion Blog - Discover Trends in Young Fashion",
+    "description": "Discover the latest fashion trends, style tips, and stories for young trendsetters.",
+    "canonical": null,
+    "lang": "en"
+  },
+  "jsonLd": {
+    "@context": "https://schema.org",
+    "@type": "WebPage",
+    "name": "Fashion Blog - Discover Trends in Young Fashion",
+    "description": "Discover the latest fashion trends, style tips, and stories for young trendsetters.",
+    "url": "https://www.wknd-trendsetters.site/fashion-insights"
+  },
+  "migratedAt": "2026-09-28T11:43:03Z",
+  "designMdSha": "0ad4783809ca",
+  "designJsonSha": "3bca621149ee",
+  "sourceCurrentSha": "2e195074d698",
+  "sourceProposedSha": "b5eac91c7a10",
+  "fidelityTier": "sibling",
+  "archetypeSource": "blog",
+  "archetypeSha": "dd831d912a48",
+  "variants": [
+    "section-extra"
+  ],
+  "gatesPassed": [
+    "variance-probe",
+    "content-count",
+    "content-fidelity",
+    "pixel-gate-1440"
+  ],
+  "gateEvidence": {
+    "variance-probe": "variance-listing-1440.json (run-bg variance-listing-1440, exit 2): composition delta only (extra snapshot-gallery section, article-cards 4 vs 6 — content); 0 computed-style deltas → clone as-is + section-extra composition variant",
+    "content-count": "live capture vs rendered (document-level, scripts/styles stripped): h1 1/1 h2 7/7 h3 7/7 p 6/6 li 42/42 img 12/12 alt 12/12 a[href] 46/46 button 1/1 text 1367/1367; 0 drops",
+    "content-fidelity": "Path A′ clone: blog archetype chrome/head + captured live <main> verbatim (12 /images/ srcs remapped, 0 scripts dropped); title/description swapped for captured values",
+    "pixel-gate-1440": "0.00% (0 px, threshold 10%), height delta 0px, round pb1 @1440 (fashion-insights-1440-pb1.log) [prototype regime]",
+    "pixel-gate-360": "FAIL: horizontal overflow +63px at 360 (scrollWidth 423 > viewport 360) — 0.00% (0 px, threshold 10%), height delta 0px, round pb1 @360 (fashion-insights-360-pb1.log) [prototype regime]",
+    "media-reconcile": "n/a: no delivered content file yet (content/fashion-insights.html) — media-reconcile runs in the delivery chain (row C)"
+  },
+  "contentDeviations": [],
+  "assetsBundled": 17,
+  "missingAssets": [],
+  "brokenInternalLinks": [],
+  "outputPath": "fashion-insights/index.html",
+  "outputPathDefault": "trailing-slash",
+  "sidecar": "fashion-insights/_meta.json",
+  "driverVersion": "1"
+}

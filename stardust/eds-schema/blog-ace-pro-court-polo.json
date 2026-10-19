@@ -1,0 +1,436 @@
+{
+ "source": "http://localhost:8796/stardust/prototypes/blog-ace-pro-court-polo-proposed.html",
+ "width": 1280,
+ "profile": "eds",
+ "sections": [
+  {
+   "section": "section",
+   "items": [
+    {
+     "role": "cta",
+     "order": 0,
+     "text": "Home",
+     "href": "/"
+    },
+    {
+     "role": "cta",
+     "order": 1,
+     "text": "Blog",
+     "href": "/fashion-insights"
+    },
+    {
+     "role": "heading",
+     "order": 2,
+     "text": "Court cool, street ready — the Ace Pro polo"
+    },
+    {
+     "role": "body",
+     "order": 3,
+     "text": "By"
+    },
+    {
+     "role": "body",
+     "order": 4,
+     "text": "Taylor Brooks"
+    },
+    {
+     "role": "body",
+     "order": 5,
+     "text": "February 23, 2026"
+    },
+    {
+     "role": "body",
+     "order": 6,
+     "text": "•"
+    },
+    {
+     "role": "body",
+     "order": 7,
+     "text": "4 min read"
+    },
+    {
+     "role": "eyebrow",
+     "order": 8,
+     "text": "Casual Cool"
+    }
+   ],
+   "imgCount": 1,
+   "editableTexts": 1,
+   "repeats": [
+    {
+     "unitSelector": "DIV.",
+     "count": 2,
+     "unit": {
+      "headings": 0,
+      "ctas": 0,
+      "imgs": 1,
+      "textRuns": 0
+     },
+     "uniform": false
+    }
+   ]
+  },
+  {
+   "section": "section",
+   "items": [
+    {
+     "role": "heading",
+     "order": 0,
+     "text": "The Polo Gets a Glow Up"
+    },
+    {
+     "role": "body",
+     "order": 1,
+     "text": "Tennis polos aren’t just for the court anymore — they’re a whole lifestyle. The takes that classic silhouette and gives it fresh energy: performance fabrics, bold colorways, and a fit that moves from baseline rallies to brunch without missing a beat."
+    },
+    {
+     "role": "body",
+     "order": 2,
+     "text": "Ace Pro Court Polo"
+    },
+    {
+     "role": "body",
+     "order": 3,
+     "text": "This isn’t your dad’s boxy polo. It’s built for the way you actually live — active, social, and always on the move."
+    },
+    {
+     "role": "heading",
+     "order": 4,
+     "text": "Why This Polo Hits Different"
+    },
+    {
+     "role": "body",
+     "order": 5,
+     "text": "A great polo does more than look good. It works hard so you don’t have to think about it. Here’s what makes the Ace Pro stand out:"
+    },
+    {
+     "role": "body",
+     "order": 6,
+     "text": "— Recycled polyester and elastane in a four-way stretch microfiber. It wicks moisture, dries fast, and keeps you cool during long rallies or long walks through the city."
+    },
+    {
+     "role": "body",
+     "order": 7,
+     "text": "Fabric that breathes"
+    },
+    {
+     "role": "body",
+     "order": 8,
+     "text": "— Heat-bonded construction means no curling, no collapsing, no sad floppy collar after the first wash. It looks as sharp at set point as it does at happy hour."
+    },
+    {
+     "role": "body",
+     "order": 9,
+     "text": "A collar that stays put"
+    },
+    {
+     "role": "body",
+     "order": 10,
+     "text": "— Built right into the fabric. You’re blocking 98% of UV rays without layering on extra sunscreen. Perfect for outdoor sessions that stretch into golden hour."
+    },
+    {
+     "role": "body",
+     "order": 11,
+     "text": "UPF 50+ sun protection"
+    },
+    {
+     "role": "body",
+     "order": 12,
+     "text": "— Zero chafe, zero funk. Silver-ion antimicrobial treatment holds up for 50+ washes. Your post-match confidence? Effortless."
+    },
+    {
+     "role": "body",
+     "order": 13,
+     "text": "Flatlock seams + odor resistance"
+    },
+    {
+     "role": "heading",
+     "order": 14,
+     "text": "Alex’s Court-to-Street Edit"
+    },
+    {
+     "role": "body",
+     "order": 15,
+     "text": "Alex Rivera lives in polos from spring through fall. His style rule is simple: if a shirt can’t handle both a tennis match and a rooftop hangout, it doesn’t make the rotation."
+    },
+    {
+     "role": "body",
+     "order": 16,
+     "text": "“I’m all about pieces that do double duty. The Ace Pro is the real deal — I’ll play a full set, throw on some chinos, and head straight to dinner. The stretch is unreal and the colors pop without trying too hard.”"
+    },
+    {
+     "role": "heading",
+     "order": 17,
+     "text": "The Colorway Lineup"
+    },
+    {
+     "role": "body",
+     "order": 18,
+     "text": "— Clean, bold, goes with literally everything"
+    },
+    {
+     "role": "body",
+     "order": 19,
+     "text": "Classic navy"
+    },
+    {
+     "role": "body",
+     "order": 20,
+     "text": "— A statement that turns heads at the park or the party"
+    },
+    {
+     "role": "body",
+     "order": 21,
+     "text": "Coral pop"
+    },
+    {
+     "role": "body",
+     "order": 22,
+     "text": "— Fresh and vibrant, perfect for standing out on court"
+    },
+    {
+     "role": "body",
+     "order": 23,
+     "text": "Teal energy"
+    },
+    {
+     "role": "body",
+     "order": 24,
+     "text": "— Timeless tennis vibes, reimagined with modern stretch"
+    },
+    {
+     "role": "body",
+     "order": 25,
+     "text": "Crisp white"
+    },
+    {
+     "role": "heading",
+     "order": 26,
+     "text": "From Baseline to Brunch"
+    },
+    {
+     "role": "body",
+     "order": 27,
+     "text": "The best part about the Ace Pro? One shirt, three completely different looks."
+    },
+    {
+     "role": "body",
+     "order": 28,
+     "text": "— Pair it with performance shorts and your favorite court shoes. You’re locked in and looking sharp."
+    },
+    {
+     "role": "body",
+     "order": 29,
+     "text": "Match mode"
+    },
+    {
+     "role": "body",
+     "order": 30,
+     "text": "— Swap in chinos and clean sneakers. Roll up to lunch and own the whole room."
+    },
+    {
+     "role": "body",
+     "order": 31,
+     "text": "City mode"
+    },
+    {
+     "role": "body",
+     "order": 32,
+     "text": "— Layer a lightweight jacket over the polo, add some accessories, and suddenly you’re the most interesting person at the rooftop."
+    },
+    {
+     "role": "body",
+     "order": 33,
+     "text": "Night mode"
+    },
+    {
+     "role": "body",
+     "order": 34,
+     "text": "“The real flex is showing up to the restaurant in the same shirt you just played tennis in — and nobody can tell. That’s confidence.” — Jordan Ellis, Trend Spotter"
+    },
+    {
+     "role": "heading",
+     "order": 35,
+     "text": "Real Talk: The Comfort Factor"
+    },
+    {
+     "role": "body",
+     "order": 36,
+     "text": "Performance specs matter when you’re moving all day. Here’s what’s under the hood:"
+    },
+    {
+     "role": "body",
+     "order": 37,
+     "text": "Spec"
+    },
+    {
+     "role": "body",
+     "order": 38,
+     "text": "Detail"
+    },
+    {
+     "role": "body",
+     "order": 39,
+     "text": "Sun Protection"
+    },
+    {
+     "role": "body",
+     "order": 40,
+     "text": "UPF 50+ — blocks 98% of UV rays"
+    },
+    {
+     "role": "body",
+     "order": 41,
+     "text": "Fabric"
+    },
+    {
+     "role": "body",
+     "order": 42,
+     "text": "87% recycled polyester / 13% elastane"
+    },
+    {
+     "role": "body",
+     "order": 43,
+     "text": "Dry Time"
+    },
+    {
+     "role": "body",
+     "order": 44,
+     "text": "3x faster than standard cotton"
+    },
+    {
+     "role": "body",
+     "order": 45,
+     "text": "Seams"
+    },
+    {
+     "role": "body",
+     "order": 46,
+     "text": "Flatlock at all stress points"
+    },
+    {
+     "role": "body",
+     "order": 47,
+     "text": "Odor Control"
+    },
+    {
+     "role": "body",
+     "order": 48,
+     "text": "Silver-ion antimicrobial, 50+ washes"
+    },
+    {
+     "role": "body",
+     "order": 49,
+     "text": "Taylor Kim put it to the test: “I wore the Ace Pro through a morning doubles match, a beach walk, and a sunset dinner. Zero complaints. It’s the kind of shirt that makes you forget you’re even wearing it — in the best way.”"
+    },
+    {
+     "role": "heading",
+     "order": 50,
+     "text": "Your Move"
+    },
+    {
+     "role": "body",
+     "order": 51,
+     "text": "The tennis polo earned its place as one of sportswear’s greatest classics. The Ace Pro Court Polo doesn’t ditch that legacy — it levels it up, stitch by stitch."
+    },
+    {
+     "role": "body",
+     "order": 52,
+     "text": "Ready to serve up some fresh style? Share your Ace Pro looks with us — we want to see how you rock it on and off the court."
+    }
+   ],
+   "imgCount": 2,
+   "editableTexts": 26,
+   "repeats": [
+    {
+     "unitSelector": "P.",
+     "count": 19,
+     "unit": {
+      "headings": 0,
+      "ctas": 0,
+      "imgs": 0,
+      "textRuns": 1
+     },
+     "uniform": false
+    },
+    {
+     "unitSelector": "LI.",
+     "count": 4,
+     "unit": {
+      "headings": 0,
+      "ctas": 0,
+      "imgs": 0,
+      "textRuns": 1
+     },
+     "uniform": true
+    },
+    {
+     "unitSelector": "TR.",
+     "count": 5,
+     "unit": {
+      "headings": 0,
+      "ctas": 0,
+      "imgs": 0,
+      "textRuns": 2
+     },
+     "uniform": true
+    },
+    {
+     "unitSelector": "TD.",
+     "count": 2,
+     "unit": {
+      "headings": 0,
+      "ctas": 0,
+      "imgs": 0,
+      "textRuns": 1
+     },
+     "uniform": false
+    },
+    {
+     "unitSelector": "TD.",
+     "count": 2,
+     "unit": {
+      "headings": 0,
+      "ctas": 0,
+      "imgs": 0,
+      "textRuns": 1
+     },
+     "uniform": false
+    },
+    {
+     "unitSelector": "TD.",
+     "count": 2,
+     "unit": {
+      "headings": 0,
+      "ctas": 0,
+      "imgs": 0,
+      "textRuns": 1
+     },
+     "uniform": false
+    },
+    {
+     "unitSelector": "TD.",
+     "count": 2,
+     "unit": {
+      "headings": 0,
+      "ctas": 0,
+      "imgs": 0,
+      "textRuns": 1
+     },
+     "uniform": false
+    },
+    {
+     "unitSelector": "TD.",
+     "count": 2,
+     "unit": {
+      "headings": 0,
+      "ctas": 0,
+      "imgs": 0,
+      "textRuns": 1
+     },
+     "uniform": false
+    }
+   ]
+  }
+ ]
+}

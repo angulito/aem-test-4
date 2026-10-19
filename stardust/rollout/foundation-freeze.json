@@ -1,0 +1,33 @@
+{
+  "frozenAt": "2026-09-28T14:10:04.114Z",
+  "root": ".",
+  "paths": [
+    "styles",
+    "fonts",
+    "head.html",
+    "scripts",
+    "blocks/header",
+    "blocks/footer",
+    "content/nav.html",
+    "content/footer.html"
+  ],
+  "files": {
+    "blocks/footer/footer.css": "baae17856a12486c73083d4e57bad03ad67bbc1c76914b8782704576ee305fab",
+    "blocks/footer/footer.js": "05f186e1c8b73767acded42eb8191d2069b2428e689ccd7c2c93ef87c8a430e6",
+    "blocks/header/header.css": "04add51abc408a8bbeb7709049d9d90611e7e22327f05d691e8c0f6eace34a15",
+    "blocks/header/header.js": "315ed8c17fa306e3c47e54ca1462e0382cd1af3fe4b4bb12d2efae6e89f93e60",
+    "content/footer.html": "b1ffb845c1b76e174ecb04d74326cd74d45ae3cc45885c6e0aeaff34c3cc8082",
+    "content/nav.html": "946edc5012134ff2857583476726cdc04e5c15e923931bbc88387fa0f6db7365",
+    "fonts/instrument-sans-latin.woff2": "6219bc4bfdfc5d9b2201dcdf046218b122a758f932e25ed5f168f929b7ca2311",
+    "fonts/syncopate-400-latin.woff2": "1fddf428333ba0ba73810a20cdf4614d90528aff3a8df9e33dec32e897751a26",
+    "fonts/syncopate-700-latin.woff2": "371cfc398e762b5e5467764c6a524f2ef97e5f1f1c314f47849141ca7584b6d7",
+    "head.html": "8941c84d3c7419650ba5899840d757b3a1228ad2f5d2865a1c7e53f6643cfb89",
+    "scripts/aem.js": "014479db98bd56d25c248ff45aa705752d871a9eff0484c5620f00cf58b42ae6",
+    "scripts/consent-check.js": "ac21f825288cfc82c52a6acd9c57bbb76a2017ee1b06319d493244f32751249a",
+    "scripts/consented.js": "8a0ec7239cfab36c9bbfd8e7cde178c6c9061f68da8539879411ee9fa09b18ab",
+    "scripts/scripts.js": "4f8cec7cde8ec98bc036e183af76642efadbdb6cfb8c302b89fc93230974321a",
+    "styles/fonts.css": "53fa45e04beca71de9b7f492537d4aecdac96d46fa5c17453461a13ae75952f4",
+    "styles/lazy-styles.css": "391d6721991eb169fa04d7c71d9b597361d76c24ab8a3d5f1dcb47457d8ca2d6",
+    "styles/styles.css": "6bf1f9d1a6a34bc93e0937a7608aab1467c7cef368a9427929953643f57feccc"
+  }
+}

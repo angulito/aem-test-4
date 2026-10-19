@@ -1,0 +1,192 @@
+{
+ "source": "http://localhost:8794/stardust/migrated/fashion-trends-of-the-season/index.html",
+ "width": 1280,
+ "profile": "generic",
+ "sections": [
+  {
+   "section": "1",
+   "items": [
+    {
+     "role": "heading",
+     "order": 0,
+     "text": "Fresh fits, bold moves — Trends for every vibe."
+    },
+    {
+     "role": "body",
+     "order": 1,
+     "text": "From tennis whites to neon nights, we're serving up the coolest outfits and the real stories behind them. Get inspired, get noticed, and make every day a runway."
+    },
+    {
+     "role": "cta",
+     "order": 2,
+     "text": "See trends",
+     "href": "#trends"
+    },
+    {
+     "role": "cta",
+     "order": 3,
+     "text": "Explore the blog",
+     "href": "../fashion-insights/index.html"
+    }
+   ],
+   "imgCount": 3,
+   "editableTexts": 2,
+   "repeats": []
+  },
+  {
+   "section": "2",
+   "items": [
+    {
+     "role": "heading",
+     "order": 0,
+     "text": "Trend alert"
+    },
+    {
+     "role": "body",
+     "order": 1,
+     "text": "Fresh fits, bold moves"
+    },
+    {
+     "role": "heading",
+     "order": 2,
+     "text": "Trendy looks, real moments"
+    },
+    {
+     "role": "body",
+     "order": 3,
+     "text": "Dive into the latest street style, sporty looks, and party-ready outfits. Discover how young trendsetters are rocking new brands while living their best lives—on the court, at the beach, or out all night."
+    },
+    {
+     "role": "cta",
+     "order": 4,
+     "text": "Explore young adult trends",
+     "href": "../fashion-trends-young-adults/index.html"
+    }
+   ],
+   "imgCount": 1,
+   "editableTexts": 4,
+   "repeats": [
+    {
+     "unitSelector": "DIV.",
+     "count": 2,
+     "unit": {
+      "headings": 0,
+      "ctas": 0,
+      "imgs": 1,
+      "textRuns": 0
+     },
+     "uniform": false
+    }
+   ]
+  },
+  {
+   "section": "3",
+   "items": [
+    {
+     "role": "heading",
+     "order": 0,
+     "text": "Trends that turn heads"
+    },
+    {
+     "role": "heading",
+     "order": 1,
+     "text": "Street style"
+    },
+    {
+     "role": "body",
+     "order": 2,
+     "text": "Bold sneakers, vintage tees, and oversized hoodies—the sidewalk is your runway."
+    },
+    {
+     "role": "heading",
+     "order": 3,
+     "text": "Sporty vibes"
+    },
+    {
+     "role": "body",
+     "order": 4,
+     "text": "Track pants, crop tops, and fresh kicks—move easy and look sharp doing it."
+    },
+    {
+     "role": "heading",
+     "order": 5,
+     "text": "Night out"
+    },
+    {
+     "role": "body",
+     "order": 6,
+     "text": "Neon accents, metallics, and statement pieces—turn heads after dark."
+    }
+   ],
+   "imgCount": 3,
+   "editableTexts": 7,
+   "repeats": [
+    {
+     "unitSelector": "DIV.",
+     "count": 3,
+     "unit": {
+      "headings": 1,
+      "ctas": 0,
+      "imgs": 1,
+      "textRuns": 2
+     },
+     "uniform": true
+    }
+   ]
+  },
+  {
+   "section": "4",
+   "items": [
+    {
+     "role": "heading",
+     "order": 0,
+     "text": "Style in every snapshot"
+    },
+    {
+     "role": "body",
+     "order": 1,
+     "text": "Peek the latest looks in action"
+    }
+   ],
+   "imgCount": 6,
+   "editableTexts": 2,
+   "repeats": [
+    {
+     "unitSelector": "DIV.utility-aspect-1x1",
+     "count": 6,
+     "unit": {
+      "headings": 0,
+      "ctas": 0,
+      "imgs": 1,
+      "textRuns": 0
+     },
+     "uniform": true
+    }
+   ]
+  },
+  {
+   "section": "5",
+   "items": [
+    {
+     "role": "heading",
+     "order": 0,
+     "text": "Fresh looks, bold vibes, endless inspo"
+    },
+    {
+     "role": "body",
+     "order": 1,
+     "text": "Stay up to date with the latest trends and stories."
+    },
+    {
+     "role": "cta",
+     "order": 2,
+     "text": "Join now",
+     "href": "#"
+    }
+   ],
+   "imgCount": 0,
+   "editableTexts": 2,
+   "repeats": []
+  }
+ ]
+}

@@ -1,0 +1,5 @@
+motion header scroll-morph: dead on live — not required (header static across the scroll traversal on both sides)
+motion widget #nav-toggle: dead on live — not required (no sampled change across the frames (track/scroll/box/indicator))
+motion hover .button: dead on live — not required (no measured hover diff)
+motion class is-open: parity (added 1× on live, 1× on build)
+motion summary: 1 parity, 0 missing, 0 extra, 0 advisory (0 out of tolerance, 3 dead or unobserved on live — not required; tolerance 150ms / 8px)

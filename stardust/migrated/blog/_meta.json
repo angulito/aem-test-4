@@ -1,0 +1,86 @@
+{
+  "slug": "blog",
+  "type": "listing",
+  "renderBranch": "A",
+  "template": null,
+  "modules": [
+    "hero",
+    "featured-story",
+    "article-cards",
+    "cta-band"
+  ],
+  "slotsFilled": [
+    "section",
+    "section",
+    "section",
+    "section"
+  ],
+  "canonShas": {
+    "header": "5280723d3440",
+    "footer": "560c4952a6ab",
+    "css": "bfc32bed2145"
+  },
+  "deviations": [],
+  "migrationDecisions": [
+    {
+      "kind": "internal-links-pending",
+      "hrefs": [
+        "/faq",
+        "/blog/ace-pro-court-polo",
+        "/blog/flip-flop-summer-style",
+        "/blog/latest-trends-young-casual-fashion",
+        "/blog/fashion-trends-young-culture",
+        "/blog/fashion-trends-young-style",
+        "/blog/fashion-blog-post",
+        "/blog/street-style-trends"
+      ],
+      "reason": "in-inventory-not-migrated: targets render in render-article / render-static; re-render with --force after those units or let rollout E2 link audit resolve"
+    },
+    {
+      "kind": "internal-links-resolved",
+      "reason": "re-rendered with --force after render-static: every in-inventory target has a rendered file, brokenInternalLinks 0"
+    }
+  ],
+  "metadata": {
+    "title": "Blog — WKND Trendsetters",
+    "description": "Discover the latest fashion trends, style tips, and stories for young trendsetters.",
+    "canonical": null,
+    "lang": "en"
+  },
+  "jsonLd": {
+    "@context": "https://schema.org",
+    "@type": "WebPage",
+    "name": "Blog — WKND Trendsetters",
+    "description": "Discover the latest fashion trends, style tips, and stories for young trendsetters.",
+    "url": "https://www.wknd-trendsetters.site/blog"
+  },
+  "migratedAt": "2026-09-28T11:43:03Z",
+  "designMdSha": "0ad4783809ca",
+  "designJsonSha": "3bca621149ee",
+  "sourceCurrentSha": "ec8882d51d94",
+  "sourceProposedSha": "dd831d912a48",
+  "fidelityTier": "archetype",
+  "archetypeSource": null,
+  "archetypeSha": null,
+  "variants": [],
+  "gatesPassed": [
+    "content-count",
+    "content-fidelity",
+    "pixel-gate-1440"
+  ],
+  "gateEvidence": {
+    "content-count": "content-diff: none — content + roles match (blog-360-iter1.log)",
+    "content-fidelity": "Path A: main = gated blog-proposed.html (live blog <main> verbatim, gated 0.00%/Δ0 at 1440 and 360); metadata title/description from capture",
+    "pixel-gate-1440": "0.00% (0 px, threshold 10%), height delta 0px, round iter2 @1440 (blog-1440-iter2.log) [prototype regime]",
+    "pixel-gate-360": "FAIL: horizontal overflow +63px at 360 (scrollWidth 423 > viewport 360) — 0.00% (0 px, threshold 10%), height delta 0px, round iter2 @360 (blog-360-iter2.log) [prototype regime]",
+    "media-reconcile": "n/a: no delivered content file yet (content/blog.html) — media-reconcile runs in the delivery chain (row C)"
+  },
+  "contentDeviations": [],
+  "assetsBundled": 14,
+  "missingAssets": [],
+  "brokenInternalLinks": [],
+  "outputPath": "blog/index.html",
+  "outputPathDefault": "trailing-slash",
+  "sidecar": "blog/_meta.json",
+  "driverVersion": "1"
+}

@@ -1,0 +1,75 @@
+{
+  "slug": "blog-ace-pro-court-polo",
+  "type": "article",
+  "renderBranch": "A",
+  "template": null,
+  "modules": [
+    "hero",
+    "blog-content"
+  ],
+  "slotsFilled": [
+    "section",
+    "section"
+  ],
+  "canonShas": {
+    "header": null,
+    "footer": "560c4952a6ab",
+    "css": "bfc32bed2145"
+  },
+  "deviations": [],
+  "migrationDecisions": [
+    {
+      "kind": "internal-links-pending",
+      "hrefs": [
+        "/faq"
+      ],
+      "reason": "in-inventory-not-migrated: target renders in render-static; re-render with --force after that unit or let rollout E2 link audit resolve"
+    },
+    {
+      "kind": "internal-links-resolved",
+      "reason": "re-rendered with --force after render-static: every in-inventory target has a rendered file, brokenInternalLinks 0"
+    }
+  ],
+  "metadata": {
+    "title": "Court cool, street ready — the Ace Pro polo | Fashion Blog",
+    "description": "Alex Rivera and Taylor Kim break down the polo that serves on the court and turns heads on the sidewalk.",
+    "canonical": null,
+    "lang": "en"
+  },
+  "jsonLd": {
+    "@context": "https://schema.org",
+    "@type": "Article",
+    "headline": "Court cool, street ready — the Ace Pro polo | Fashion Blog",
+    "description": "Alex Rivera and Taylor Kim break down the polo that serves on the court and turns heads on the sidewalk.",
+    "mainEntityOfPage": "https://www.wknd-trendsetters.site/blog/ace-pro-court-polo"
+  },
+  "migratedAt": "2026-09-28T11:43:03Z",
+  "designMdSha": "0ad4783809ca",
+  "designJsonSha": "3bca621149ee",
+  "sourceCurrentSha": "79bd8c5ff6b1",
+  "sourceProposedSha": "d684b4cb99f1",
+  "fidelityTier": "archetype",
+  "archetypeSource": null,
+  "archetypeSha": null,
+  "variants": [],
+  "gatesPassed": [
+    "content-count",
+    "content-fidelity",
+    "pixel-gate-1440"
+  ],
+  "gateEvidence": {
+    "content-count": "content-diff: none — content + roles match (blog-ace-pro-court-polo-1440-iter1b.log)",
+    "content-fidelity": "Path A: main = gated blog-ace-pro-court-polo-proposed.html (live <main> verbatim, gated 0.00%/Δ0 at 1440 and 360); metadata from capture",
+    "pixel-gate-1440": "0.00% (0 px, threshold 10%), height delta 0px, round iter2 @1440 (blog-ace-pro-court-polo-1440-iter2.log) [prototype regime]",
+    "pixel-gate-360": "FAIL: horizontal overflow +63px at 360 (scrollWidth 423 > viewport 360) — 0.00% (0 px, threshold 10%), height delta 0px, round iter2 @360 (blog-ace-pro-court-polo-360-iter2.log) [prototype regime]",
+    "media-reconcile": "n/a: no delivered content file yet (content/blog/ace-pro-court-polo.html) — media-reconcile runs in the delivery chain (row C)"
+  },
+  "contentDeviations": [],
+  "assetsBundled": 9,
+  "missingAssets": [],
+  "brokenInternalLinks": [],
+  "outputPath": "blog/ace-pro-court-polo/index.html",
+  "outputPathDefault": "trailing-slash",
+  "sidecar": "blog/ace-pro-court-polo/_meta.json",
+  "driverVersion": "1"
+}

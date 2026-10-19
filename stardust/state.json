@@ -1,0 +1,688 @@
+{
+  "_provenance": {
+    "writtenBy": "stardust:migrate",
+    "writtenAt": "2026-09-28T11:52:11Z",
+    "stardustVersion": "0.25.1"
+  },
+  "site": {
+    "originUrl": "https://www.wknd-trendsetters.site/",
+    "deployUrl": null,
+    "extractedAt": "2026-09-28T10:22:29.885Z",
+    "pageCap": 0,
+    "totalDiscovered": 16,
+    "crawled": 15,
+    "scope": "--pages (16 fixed URLs)",
+    "failed": [],
+    "captureGaps": []
+  },
+  "direction": null,
+  "handsOff": true,
+  "flow": "replica",
+  "flowChosenAt": "2026-09-28T10:22:29.885Z",
+  "flowSource": "user-phrase",
+  "pages": [
+    {
+      "slug": "index",
+      "url": "https://www.wknd-trendsetters.site/",
+      "title": "WKND Trendsetters - Fresh Looks, Bold Stories, Real Life",
+      "type": "landing",
+      "status": "migrated",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-09-28T10:11:37.930Z"
+        },
+        {
+          "status": "prototyped",
+          "at": "2026-09-28T10:53:00Z"
+        },
+        {
+          "status": "approved",
+          "at": "2026-09-28T10:53:00Z",
+          "approvedBy": "hands-off"
+        },
+        {
+          "status": "migrated",
+          "at": "2026-09-28T11:44:03Z"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/index.json",
+      "prototypePath": "stardust/prototypes/index-proposed.html",
+      "migratedPath": "stardust/migrated/index.html"
+    },
+    {
+      "slug": "blog",
+      "url": "https://www.wknd-trendsetters.site/blog",
+      "title": "Blog — WKND Trendsetters",
+      "type": "listing",
+      "status": "migrated",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-09-28T10:11:37.929Z"
+        },
+        {
+          "status": "prototyped",
+          "at": "2026-09-28T11:01:22Z"
+        },
+        {
+          "status": "approved",
+          "at": "2026-09-28T11:01:22Z",
+          "approvedBy": "hands-off"
+        },
+        {
+          "status": "migrated",
+          "at": "2026-09-28T11:44:03Z"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/blog.json",
+      "prototypePath": "stardust/prototypes/blog-proposed.html",
+      "migratedPath": "stardust/migrated/blog/index.html"
+    },
+    {
+      "slug": "case-studies",
+      "url": "https://www.wknd-trendsetters.site/case-studies",
+      "title": "Inspiring Case Studies | Fashion Blog",
+      "type": "landing",
+      "status": "migrated",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-09-28T10:15:54.358Z"
+        },
+        {
+          "status": "directed",
+          "at": "2026-09-28T11:34:49Z"
+        },
+        {
+          "status": "migrated",
+          "at": "2026-09-28T11:44:03Z"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/case-studies.json",
+      "prototypePath": null,
+      "migratedPath": "stardust/migrated/case-studies/index.html"
+    },
+    {
+      "slug": "blog-ace-pro-court-polo",
+      "url": "https://www.wknd-trendsetters.site/blog/ace-pro-court-polo",
+      "title": "Court cool, street ready — the Ace Pro polo | Fashion Blog",
+      "type": "article",
+      "status": "migrated",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-09-28T10:11:43.571Z"
+        },
+        {
+          "status": "prototyped",
+          "at": "2026-09-28T11:12:45Z"
+        },
+        {
+          "status": "approved",
+          "at": "2026-09-28T11:12:45Z",
+          "approvedBy": "hands-off"
+        },
+        {
+          "status": "migrated",
+          "at": "2026-09-28T11:44:03Z"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/blog-ace-pro-court-polo.json",
+      "prototypePath": "stardust/prototypes/blog-ace-pro-court-polo-proposed.html",
+      "migratedPath": "stardust/migrated/blog/ace-pro-court-polo/index.html"
+    },
+    {
+      "slug": "blog-fashion-blog-post",
+      "url": "https://www.wknd-trendsetters.site/blog/fashion-blog-post",
+      "title": "Game on, style up | Fashion Blog",
+      "type": "article",
+      "status": "migrated",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-09-28T10:11:43.570Z"
+        },
+        {
+          "status": "directed",
+          "at": "2026-09-28T11:41:56Z"
+        },
+        {
+          "status": "migrated",
+          "at": "2026-09-28T11:44:04Z"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/blog-fashion-blog-post.json",
+      "prototypePath": null,
+      "migratedPath": "stardust/migrated/blog/fashion-blog-post/index.html"
+    },
+    {
+      "slug": "blog-fashion-trends-young-culture",
+      "url": "https://www.wknd-trendsetters.site/blog/fashion-trends-young-culture",
+      "title": "Sunkissed and effortless | Fashion Blog",
+      "type": "article",
+      "status": "migrated",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-09-28T10:11:43.569Z"
+        },
+        {
+          "status": "directed",
+          "at": "2026-09-28T11:41:56Z"
+        },
+        {
+          "status": "migrated",
+          "at": "2026-09-28T11:44:04Z"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/blog-fashion-trends-young-culture.json",
+      "prototypePath": null,
+      "migratedPath": "stardust/migrated/blog/fashion-trends-young-culture/index.html"
+    },
+    {
+      "slug": "blog-fashion-trends-young-style",
+      "url": "https://www.wknd-trendsetters.site/blog/fashion-trends-young-style",
+      "title": "Party fits that pop | Fashion Blog",
+      "type": "article",
+      "status": "migrated",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-09-28T10:11:49.190Z"
+        },
+        {
+          "status": "directed",
+          "at": "2026-09-28T11:41:56Z"
+        },
+        {
+          "status": "migrated",
+          "at": "2026-09-28T11:44:04Z"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/blog-fashion-trends-young-style.json",
+      "prototypePath": null,
+      "migratedPath": "stardust/migrated/blog/fashion-trends-young-style/index.html"
+    },
+    {
+      "slug": "blog-flip-flop-summer-style",
+      "url": "https://www.wknd-trendsetters.site/blog/flip-flop-summer-style",
+      "title": "Slide into summer — flip flops that serve | Fashion Blog",
+      "type": "article",
+      "status": "migrated",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-09-28T10:11:49.189Z"
+        },
+        {
+          "status": "directed",
+          "at": "2026-09-28T11:41:56Z"
+        },
+        {
+          "status": "migrated",
+          "at": "2026-09-28T11:44:04Z"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/blog-flip-flop-summer-style.json",
+      "prototypePath": null,
+      "migratedPath": "stardust/migrated/blog/flip-flop-summer-style/index.html"
+    },
+    {
+      "slug": "blog-latest-trends-young-casual-fashion",
+      "url": "https://www.wknd-trendsetters.site/blog/latest-trends-young-casual-fashion",
+      "title": "Tennis style, redefined | Fashion Blog",
+      "type": "article",
+      "status": "migrated",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-09-28T10:11:49.188Z"
+        },
+        {
+          "status": "directed",
+          "at": "2026-09-28T11:41:56Z"
+        },
+        {
+          "status": "migrated",
+          "at": "2026-09-28T11:44:04Z"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/blog-latest-trends-young-casual-fashion.json",
+      "prototypePath": null,
+      "migratedPath": "stardust/migrated/blog/latest-trends-young-casual-fashion/index.html"
+    },
+    {
+      "slug": "blog-street-style-trends",
+      "url": "https://www.wknd-trendsetters.site/blog/street-style-trends",
+      "title": "Street style, your way | Fashion Blog",
+      "type": "article",
+      "status": "migrated",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-09-28T10:11:54.933Z"
+        },
+        {
+          "status": "directed",
+          "at": "2026-09-28T11:41:56Z"
+        },
+        {
+          "status": "migrated",
+          "at": "2026-09-28T11:44:04Z"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/blog-street-style-trends.json",
+      "prototypePath": null,
+      "migratedPath": "stardust/migrated/blog/street-style-trends/index.html"
+    },
+    {
+      "slug": "faq",
+      "url": "https://www.wknd-trendsetters.site/faq",
+      "title": "FAQ - The Fashion Blog",
+      "type": "static",
+      "status": "migrated",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-09-28T10:11:54.940Z"
+        },
+        {
+          "status": "prototyped",
+          "at": "2026-09-28T11:24:43Z"
+        },
+        {
+          "status": "approved",
+          "at": "2026-09-28T11:24:43Z",
+          "approvedBy": "hands-off"
+        },
+        {
+          "status": "migrated",
+          "at": "2026-09-28T11:44:03Z"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/faq.json",
+      "prototypePath": "stardust/prototypes/faq-proposed.html",
+      "migratedPath": "stardust/migrated/faq/index.html"
+    },
+    {
+      "slug": "fashion-insights",
+      "url": "https://www.wknd-trendsetters.site/fashion-insights",
+      "title": "Fashion Blog - Discover Trends in Young Fashion",
+      "type": "listing",
+      "status": "migrated",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-09-28T10:11:54.942Z"
+        },
+        {
+          "status": "directed",
+          "at": "2026-09-28T11:40:53Z"
+        },
+        {
+          "status": "migrated",
+          "at": "2026-09-28T11:44:04Z"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/fashion-insights.json",
+      "prototypePath": null,
+      "migratedPath": "stardust/migrated/fashion-insights/index.html"
+    },
+    {
+      "slug": "fashion-trends-of-the-season",
+      "url": "https://www.wknd-trendsetters.site/fashion-trends-of-the-season",
+      "title": "Top Fashion Trends for Young People | Fashion Blog",
+      "type": "landing",
+      "status": "migrated",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-09-28T10:12:01.331Z"
+        },
+        {
+          "status": "directed",
+          "at": "2026-09-28T11:34:49Z"
+        },
+        {
+          "status": "migrated",
+          "at": "2026-09-28T11:44:03Z"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/fashion-trends-of-the-season.json",
+      "prototypePath": null,
+      "migratedPath": "stardust/migrated/fashion-trends-of-the-season/index.html"
+    },
+    {
+      "slug": "fashion-trends-young-adults",
+      "url": "https://www.wknd-trendsetters.site/fashion-trends-young-adults",
+      "title": "Fashion Trends for Young Adults - Fashion Blog",
+      "type": "landing",
+      "status": "migrated",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-09-28T10:12:01.330Z"
+        },
+        {
+          "status": "directed",
+          "at": "2026-09-28T11:34:49Z"
+        },
+        {
+          "status": "migrated",
+          "at": "2026-09-28T11:44:03Z"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/fashion-trends-young-adults.json",
+      "prototypePath": null,
+      "migratedPath": "stardust/migrated/fashion-trends-young-adults/index.html"
+    },
+    {
+      "slug": "fashion-trends-young-adults-casual-sport",
+      "url": "https://www.wknd-trendsetters.site/fashion-trends-young-adults-casual-sport",
+      "title": "Fashion Trends for Young Adults | Fashion Blog",
+      "type": "landing",
+      "status": "migrated",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-09-28T10:12:01.331Z"
+        },
+        {
+          "status": "directed",
+          "at": "2026-09-28T11:34:49Z"
+        },
+        {
+          "status": "migrated",
+          "at": "2026-09-28T11:44:04Z"
+        },
+        {
+          "status": "directed",
+          "at": "2026-09-28T11:52:11Z"
+        },
+        {
+          "status": "migrated",
+          "at": "2026-09-28T11:52:11Z"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/fashion-trends-young-adults-casual-sport.json",
+      "prototypePath": null,
+      "migratedPath": "stardust/migrated/fashion-trends-young-adults-casual-sport/index.html"
+    }
+  ],
+  "migrate": {
+    "at": "2026-09-28T11:52:11Z",
+    "outputDir": "stardust/migrated/",
+    "selfContained": true,
+    "pageMap": [
+      {
+        "sourceUrl": "/",
+        "outputPath": "index.html",
+        "slug": "index",
+        "outputPathDefault": null
+      },
+      {
+        "sourceUrl": "/blog",
+        "outputPath": "blog/index.html",
+        "slug": "blog",
+        "outputPathDefault": "trailing-slash"
+      },
+      {
+        "sourceUrl": "/case-studies",
+        "outputPath": "case-studies/index.html",
+        "slug": "case-studies",
+        "outputPathDefault": "trailing-slash"
+      },
+      {
+        "sourceUrl": "/blog/ace-pro-court-polo",
+        "outputPath": "blog/ace-pro-court-polo/index.html",
+        "slug": "blog-ace-pro-court-polo",
+        "outputPathDefault": "trailing-slash"
+      },
+      {
+        "sourceUrl": "/blog/fashion-blog-post",
+        "outputPath": "blog/fashion-blog-post/index.html",
+        "slug": "blog-fashion-blog-post",
+        "outputPathDefault": "trailing-slash"
+      },
+      {
+        "sourceUrl": "/blog/fashion-trends-young-culture",
+        "outputPath": "blog/fashion-trends-young-culture/index.html",
+        "slug": "blog-fashion-trends-young-culture",
+        "outputPathDefault": "trailing-slash"
+      },
+      {
+        "sourceUrl": "/blog/fashion-trends-young-style",
+        "outputPath": "blog/fashion-trends-young-style/index.html",
+        "slug": "blog-fashion-trends-young-style",
+        "outputPathDefault": "trailing-slash"
+      },
+      {
+        "sourceUrl": "/blog/flip-flop-summer-style",
+        "outputPath": "blog/flip-flop-summer-style/index.html",
+        "slug": "blog-flip-flop-summer-style",
+        "outputPathDefault": "trailing-slash"
+      },
+      {
+        "sourceUrl": "/blog/latest-trends-young-casual-fashion",
+        "outputPath": "blog/latest-trends-young-casual-fashion/index.html",
+        "slug": "blog-latest-trends-young-casual-fashion",
+        "outputPathDefault": "trailing-slash"
+      },
+      {
+        "sourceUrl": "/blog/street-style-trends",
+        "outputPath": "blog/street-style-trends/index.html",
+        "slug": "blog-street-style-trends",
+        "outputPathDefault": "trailing-slash"
+      },
+      {
+        "sourceUrl": "/faq",
+        "outputPath": "faq/index.html",
+        "slug": "faq",
+        "outputPathDefault": "trailing-slash"
+      },
+      {
+        "sourceUrl": "/fashion-insights",
+        "outputPath": "fashion-insights/index.html",
+        "slug": "fashion-insights",
+        "outputPathDefault": "trailing-slash"
+      },
+      {
+        "sourceUrl": "/fashion-trends-of-the-season",
+        "outputPath": "fashion-trends-of-the-season/index.html",
+        "slug": "fashion-trends-of-the-season",
+        "outputPathDefault": "trailing-slash"
+      },
+      {
+        "sourceUrl": "/fashion-trends-young-adults",
+        "outputPath": "fashion-trends-young-adults/index.html",
+        "slug": "fashion-trends-young-adults",
+        "outputPathDefault": "trailing-slash"
+      },
+      {
+        "sourceUrl": "/fashion-trends-young-adults-casual-sport",
+        "outputPath": "fashion-trends-young-adults-casual-sport/index.html",
+        "slug": "fashion-trends-young-adults-casual-sport",
+        "outputPathDefault": "trailing-slash"
+      }
+    ],
+    "totalAssetsBundled": 57,
+    "bundledAssets": [
+      "css/blog-ace-pro-court-polo.css",
+      "css/blog.css",
+      "css/canon.css",
+      "css/faq.css",
+      "css/index.css",
+      "favicon.svg",
+      "fonts/instrument-sans-latin.woff2",
+      "fonts/syncopate-400-latin.woff2",
+      "fonts/syncopate-700-latin.woff2",
+      "images/ace-polo-court-style.avif",
+      "images/ace-polo-friends-court.avif",
+      "images/ace-polo-street-transition.avif",
+      "images/adventure-spots.avif",
+      "images/avatar-alex.avif",
+      "images/avatar-jordan.avif",
+      "images/avatar-morgan.avif",
+      "images/avatar-taylor.avif",
+      "images/beach-destination.avif",
+      "images/bustling-pub.avif",
+      "images/campus-life.avif",
+      "images/campus-tour.avif",
+      "images/casual-trend.avif",
+      "images/celebrities-events.avif",
+      "images/concert-crowd.avif",
+      "images/customer-headshot.avif",
+      "images/cycling-event.avif",
+      "images/faq-hero.avif",
+      "images/fashion-insights-hero.avif",
+      "images/fashion-inspiration.avif",
+      "images/flip-flop-beach-style.avif",
+      "images/flip-flop-sunset-walk.avif",
+      "images/fundraising-event.avif",
+      "images/gallery-1.avif",
+      "images/gallery-2.avif",
+      "images/gallery-3.avif",
+      "images/gallery-4.avif",
+      "images/gallery-6.avif",
+      "images/game-characters.avif",
+      "images/gaming-tournaments.avif",
+      "images/hero-family-vacation.avif",
+      "images/hero-hiphop-dance.avif",
+      "images/hero-music-concert.avif",
+      "images/mobile-game-character.avif",
+      "images/networking-event.avif",
+      "images/party-accessories.avif",
+      "images/party-vacation.avif",
+      "images/people-coffee.avif",
+      "images/season-trend-1.avif",
+      "images/season-trend-2.avif",
+      "images/season-trend-3.avif",
+      "images/season-trend-4.avif",
+      "images/shopping-bag.avif",
+      "images/street-style.avif",
+      "images/successful-events.avif",
+      "images/tab-campus.avif",
+      "images/tab-staff.avif",
+      "images/trending-outfits.avif"
+    ],
+    "pages": [
+      {
+        "slug": "index",
+        "file": "stardust/migrated/index.html",
+        "assetsBundled": 25
+      },
+      {
+        "slug": "case-studies",
+        "file": "stardust/migrated/case-studies/index.html",
+        "assetsBundled": 22
+      },
+      {
+        "slug": "fashion-trends-of-the-season",
+        "file": "stardust/migrated/fashion-trends-of-the-season/index.html",
+        "assetsBundled": 19
+      },
+      {
+        "slug": "fashion-trends-young-adults",
+        "file": "stardust/migrated/fashion-trends-young-adults/index.html",
+        "assetsBundled": 17
+      },
+      {
+        "slug": "fashion-trends-young-adults-casual-sport",
+        "file": "stardust/migrated/fashion-trends-young-adults-casual-sport/index.html",
+        "assetsBundled": 17
+      },
+      {
+        "slug": "blog",
+        "file": "stardust/migrated/blog/index.html",
+        "assetsBundled": 14
+      },
+      {
+        "slug": "fashion-insights",
+        "file": "stardust/migrated/fashion-insights/index.html",
+        "assetsBundled": 17
+      },
+      {
+        "slug": "blog-ace-pro-court-polo",
+        "file": "stardust/migrated/blog/ace-pro-court-polo/index.html",
+        "assetsBundled": 9
+      },
+      {
+        "slug": "blog-fashion-blog-post",
+        "file": "stardust/migrated/blog/fashion-blog-post/index.html",
+        "assetsBundled": 7
+      },
+      {
+        "slug": "blog-fashion-trends-young-culture",
+        "file": "stardust/migrated/blog/fashion-trends-young-culture/index.html",
+        "assetsBundled": 7
+      },
+      {
+        "slug": "blog-fashion-trends-young-style",
+        "file": "stardust/migrated/blog/fashion-trends-young-style/index.html",
+        "assetsBundled": 7
+      },
+      {
+        "slug": "blog-flip-flop-summer-style",
+        "file": "stardust/migrated/blog/flip-flop-summer-style/index.html",
+        "assetsBundled": 8
+      },
+      {
+        "slug": "blog-latest-trends-young-casual-fashion",
+        "file": "stardust/migrated/blog/latest-trends-young-casual-fashion/index.html",
+        "assetsBundled": 7
+      },
+      {
+        "slug": "blog-street-style-trends",
+        "file": "stardust/migrated/blog/street-style-trends/index.html",
+        "assetsBundled": 7
+      },
+      {
+        "slug": "faq",
+        "file": "stardust/migrated/faq/index.html",
+        "assetsBundled": 7
+      }
+    ],
+    "missingAssets": [],
+    "cleanedAssets": [],
+    "lastRun": {
+      "at": "2026-09-28T11:52:11Z",
+      "rendered": [
+        "fashion-trends-young-adults-casual-sport"
+      ],
+      "unchanged": [],
+      "refused": [],
+      "passthrough": []
+    }
+  }
+}

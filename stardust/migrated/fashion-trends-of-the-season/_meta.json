@@ -1,0 +1,94 @@
+{
+  "slug": "fashion-trends-of-the-season",
+  "type": "landing",
+  "renderBranch": "A'",
+  "template": "index",
+  "modules": [
+    "hero",
+    "featured-story",
+    "image-columns",
+    "snapshot-gallery",
+    "cta-band"
+  ],
+  "slotsFilled": [
+    "section",
+    "section",
+    "section",
+    "section",
+    "section"
+  ],
+  "canonShas": {
+    "header": "9f8933ac43da",
+    "footer": "560c4952a6ab",
+    "css": "bfc32bed2145"
+  },
+  "deviations": [],
+  "migrationDecisions": [
+    {
+      "kind": "internal-links-pending",
+      "hrefs": [
+        "/blog",
+        "/faq"
+      ],
+      "reason": "in-inventory-not-migrated: targets render in render-listing / render-static; re-render this cluster with --force after those units (sha skip would keep the fallback absolute URLs) or let rollout E2 link audit resolve"
+    },
+    {
+      "kind": "internal-links-resolved",
+      "reason": "re-rendered with --force after render-static: every in-inventory target has a rendered file, brokenInternalLinks 0"
+    },
+    {
+      "kind": "overflow-live-mirrored",
+      "width": 360,
+      "build": "scrollWidth 423 (+63px)",
+      "live": "scrollWidth 423 (+63px) — measure.mjs overflow-live-pb1.txt on case-studies, fashion-insights, blog-fashion-blog-post (one per template; chrome identical on every page)",
+      "register": "R-01 (deferred)",
+      "reason": "same waiver the coordinator recorded for the four archetypes: the live .nav-inner row overflows the 360 viewport by the same 63px; pixel 0.00%/Δ0 at 360 — mirrored verbatim, not a build fault"
+    }
+  ],
+  "metadata": {
+    "title": "Top Fashion Trends for Young People | Fashion Blog",
+    "description": "Discover the latest fashion trends, style tips, and stories for young trendsetters.",
+    "canonical": null,
+    "lang": "en"
+  },
+  "jsonLd": {
+    "@context": "https://schema.org",
+    "@type": "WebPage",
+    "name": "Top Fashion Trends for Young People | Fashion Blog",
+    "description": "Discover the latest fashion trends, style tips, and stories for young trendsetters.",
+    "url": "https://www.wknd-trendsetters.site/fashion-trends-of-the-season"
+  },
+  "migratedAt": "2026-09-28T11:43:03Z",
+  "designMdSha": "0ad4783809ca",
+  "designJsonSha": "3bca621149ee",
+  "sourceCurrentSha": "60f71513efac",
+  "sourceProposedSha": "4027afe28450",
+  "fidelityTier": "sibling",
+  "archetypeSource": "index",
+  "archetypeSha": "3fcdae34a2f5",
+  "variants": [
+    "cta-accent"
+  ],
+  "gatesPassed": [
+    "variance-probe",
+    "content-count",
+    "content-fidelity",
+    "pixel-gate-1440"
+  ],
+  "gateEvidence": {
+    "variance-probe": "variance-landing-1440.json (run-bg variance-landing-1440, exit 2): section-composition + content-length deltas only; 0 computed-style deltas on hero/card/tabs/faq/cta/secondary → clone as-is + composition variants",
+    "content-count": "live capture vs rendered: h1 1/1 h2 7/7 h3 7/7 p 9/9 li 42/42 img 13/13 alt 13/13 a[href] 42/42 button 1/1 text 1624/1624; JSON h1 1 h2 7 allImgCount 13 = rendered; 0 drops",
+    "content-fidelity": "main = captured live <main> verbatim (headings, paragraphs, CTA labels+hrefs, alt text, order); transforms only: /images/ → bundled assets, internal-link paths via page map, whitespace; chrome = index archetype verbatim",
+    "pixel-gate-1440": "0.00% (0 px, threshold 10%), height delta 0px, round pb1 @1440 (fashion-trends-of-the-season-1440-pb1.log) [prototype regime]",
+    "pixel-gate-360": "FAIL: horizontal overflow +63px at 360 (scrollWidth 423 > viewport 360) — 0.00% (0 px, threshold 10%), height delta 0px, round pb1 @360 (fashion-trends-of-the-season-360-pb1.log) [prototype regime]",
+    "media-reconcile": "n/a: no delivered content file yet (content/fashion-trends-of-the-season.html) — media-reconcile runs in the delivery chain (row C)"
+  },
+  "contentDeviations": [],
+  "assetsBundled": 19,
+  "missingAssets": [],
+  "brokenInternalLinks": [],
+  "outputPath": "fashion-trends-of-the-season/index.html",
+  "outputPathDefault": "trailing-slash",
+  "sidecar": "fashion-trends-of-the-season/_meta.json",
+  "driverVersion": "1"
+}

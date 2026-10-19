@@ -1,0 +1,137 @@
+{
+ "source": "http://localhost:8795/stardust/migrated/blog/index.html",
+ "width": 1280,
+ "profile": "generic",
+ "sections": [
+  {
+   "section": "1",
+   "items": [
+    {
+     "role": "heading",
+     "order": 0,
+     "text": "WKND Trendsetters Blog"
+    },
+    {
+     "role": "body",
+     "order": 1,
+     "text": "From tennis courts to neon nights, discover the latest trends, style inspo, and stories from the coolest scenes. Dive into a world where fashion meets fun—your next look starts here."
+    },
+    {
+     "role": "cta",
+     "order": 2,
+     "text": "Read now",
+     "href": "#articles"
+    },
+    {
+     "role": "cta",
+     "order": 3,
+     "text": "See trends",
+     "href": "../fashion-trends-of-the-season/index.html"
+    }
+   ],
+   "imgCount": 1,
+   "editableTexts": 2,
+   "repeats": []
+  },
+  {
+   "section": "2",
+   "items": [
+    {
+     "role": "eyebrow",
+     "order": 0,
+     "text": "Featured"
+    },
+    {
+     "role": "body",
+     "order": 1,
+     "text": "February 23, 2026"
+    },
+    {
+     "role": "heading",
+     "order": 2,
+     "text": "Court cool, street ready — the Ace Pro polo"
+    },
+    {
+     "role": "body",
+     "order": 3,
+     "text": "Alex Rivera and Taylor Kim break down the polo that serves on the court and turns heads on the sidewalk."
+    },
+    {
+     "role": "cta",
+     "order": 4,
+     "text": "Read the full article",
+     "href": "../blog/ace-pro-court-polo/index.html"
+    }
+   ],
+   "imgCount": 1,
+   "editableTexts": 2,
+   "repeats": [
+    {
+     "unitSelector": "DIV.",
+     "count": 2,
+     "unit": {
+      "headings": 0,
+      "ctas": 0,
+      "imgs": 1,
+      "textRuns": 0
+     },
+     "uniform": false
+    }
+   ]
+  },
+  {
+   "section": "3",
+   "items": [
+    {
+     "role": "heading",
+     "order": 0,
+     "text": "Latest Articles"
+    },
+    {
+     "role": "body",
+     "order": 1,
+     "text": "Fresh looks, bold moves"
+    }
+   ],
+   "imgCount": 6,
+   "editableTexts": 8,
+   "repeats": [
+    {
+     "unitSelector": "A.article-card",
+     "count": 6,
+     "unit": {
+      "headings": 1,
+      "ctas": 0,
+      "imgs": 1,
+      "textRuns": 3
+     },
+     "uniform": true
+    }
+   ]
+  },
+  {
+   "section": "4",
+   "items": [
+    {
+     "role": "heading",
+     "order": 0,
+     "text": "Fresh looks, bold vibes, endless inspo"
+    },
+    {
+     "role": "body",
+     "order": 1,
+     "text": "Stay inspired with the latest trends and stories."
+    },
+    {
+     "role": "cta",
+     "order": 2,
+     "text": "Subscribe",
+     "href": "#"
+    }
+   ],
+   "imgCount": 0,
+   "editableTexts": 2,
+   "repeats": []
+  }
+ ]
+}

@@ -1,0 +1,1114 @@
+{
+  "_provenance": {
+    "writtenBy": "stardust:extract",
+    "writtenAt": "2026-09-28T10:25:17.800Z",
+    "readArtifacts": [
+      "stardust/current/_brand-extraction.json",
+      "stardust/current/_computed-styles.json",
+      "stardust/.work/replica/modules.json"
+    ],
+    "synthesizedInputs": [],
+    "stardustVersion": "0.25.1"
+  },
+  "schemaVersion": 2,
+  "generatedAt": "2026-09-28T10:25:17.800Z",
+  "title": "Design System: WKND Trendsetters (current state)",
+  "extensions": {
+    "colorMeta": {
+      "black": {
+        "role": "primary",
+        "displayName": "Ink Black",
+        "canonical": "#000000",
+        "usedAs": [
+          "text",
+          "link",
+          "background",
+          "border",
+          "button-background",
+          "button-border",
+          "button-text",
+          "heading"
+        ]
+      },
+      "white": {
+        "role": "neutral",
+        "displayName": "Paper White",
+        "canonical": "#ffffff"
+      },
+      "lime": {
+        "role": "accent",
+        "displayName": "Lime Pop",
+        "canonical": "#f4fe8b",
+        "token": "--color-yellow"
+      },
+      "gray-100": {
+        "role": "neutral",
+        "displayName": "Tint",
+        "canonical": "#f5f5f5",
+        "token": "--color-gray-100"
+      },
+      "gray-200": {
+        "role": "neutral",
+        "displayName": "Rule Grey",
+        "canonical": "#e8e8e8",
+        "token": "--color-gray-200"
+      },
+      "gray-500": {
+        "role": "neutral",
+        "displayName": "Slate",
+        "canonical": "#666666",
+        "token": "--color-gray-500"
+      },
+      "gray-700": {
+        "role": "neutral",
+        "displayName": "Charcoal",
+        "canonical": "#404040",
+        "token": "--color-gray-700"
+      },
+      "text-muted": {
+        "role": "neutral",
+        "displayName": "Mist",
+        "canonical": "#999999"
+      },
+      "lavender": {
+        "role": "accent-declared-unused",
+        "displayName": "Lavender",
+        "canonical": "#cbd4ff",
+        "token": "--color-lavender"
+      },
+      "lilac": {
+        "role": "accent-declared-unused",
+        "displayName": "Lilac",
+        "canonical": "#f4e5fc",
+        "token": "--color-purple"
+      }
+    },
+    "typographyMeta": {
+      "display": {
+        "displayName": "Display / H1",
+        "purpose": "Hero and article headlines; 56px desktop, 28px at 360.",
+        "files": [
+          "assets/fonts/syncopate-700-latin.woff2",
+          "assets/fonts/syncopate-400-latin.woff2"
+        ]
+      },
+      "headline": {
+        "displayName": "Headline / H2",
+        "purpose": "Section headings."
+      },
+      "title": {
+        "displayName": "Title / H3",
+        "purpose": "Card titles, group labels."
+      },
+      "body": {
+        "displayName": "Body",
+        "purpose": "Article copy.",
+        "files": [
+          "assets/fonts/instrument-sans-latin.woff2"
+        ]
+      },
+      "label": {
+        "displayName": "Label",
+        "purpose": "Buttons and nav links, sentence case."
+      }
+    },
+    "shadows": [
+      {
+        "name": "offset-pill",
+        "value": "4px 4px 0 0 #000000",
+        "purpose": "Every pill button at rest."
+      },
+      {
+        "name": "offset-pill-hover",
+        "value": "6px 6px 0 0 #000000",
+        "purpose": "Pill button on hover; only the shadow changes."
+      },
+      {
+        "name": "offset-pill-inverse",
+        "value": "4px 4px 0 0 rgba(255,255,255,0.3)",
+        "purpose": "White pill on the black image band."
+      },
+      {
+        "name": "card-declared-unused",
+        "value": "0 2px 8px rgba(0,0,0,0.08)",
+        "purpose": "Declared as --shadow-card; not applied anywhere in the census."
+      }
+    ],
+    "gradients": [
+      {
+        "name": "photo-overlay",
+        "value": "linear-gradient(to top, rgba(0,0,0,0.7) 0%, rgba(0,0,0,0) 60%)",
+        "purpose": "Inverse image CTA band."
+      }
+    ],
+    "motion": [
+      {
+        "name": "transition-fast",
+        "value": ".15s ease",
+        "purpose": "Button shadow growth."
+      },
+      {
+        "name": "transition-normal",
+        "value": ".3s ease",
+        "purpose": "Menus."
+      }
+    ],
+    "breakpoints": [
+      {
+        "name": "mobile",
+        "value": "360px"
+      },
+      {
+        "name": "tablet",
+        "value": "~768px (grid utility names tablet-*)"
+      },
+      {
+        "name": "desktop",
+        "value": "1440px measured; container 1200px"
+      }
+    ],
+    "focusRing": {
+      "color": "#000000",
+      "width": "2px",
+      "offset": "2px"
+    },
+    "container": {
+      "maxWidth": "1200px",
+      "padding": "1.5rem"
+    },
+    "sectionPadding": "128px 0px",
+    "componentStyle": {
+      "buttonPrimary": {
+        "background": "#000000",
+        "text": "#ffffff",
+        "border": "2px solid #000000",
+        "radius": "9999px",
+        "padding": "12px 24px",
+        "font": "Instrument Sans 600 14px",
+        "shadow": "4px 4px 0 0 #000000",
+        "hoverShadow": "6px 6px 0 0 #000000",
+        "sources": [
+          {
+            "url": "https://www.wknd-trendsetters.site/",
+            "selector": "header > div > div > div:nth-of-type(1) > div > a:nth-of-type(1)"
+          }
+        ]
+      },
+      "buttonSecondary": {
+        "background": "#ffffff",
+        "text": "#000000",
+        "border": "2px solid #000000",
+        "radius": "9999px",
+        "padding": "12px 24px",
+        "font": "Instrument Sans 600 14px",
+        "shadow": "4px 4px 0 0 #000000",
+        "hoverShadow": "6px 6px 0 0 #000000",
+        "sources": [
+          {
+            "url": "https://www.wknd-trendsetters.site/",
+            "selector": "header > div > div > div:nth-of-type(1) > div > a:nth-of-type(2)"
+          }
+        ]
+      },
+      "buttonOnInverse": {
+        "background": "#ffffff",
+        "text": "#000000",
+        "border": "2px solid #000000",
+        "radius": "9999px",
+        "shadow": "4px 4px 0 0 rgba(255,255,255,0.3)",
+        "sources": [
+          {
+            "url": "https://www.wknd-trendsetters.site/case-studies",
+            "selector": "section.inverse-section a.button"
+          }
+        ]
+      },
+      "tagPill": {
+        "background": "#f4fe8b",
+        "text": "#000000",
+        "radius": "9999px",
+        "font": "Syncopate 700 ~12–14px uppercase",
+        "sources": [
+          {
+            "url": "https://www.wknd-trendsetters.site/blog/ace-pro-court-polo",
+            "selector": "main section:nth-of-type(0) div.tag"
+          }
+        ]
+      },
+      "card": {
+        "radius": "1.25rem",
+        "shadow": "none (token --shadow-card declared, unused in census)",
+        "imageRadius": "1.25rem",
+        "sources": [
+          {
+            "url": "https://www.wknd-trendsetters.site/",
+            "selector": "section:nth-of-type(4) .card"
+          }
+        ]
+      },
+      "accordion": {
+        "element": "details/summary",
+        "count": 4,
+        "sources": [
+          {
+            "url": "https://www.wknd-trendsetters.site/faq",
+            "selector": "main details"
+          }
+        ]
+      },
+      "breadcrumb": {
+        "pattern": "Home › Blog (svg chevron)",
+        "sources": [
+          {
+            "url": "https://www.wknd-trendsetters.site/blog/ace-pro-court-polo",
+            "selector": ".breadcrumbs"
+          }
+        ]
+      }
+    },
+    "motifs": {
+      "patterns": [
+        "hard-offset-shadow pill button (4px 4px 0 #000, grows to 6px on hover)",
+        "rounded-1.25rem photo tiles in 2–4 column collages",
+        "ALL-CAPS Syncopate headlines with tight negative tracking",
+        "lime (#f4fe8b) uppercase tag pill on cards and article heroes",
+        "alternating white / #f5f5f5 sections, black inverse CTA band and footer",
+        "bottom-up black gradient overlay on image CTA band"
+      ],
+      "radiusMode": "20px",
+      "pill": "9999px",
+      "radiusTokens": {
+        "--radius-sm": ".375rem",
+        "--radius-md": ".5rem",
+        "--radius-lg": "1rem",
+        "--radius-card": "1.25rem",
+        "--radius-full": "9999px"
+      },
+      "hover": [
+        {
+          "kind": "button",
+          "from": {
+            "boxShadow": "rgb(0, 0, 0) 4px 4px 0px 0px"
+          },
+          "to": {
+            "boxShadow": "rgb(0, 0, 0) 6px 6px 0px 0px"
+          },
+          "count": 40
+        },
+        {
+          "kind": "button",
+          "from": {
+            "borderColor": "rgb(232, 232, 232)"
+          },
+          "to": {
+            "borderColor": "rgb(212, 212, 212)"
+          },
+          "count": 2
+        }
+      ]
+    },
+    "voice": {
+      "heroHeadline": "Fresh looks, bold stories, real life",
+      "heroSubcopy": "Dive into our latest style adventures—see how young trendsetters own every moment, from courtside to the dance floor.",
+      "tone": {
+        "guess": "playful-bright",
+        "evidence": "short imperative fragments (\"Fresh looks, bold stories, real life\"), second-person, slang-adjacent (\"fits that serve\", \"Game on, style up\"), em-dash asides, no jargon"
+      },
+      "ctaSamples": [
+        "See case",
+        "All stories",
+        "Subscribe",
+        "See trends",
+        "Explore the blog",
+        "Read the full article"
+      ],
+      "navItems": [
+        "Trends",
+        "About",
+        "Blog",
+        "Support",
+        "Subscribe"
+      ],
+      "footerHeadings": [
+        "Trends",
+        "Inspire",
+        "Explore"
+      ],
+      "examples": {
+        "do": [
+          "Fresh looks, bold stories, real life",
+          "Game on, style up",
+          "Slide into summer — flip flops that serve"
+        ],
+        "dont": []
+      }
+    },
+    "systemComponents": [
+      {
+        "name": "site-header",
+        "kind": "header",
+        "occurrences": 15,
+        "exampleSlug": "index",
+        "exampleSelector": "nav.nav-menu"
+      },
+      {
+        "name": "site-footer",
+        "kind": "footer",
+        "occurrences": 15,
+        "exampleSlug": "index",
+        "exampleSelector": "footer.footer.inverse-footer"
+      },
+      {
+        "name": "cta-band",
+        "kind": "cta-band",
+        "occurrences": 6,
+        "exampleSlug": "blog",
+        "exampleSelector": "main section:nth-of-type(3)"
+      },
+      {
+        "name": "snapshot-gallery",
+        "kind": "other",
+        "occurrences": 5,
+        "exampleSlug": "index",
+        "exampleSelector": "main section:nth-of-type(2)"
+      },
+      {
+        "name": "article-card-grid",
+        "kind": "other",
+        "occurrences": 5,
+        "exampleSlug": "index",
+        "exampleSelector": "main section:nth-of-type(4)"
+      },
+      {
+        "name": "featured-story",
+        "kind": "cross-promo",
+        "occurrences": 2,
+        "exampleSlug": "blog",
+        "exampleSelector": "main section:nth-of-type(1)"
+      },
+      {
+        "name": "faq-accordion",
+        "kind": "other",
+        "occurrences": 2,
+        "exampleSlug": "index",
+        "exampleSelector": "main section:nth-of-type(5)"
+      },
+      {
+        "name": "image-cta-inverse",
+        "kind": "cta-band",
+        "occurrences": 2,
+        "exampleSlug": "index",
+        "exampleSelector": "main section:nth-of-type(6)"
+      },
+      {
+        "name": "breadcrumb",
+        "kind": "breadcrumb",
+        "occurrences": 7,
+        "exampleSlug": "blog-ace-pro-court-polo",
+        "exampleSelector": ".breadcrumbs"
+      }
+    ],
+    "modules": [
+      {
+        "id": "candidate-4361ff",
+        "name": "site-header",
+        "signal": "ctas: 15/15 pages share Trends/About/Blog/Support/Subscribe",
+        "confidence": "high",
+        "slots": [
+          {
+            "name": "logo",
+            "type": "image",
+            "required": true
+          },
+          {
+            "name": "nav-items",
+            "type": "link[]",
+            "required": true
+          },
+          {
+            "name": "cta",
+            "type": "link",
+            "required": false
+          }
+        ],
+        "instances": [
+          {
+            "slug": "blog-ace-pro-court-polo",
+            "selector": "nav.nav-menu"
+          },
+          {
+            "slug": "blog-fashion-blog-post",
+            "selector": "nav.nav-menu"
+          },
+          {
+            "slug": "blog-fashion-trends-young-culture",
+            "selector": "nav.nav-menu"
+          },
+          {
+            "slug": "blog-fashion-trends-young-style",
+            "selector": "nav.nav-menu"
+          },
+          {
+            "slug": "blog-flip-flop-summer-style",
+            "selector": "nav.nav-menu"
+          },
+          {
+            "slug": "blog-latest-trends-young-casual-fashion",
+            "selector": "nav.nav-menu"
+          },
+          {
+            "slug": "blog-street-style-trends",
+            "selector": "nav.nav-menu"
+          },
+          {
+            "slug": "blog",
+            "selector": "nav.nav-menu"
+          },
+          {
+            "slug": "case-studies",
+            "selector": "nav.nav-menu"
+          },
+          {
+            "slug": "faq",
+            "selector": "nav.nav-menu"
+          },
+          {
+            "slug": "fashion-insights",
+            "selector": "nav.nav-menu"
+          },
+          {
+            "slug": "fashion-trends-of-the-season",
+            "selector": "nav.nav-menu"
+          },
+          {
+            "slug": "fashion-trends-young-adults-casual-sport",
+            "selector": "nav.nav-menu"
+          },
+          {
+            "slug": "fashion-trends-young-adults",
+            "selector": "nav.nav-menu"
+          },
+          {
+            "slug": "index",
+            "selector": "nav.nav-menu"
+          }
+        ],
+        "status": "candidate"
+      },
+      {
+        "id": "candidate-408bd2",
+        "name": "site-footer",
+        "signal": "headings: Trends/Inspire/Explore h2 on 15/15 pages",
+        "confidence": "high",
+        "slots": [
+          {
+            "name": "logo",
+            "type": "image",
+            "required": false
+          },
+          {
+            "name": "columns",
+            "type": "link-group[]",
+            "required": true
+          },
+          {
+            "name": "social",
+            "type": "link[]",
+            "required": false
+          }
+        ],
+        "instances": [
+          {
+            "slug": "blog-ace-pro-court-polo",
+            "selector": "footer"
+          },
+          {
+            "slug": "blog-fashion-blog-post",
+            "selector": "footer"
+          },
+          {
+            "slug": "blog-fashion-trends-young-culture",
+            "selector": "footer"
+          },
+          {
+            "slug": "blog-fashion-trends-young-style",
+            "selector": "footer"
+          },
+          {
+            "slug": "blog-flip-flop-summer-style",
+            "selector": "footer"
+          },
+          {
+            "slug": "blog-latest-trends-young-casual-fashion",
+            "selector": "footer"
+          },
+          {
+            "slug": "blog-street-style-trends",
+            "selector": "footer"
+          },
+          {
+            "slug": "blog",
+            "selector": "footer"
+          },
+          {
+            "slug": "case-studies",
+            "selector": "footer"
+          },
+          {
+            "slug": "faq",
+            "selector": "footer"
+          },
+          {
+            "slug": "fashion-insights",
+            "selector": "footer"
+          },
+          {
+            "slug": "fashion-trends-of-the-season",
+            "selector": "footer"
+          },
+          {
+            "slug": "fashion-trends-young-adults-casual-sport",
+            "selector": "footer"
+          },
+          {
+            "slug": "fashion-trends-young-adults",
+            "selector": "footer"
+          },
+          {
+            "slug": "index",
+            "selector": "footer"
+          }
+        ],
+        "status": "candidate"
+      },
+      {
+        "id": "candidate-6bf26b",
+        "name": "hero-collage",
+        "signal": "section outline: header.section with h1 + subheading + button-group (+ collage) on every non-article page",
+        "confidence": "high",
+        "slots": [
+          {
+            "name": "headline",
+            "type": "text",
+            "required": true
+          },
+          {
+            "name": "subcopy",
+            "type": "text",
+            "required": false
+          },
+          {
+            "name": "buttons",
+            "type": "link[]",
+            "required": false
+          },
+          {
+            "name": "images",
+            "type": "image[]",
+            "required": false
+          }
+        ],
+        "instances": [
+          {
+            "slug": "blog",
+            "selector": "header"
+          },
+          {
+            "slug": "case-studies",
+            "selector": "header"
+          },
+          {
+            "slug": "faq",
+            "selector": "header"
+          },
+          {
+            "slug": "fashion-insights",
+            "selector": "header"
+          },
+          {
+            "slug": "fashion-trends-of-the-season",
+            "selector": "header"
+          },
+          {
+            "slug": "fashion-trends-young-adults-casual-sport",
+            "selector": "header"
+          },
+          {
+            "slug": "fashion-trends-young-adults",
+            "selector": "header"
+          },
+          {
+            "slug": "index",
+            "selector": "header"
+          }
+        ],
+        "status": "candidate"
+      },
+      {
+        "id": "candidate-e5b9ce",
+        "name": "article-hero",
+        "signal": "headings: h1 + .tag + img in first section of 7/7 articles",
+        "confidence": "high",
+        "slots": [
+          {
+            "name": "breadcrumb",
+            "type": "link[]",
+            "required": false
+          },
+          {
+            "name": "headline",
+            "type": "text",
+            "required": true
+          },
+          {
+            "name": "tag",
+            "type": "text",
+            "required": false
+          },
+          {
+            "name": "lead-image",
+            "type": "image",
+            "required": true
+          }
+        ],
+        "instances": [
+          {
+            "slug": "blog-ace-pro-court-polo",
+            "selector": "main section:nth-of-type(0)"
+          },
+          {
+            "slug": "blog-fashion-blog-post",
+            "selector": "main section:nth-of-type(0)"
+          },
+          {
+            "slug": "blog-fashion-trends-young-culture",
+            "selector": "main section:nth-of-type(0)"
+          },
+          {
+            "slug": "blog-fashion-trends-young-style",
+            "selector": "main section:nth-of-type(0)"
+          },
+          {
+            "slug": "blog-flip-flop-summer-style",
+            "selector": "main section:nth-of-type(0)"
+          },
+          {
+            "slug": "blog-latest-trends-young-casual-fashion",
+            "selector": "main section:nth-of-type(0)"
+          },
+          {
+            "slug": "blog-street-style-trends",
+            "selector": "main section:nth-of-type(0)"
+          }
+        ],
+        "status": "candidate"
+      },
+      {
+        "id": "candidate-cc956f",
+        "name": "cta-band",
+        "signal": "headings: \"Fresh looks/fits, bold …\" h2 + 2 pill CTAs; ctas: Subscribe/Join/See trends",
+        "confidence": "high",
+        "slots": [
+          {
+            "name": "headline",
+            "type": "text",
+            "required": true
+          },
+          {
+            "name": "subcopy",
+            "type": "text",
+            "required": false
+          },
+          {
+            "name": "buttons",
+            "type": "link[]",
+            "required": true
+          }
+        ],
+        "instances": [
+          {
+            "slug": "blog",
+            "selector": "main section:nth-of-type(3)"
+          },
+          {
+            "slug": "faq",
+            "selector": "main section:nth-of-type(3)"
+          },
+          {
+            "slug": "fashion-insights",
+            "selector": "main section:nth-of-type(4)"
+          },
+          {
+            "slug": "fashion-trends-of-the-season",
+            "selector": "main section:nth-of-type(4)"
+          },
+          {
+            "slug": "fashion-trends-young-adults-casual-sport",
+            "selector": "main section:nth-of-type(3)"
+          },
+          {
+            "slug": "fashion-trends-young-adults",
+            "selector": "main section:nth-of-type(5)"
+          }
+        ],
+        "status": "candidate"
+      },
+      {
+        "id": "candidate-229c2c",
+        "name": "snapshot-gallery",
+        "signal": "headings: \"Style in every snapshot\" h2 on 5 pages",
+        "confidence": "high",
+        "slots": [
+          {
+            "name": "headline",
+            "type": "text",
+            "required": true
+          },
+          {
+            "name": "subcopy",
+            "type": "text",
+            "required": false
+          },
+          {
+            "name": "images",
+            "type": "image[]",
+            "required": true
+          }
+        ],
+        "instances": [
+          {
+            "slug": "case-studies",
+            "selector": "main section:nth-of-type(2)"
+          },
+          {
+            "slug": "fashion-insights",
+            "selector": "main section:nth-of-type(3)"
+          },
+          {
+            "slug": "fashion-trends-of-the-season",
+            "selector": "main section:nth-of-type(3)"
+          },
+          {
+            "slug": "fashion-trends-young-adults",
+            "selector": "main section:nth-of-type(4)"
+          },
+          {
+            "slug": "index",
+            "selector": "main section:nth-of-type(2)"
+          }
+        ],
+        "status": "candidate"
+      },
+      {
+        "id": "candidate-78150f",
+        "name": "article-card-grid",
+        "signal": "headings: repeated h3 article titles under Latest articles / Trend alert; .card DOM repeats",
+        "confidence": "high",
+        "slots": [
+          {
+            "name": "headline",
+            "type": "text",
+            "required": false
+          },
+          {
+            "name": "cards",
+            "type": "card[] {image, tag, title, excerpt, href}",
+            "required": true
+          }
+        ],
+        "instances": [
+          {
+            "slug": "blog",
+            "selector": "main section:nth-of-type(2)"
+          },
+          {
+            "slug": "fashion-insights",
+            "selector": "main section:nth-of-type(2)"
+          },
+          {
+            "slug": "fashion-trends-young-adults-casual-sport",
+            "selector": "main section:nth-of-type(1)"
+          },
+          {
+            "slug": "fashion-trends-young-adults",
+            "selector": "main section:nth-of-type(3)"
+          },
+          {
+            "slug": "index",
+            "selector": "main section:nth-of-type(4)"
+          }
+        ],
+        "status": "candidate"
+      },
+      {
+        "id": "candidate-1f2596",
+        "name": "featured-story",
+        "signal": "section outline: one image + h2 + optional pill on 8 pages",
+        "confidence": "high",
+        "slots": [
+          {
+            "name": "image",
+            "type": "image",
+            "required": true
+          },
+          {
+            "name": "label",
+            "type": "text",
+            "required": false
+          },
+          {
+            "name": "headline",
+            "type": "text",
+            "required": true
+          },
+          {
+            "name": "meta",
+            "type": "text",
+            "required": false
+          },
+          {
+            "name": "button",
+            "type": "link",
+            "required": false
+          }
+        ],
+        "instances": [
+          {
+            "slug": "blog",
+            "selector": "main section:nth-of-type(1)"
+          },
+          {
+            "slug": "case-studies",
+            "selector": "main section:nth-of-type(1)"
+          },
+          {
+            "slug": "fashion-insights",
+            "selector": "main section:nth-of-type(1)"
+          },
+          {
+            "slug": "fashion-trends-of-the-season",
+            "selector": "main section:nth-of-type(1)"
+          },
+          {
+            "slug": "fashion-trends-young-adults-casual-sport",
+            "selector": "main section:nth-of-type(2)"
+          },
+          {
+            "slug": "index",
+            "selector": "main section:nth-of-type(1)"
+          }
+        ],
+        "status": "candidate"
+      },
+      {
+        "id": "candidate-2f4acf",
+        "name": "faq-accordion",
+        "signal": "DOM: 4× details/summary on home + /faq",
+        "confidence": "medium",
+        "slots": [
+          {
+            "name": "headline",
+            "type": "text",
+            "required": false
+          },
+          {
+            "name": "items",
+            "type": "qa[]",
+            "required": true
+          }
+        ],
+        "instances": [
+          {
+            "slug": "faq",
+            "selector": "main section:nth-of-type(1)"
+          },
+          {
+            "slug": "index",
+            "selector": "main section:nth-of-type(5)"
+          }
+        ],
+        "status": "candidate"
+      },
+      {
+        "id": "candidate-ac1fbb",
+        "name": "image-cta-inverse",
+        "signal": "section outline: .inverse-section with gradient overlay on home + case-studies",
+        "confidence": "medium",
+        "slots": [
+          {
+            "name": "background-image",
+            "type": "image",
+            "required": true
+          },
+          {
+            "name": "headline",
+            "type": "text",
+            "required": true
+          },
+          {
+            "name": "subcopy",
+            "type": "text",
+            "required": false
+          },
+          {
+            "name": "button",
+            "type": "link",
+            "required": false
+          }
+        ],
+        "instances": [
+          {
+            "slug": "case-studies",
+            "selector": "main section:nth-of-type(4)"
+          },
+          {
+            "slug": "index",
+            "selector": "main section:nth-of-type(6)"
+          }
+        ],
+        "status": "candidate"
+      },
+      {
+        "id": "candidate-67b5b3",
+        "name": "pullquote",
+        "signal": "DOM: blockquote in article body on 7/7 articles",
+        "confidence": "high",
+        "slots": [
+          {
+            "name": "quote",
+            "type": "text",
+            "required": true
+          },
+          {
+            "name": "attribution",
+            "type": "text",
+            "required": false
+          }
+        ],
+        "instances": [
+          {
+            "slug": "blog-ace-pro-court-polo",
+            "selector": "main section:nth-of-type(1)"
+          },
+          {
+            "slug": "blog-fashion-blog-post",
+            "selector": "main section:nth-of-type(1)"
+          },
+          {
+            "slug": "blog-fashion-trends-young-culture",
+            "selector": "main section:nth-of-type(1)"
+          },
+          {
+            "slug": "blog-fashion-trends-young-style",
+            "selector": "main section:nth-of-type(1)"
+          },
+          {
+            "slug": "blog-flip-flop-summer-style",
+            "selector": "main section:nth-of-type(1)"
+          },
+          {
+            "slug": "blog-latest-trends-young-casual-fashion",
+            "selector": "main section:nth-of-type(1)"
+          },
+          {
+            "slug": "blog-street-style-trends",
+            "selector": "main section:nth-of-type(1)"
+          }
+        ],
+        "status": "candidate"
+      }
+    ]
+  },
+  "components": [
+    {
+      "name": "Primary Button",
+      "kind": "button",
+      "refersTo": "button-primary",
+      "description": "Black pill with hard offset shadow; shadow grows on hover.",
+      "html": "<a class=\"button\" href=\"#\">See case</a>",
+      "css": ".button{display:inline-flex;align-items:center;padding:12px 24px;border:2px solid #000;border-radius:9999px;background:#000;color:#fff;font:600 14px/1.3 \"Instrument Sans\",sans-serif;box-shadow:4px 4px 0 0 #000;transition:box-shadow .15s ease}.button:hover{box-shadow:6px 6px 0 0 #000}.button:focus-visible{outline:2px solid #000;outline-offset:2px}"
+    },
+    {
+      "name": "Secondary Button",
+      "kind": "button",
+      "refersTo": "button-secondary",
+      "description": "White pill, same border and shadow as primary.",
+      "html": "<a class=\"button secondary-button\" href=\"#\">All stories</a>",
+      "css": ".button.secondary-button{background:#fff;color:#000}"
+    },
+    {
+      "name": "Tag Pill",
+      "kind": "chip",
+      "refersTo": "tag-pill",
+      "description": "Lime uppercase category tag on cards and article heroes.",
+      "html": "<span class=\"tag\">Casual Cool</span>",
+      "css": ".tag{display:inline-block;padding:4px 12px;border-radius:9999px;background:#f4fe8b;color:#000;font:700 12px/1.3 Syncopate,sans-serif;text-transform:uppercase;letter-spacing:.02em}"
+    },
+    {
+      "name": "Article Card",
+      "kind": "card",
+      "refersTo": "card",
+      "description": "Whole-card link: 20px rounded image, tag + date meta, uppercase H3.",
+      "html": "<a class=\"article-card\" href=\"#\"><img src=\"…\" alt=\"…\"><div class=\"meta\"><span class=\"tag\">Beach Vibes</span><span class=\"date\">February 22, 2026</span></div><h3>Slide into summer — flip flops that serve</h3></a>",
+      "css": ".article-card{display:block;color:inherit;text-decoration:none}.article-card img{width:100%;aspect-ratio:3/2;object-fit:cover;border-radius:20px}.article-card .meta{display:flex;gap:12px;align-items:center;margin:16px 0 8px}.article-card .date{color:#999;font:400 14px \"Instrument Sans\",sans-serif}.article-card h3{font:700 18px/1.3 Syncopate,sans-serif;text-transform:uppercase}"
+    },
+    {
+      "name": "Site Nav",
+      "kind": "nav",
+      "refersTo": "button-primary",
+      "description": "White header: SVG mark + FASHION BLOG wordmark, centred links, black Subscribe pill.",
+      "html": "<header class=\"nav\"><a class=\"logo\" href=\"/\"><svg…/><span>Fashion Blog</span></a><nav>Trends ▾ · About · Blog · Support ▾</nav><a class=\"button\">Subscribe</a></header>",
+      "css": ".nav{display:flex;align-items:center;justify-content:space-between;padding:16px 24px;border-bottom:1px solid #e8e8e8;background:#fff}.nav .logo span{font:700 14px Syncopate,sans-serif;text-transform:uppercase}.nav nav a{font:600 14px \"Instrument Sans\",sans-serif;color:#000;margin:0 16px}"
+    },
+    {
+      "name": "FAQ Accordion",
+      "kind": "custom",
+      "refersTo": "card",
+      "description": "Native details/summary, 4 items, 20px radius.",
+      "html": "<details><summary>How do I spot the latest trends?</summary><p>…</p></details>",
+      "css": "details{border-radius:20px;background:#f5f5f5;padding:20px 24px;margin-bottom:12px}summary{font:700 18px/1.3 Syncopate,sans-serif;text-transform:uppercase;cursor:pointer}"
+    }
+  ],
+  "narrative": {
+    "northStar": "The Zine Poster",
+    "overview": "A black-and-white street-fashion zine at poster scale: wide all-caps Syncopate headlines carry the hierarchy, Instrument Sans stays quiet underneath, and the only colour is a lime highlight on tag pills and the subscribe band. Photography is untreated and rounded at 20px in 2–4 column collages; sections alternate white, #f5f5f5 tint and black at 128px padding. Depth is flat except the signature hard 4px black offset shadow under every pill button.",
+    "keyCharacteristics": [
+      "uppercase geometric headlines",
+      "monochrome with a single lime accent",
+      "hard-offset shadow pills",
+      "rounded 20px photo tiles",
+      "alternating white/tint/black bands",
+      "flat cards"
+    ],
+    "rules": [
+      {
+        "name": "The One Accent Rule",
+        "body": "Lime is the only chroma; at most one band and the tag pills per page.",
+        "section": "colors"
+      },
+      {
+        "name": "The Caps-Only Rule",
+        "body": "Every heading is uppercase Syncopate 700.",
+        "section": "typography"
+      },
+      {
+        "name": "The Hard-Shadow Rule",
+        "body": "Shadows are solid black offsets and only buttons have them.",
+        "section": "elevation"
+      }
+    ],
+    "dos": [
+      "Do set every heading in Syncopate 700 uppercase, −0.02em",
+      "Do give every pill the 4px 4px 0 #000 shadow, 6px on hover",
+      "Do clip photos to 20px, untreated",
+      "Do alternate white/#f5f5f5 bands at 128px and end on black",
+      "Do reserve lime for tags and the subscribe band"
+    ],
+    "donts": [
+      "Don't use blurred shadows or card gradients",
+      "Don't add lavender/lilac or a second accent",
+      "Don't set headings mixed-case or in Instrument Sans",
+      "Don't change button colour on hover"
+    ]
+  }
+}

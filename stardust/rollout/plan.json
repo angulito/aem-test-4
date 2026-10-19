@@ -1,0 +1,439 @@
+{
+  "_provenance": {
+    "writtenBy": "stardust:rollout/plan",
+    "writtenAt": "2026-09-28T11:58:37.834Z",
+    "readArtifacts": [
+      "stardust/rollout/coverage"
+    ],
+    "stardustVersion": "0.0.0"
+  },
+  "generatedAt": "2026-09-28T11:58:37.834Z",
+  "fragments": [],
+  "deliveryOrder": [
+    "blog-ace-pro-court-polo",
+    "blog-fashion-blog-post",
+    "blog-fashion-trends-young-culture",
+    "blog-fashion-trends-young-style",
+    "blog-flip-flop-summer-style",
+    "blog-latest-trends-young-casual-fashion",
+    "blog-street-style-trends",
+    "index",
+    "case-studies",
+    "fashion-trends-of-the-season",
+    "fashion-trends-young-adults",
+    "fashion-trends-young-adults-casual-sport",
+    "blog",
+    "fashion-insights",
+    "faq"
+  ],
+  "steps": [
+    {
+      "slug": "blog-ace-pro-court-polo",
+      "path": "/blog/ace-pro-court-polo",
+      "templateId": "blog-ace-pro-court-polo",
+      "status": "pending",
+      "isRepresentative": true,
+      "convert": [
+        {
+          "id": "hero",
+          "edsBlockName": "hero"
+        },
+        {
+          "id": "blog-content",
+          "edsBlockName": "blog-content"
+        }
+      ],
+      "reuse": []
+    },
+    {
+      "slug": "blog-fashion-blog-post",
+      "path": "/blog/fashion-blog-post",
+      "templateId": "blog-ace-pro-court-polo",
+      "status": "pending",
+      "isRepresentative": false,
+      "convert": [],
+      "reuse": [
+        {
+          "id": "hero",
+          "edsBlockName": "hero",
+          "convertedBy": "blog-ace-pro-court-polo"
+        },
+        {
+          "id": "blog-content",
+          "edsBlockName": "blog-content",
+          "convertedBy": "blog-ace-pro-court-polo"
+        }
+      ]
+    },
+    {
+      "slug": "blog-fashion-trends-young-culture",
+      "path": "/blog/fashion-trends-young-culture",
+      "templateId": "blog-ace-pro-court-polo",
+      "status": "pending",
+      "isRepresentative": false,
+      "convert": [],
+      "reuse": [
+        {
+          "id": "hero",
+          "edsBlockName": "hero",
+          "convertedBy": "blog-ace-pro-court-polo"
+        },
+        {
+          "id": "blog-content",
+          "edsBlockName": "blog-content",
+          "convertedBy": "blog-ace-pro-court-polo"
+        }
+      ]
+    },
+    {
+      "slug": "blog-fashion-trends-young-style",
+      "path": "/blog/fashion-trends-young-style",
+      "templateId": "blog-ace-pro-court-polo",
+      "status": "pending",
+      "isRepresentative": false,
+      "convert": [],
+      "reuse": [
+        {
+          "id": "hero",
+          "edsBlockName": "hero",
+          "convertedBy": "blog-ace-pro-court-polo"
+        },
+        {
+          "id": "blog-content",
+          "edsBlockName": "blog-content",
+          "convertedBy": "blog-ace-pro-court-polo"
+        }
+      ]
+    },
+    {
+      "slug": "blog-flip-flop-summer-style",
+      "path": "/blog/flip-flop-summer-style",
+      "templateId": "blog-ace-pro-court-polo",
+      "status": "pending",
+      "isRepresentative": false,
+      "convert": [],
+      "reuse": [
+        {
+          "id": "hero",
+          "edsBlockName": "hero",
+          "convertedBy": "blog-ace-pro-court-polo"
+        },
+        {
+          "id": "blog-content",
+          "edsBlockName": "blog-content",
+          "convertedBy": "blog-ace-pro-court-polo"
+        }
+      ]
+    },
+    {
+      "slug": "blog-latest-trends-young-casual-fashion",
+      "path": "/blog/latest-trends-young-casual-fashion",
+      "templateId": "blog-ace-pro-court-polo",
+      "status": "pending",
+      "isRepresentative": false,
+      "convert": [],
+      "reuse": [
+        {
+          "id": "hero",
+          "edsBlockName": "hero",
+          "convertedBy": "blog-ace-pro-court-polo"
+        },
+        {
+          "id": "blog-content",
+          "edsBlockName": "blog-content",
+          "convertedBy": "blog-ace-pro-court-polo"
+        }
+      ]
+    },
+    {
+      "slug": "blog-street-style-trends",
+      "path": "/blog/street-style-trends",
+      "templateId": "blog-ace-pro-court-polo",
+      "status": "pending",
+      "isRepresentative": false,
+      "convert": [],
+      "reuse": [
+        {
+          "id": "hero",
+          "edsBlockName": "hero",
+          "convertedBy": "blog-ace-pro-court-polo"
+        },
+        {
+          "id": "blog-content",
+          "edsBlockName": "blog-content",
+          "convertedBy": "blog-ace-pro-court-polo"
+        }
+      ]
+    },
+    {
+      "slug": "index",
+      "path": "/",
+      "templateId": "index",
+      "status": "pending",
+      "isRepresentative": true,
+      "convert": [
+        {
+          "id": "featured-story",
+          "edsBlockName": "featured-story"
+        },
+        {
+          "id": "snapshot-gallery",
+          "edsBlockName": "snapshot-gallery"
+        },
+        {
+          "id": "testimonial-tabs",
+          "edsBlockName": "testimonial-tabs"
+        },
+        {
+          "id": "article-cards",
+          "edsBlockName": "article-cards"
+        },
+        {
+          "id": "faq-accordion",
+          "edsBlockName": "faq-accordion"
+        },
+        {
+          "id": "cta-band",
+          "edsBlockName": "cta-band"
+        }
+      ],
+      "reuse": [
+        {
+          "id": "hero",
+          "edsBlockName": "hero",
+          "convertedBy": "blog-ace-pro-court-polo"
+        }
+      ]
+    },
+    {
+      "slug": "case-studies",
+      "path": "/case-studies",
+      "templateId": "index",
+      "status": "pending",
+      "isRepresentative": false,
+      "convert": [],
+      "reuse": [
+        {
+          "id": "hero",
+          "edsBlockName": "hero",
+          "convertedBy": "blog-ace-pro-court-polo"
+        },
+        {
+          "id": "featured-story",
+          "edsBlockName": "featured-story",
+          "convertedBy": "index"
+        },
+        {
+          "id": "snapshot-gallery",
+          "edsBlockName": "snapshot-gallery",
+          "convertedBy": "index"
+        },
+        {
+          "id": "testimonial-tabs",
+          "edsBlockName": "testimonial-tabs",
+          "convertedBy": "index"
+        },
+        {
+          "id": "cta-band",
+          "edsBlockName": "cta-band",
+          "convertedBy": "index"
+        }
+      ]
+    },
+    {
+      "slug": "fashion-trends-of-the-season",
+      "path": "/fashion-trends-of-the-season",
+      "templateId": "index",
+      "status": "pending",
+      "isRepresentative": true,
+      "convert": [
+        {
+          "id": "image-columns",
+          "edsBlockName": "image-columns"
+        }
+      ],
+      "reuse": [
+        {
+          "id": "hero",
+          "edsBlockName": "hero",
+          "convertedBy": "blog-ace-pro-court-polo"
+        },
+        {
+          "id": "featured-story",
+          "edsBlockName": "featured-story",
+          "convertedBy": "index"
+        },
+        {
+          "id": "snapshot-gallery",
+          "edsBlockName": "snapshot-gallery",
+          "convertedBy": "index"
+        },
+        {
+          "id": "cta-band",
+          "edsBlockName": "cta-band",
+          "convertedBy": "index"
+        }
+      ]
+    },
+    {
+      "slug": "fashion-trends-young-adults",
+      "path": "/fashion-trends-young-adults",
+      "templateId": "index",
+      "status": "pending",
+      "isRepresentative": false,
+      "convert": [],
+      "reuse": [
+        {
+          "id": "hero",
+          "edsBlockName": "hero",
+          "convertedBy": "blog-ace-pro-court-polo"
+        },
+        {
+          "id": "image-columns",
+          "edsBlockName": "image-columns",
+          "convertedBy": "fashion-trends-of-the-season"
+        },
+        {
+          "id": "article-cards",
+          "edsBlockName": "article-cards",
+          "convertedBy": "index"
+        },
+        {
+          "id": "snapshot-gallery",
+          "edsBlockName": "snapshot-gallery",
+          "convertedBy": "index"
+        },
+        {
+          "id": "cta-band",
+          "edsBlockName": "cta-band",
+          "convertedBy": "index"
+        }
+      ]
+    },
+    {
+      "slug": "fashion-trends-young-adults-casual-sport",
+      "path": "/fashion-trends-young-adults-casual-sport",
+      "templateId": "index",
+      "status": "pending",
+      "isRepresentative": true,
+      "convert": [
+        {
+          "id": "trend-cards",
+          "edsBlockName": "trend-cards"
+        }
+      ],
+      "reuse": [
+        {
+          "id": "hero",
+          "edsBlockName": "hero",
+          "convertedBy": "blog-ace-pro-court-polo"
+        },
+        {
+          "id": "featured-story",
+          "edsBlockName": "featured-story",
+          "convertedBy": "index"
+        },
+        {
+          "id": "cta-band",
+          "edsBlockName": "cta-band",
+          "convertedBy": "index"
+        }
+      ]
+    },
+    {
+      "slug": "blog",
+      "path": "/blog",
+      "templateId": "blog",
+      "status": "pending",
+      "isRepresentative": false,
+      "convert": [],
+      "reuse": [
+        {
+          "id": "hero",
+          "edsBlockName": "hero",
+          "convertedBy": "blog-ace-pro-court-polo"
+        },
+        {
+          "id": "featured-story",
+          "edsBlockName": "featured-story",
+          "convertedBy": "index"
+        },
+        {
+          "id": "article-cards",
+          "edsBlockName": "article-cards",
+          "convertedBy": "index"
+        },
+        {
+          "id": "cta-band",
+          "edsBlockName": "cta-band",
+          "convertedBy": "index"
+        }
+      ]
+    },
+    {
+      "slug": "fashion-insights",
+      "path": "/fashion-insights",
+      "templateId": "blog",
+      "status": "pending",
+      "isRepresentative": false,
+      "convert": [],
+      "reuse": [
+        {
+          "id": "hero",
+          "edsBlockName": "hero",
+          "convertedBy": "blog-ace-pro-court-polo"
+        },
+        {
+          "id": "featured-story",
+          "edsBlockName": "featured-story",
+          "convertedBy": "index"
+        },
+        {
+          "id": "article-cards",
+          "edsBlockName": "article-cards",
+          "convertedBy": "index"
+        },
+        {
+          "id": "snapshot-gallery",
+          "edsBlockName": "snapshot-gallery",
+          "convertedBy": "index"
+        },
+        {
+          "id": "cta-band",
+          "edsBlockName": "cta-band",
+          "convertedBy": "index"
+        }
+      ]
+    },
+    {
+      "slug": "faq",
+      "path": "/faq",
+      "templateId": "faq",
+      "status": "pending",
+      "isRepresentative": true,
+      "convert": [
+        {
+          "id": "contact-details",
+          "edsBlockName": "contact-details"
+        }
+      ],
+      "reuse": [
+        {
+          "id": "hero",
+          "edsBlockName": "hero",
+          "convertedBy": "blog-ace-pro-court-polo"
+        },
+        {
+          "id": "faq-accordion",
+          "edsBlockName": "faq-accordion",
+          "convertedBy": "index"
+        },
+        {
+          "id": "cta-band",
+          "edsBlockName": "cta-band",
+          "convertedBy": "index"
+        }
+      ]
+    }
+  ]
+}

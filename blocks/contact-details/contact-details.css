@@ -1,0 +1,37 @@
+/* contact-details — head column + stacked labelled channels (canon inline geometry folded in) */
+.contact-details .contact-grid {
+  align-items: start;
+}
+
+.contact-details .headline :is(h1, h2, h3) {
+  margin: 0;
+}
+
+.contact-details .lede {
+  margin-top: var(--space-md);
+  font-size: var(--text-lg);
+  line-height: var(--leading-normal);
+  color: var(--color-gray-700);
+}
+
+.contact-details .contact-items {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-xl);
+}
+
+.contact-details .contact-label :is(h2, h3, h4) {
+  font-size: var(--text-sm);
+  letter-spacing: 0.05em;
+  color: var(--color-gray-500);
+}
+
+.contact-details .contact-value {
+  margin-top: var(--space-xs);
+  font-size: var(--text-lg);
+  line-height: var(--leading-normal);
+}
+
+.contact-details .contact-value a {
+  display: block;
+}

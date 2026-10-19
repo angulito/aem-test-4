@@ -1,0 +1,67 @@
+{
+  "slug": "faq",
+  "type": "static",
+  "renderBranch": "A",
+  "template": null,
+  "modules": [
+    "hero",
+    "faq-accordion",
+    "contact-details",
+    "cta-band"
+  ],
+  "slotsFilled": [
+    "section",
+    "section",
+    "section",
+    "section"
+  ],
+  "canonShas": {
+    "header": "9edfe15d9c5c",
+    "footer": "560c4952a6ab",
+    "css": "bfc32bed2145"
+  },
+  "deviations": [],
+  "migrationDecisions": [],
+  "metadata": {
+    "title": "FAQ - The Fashion Blog",
+    "description": "Discover the latest fashion trends, style tips, and stories for young trendsetters.",
+    "canonical": null,
+    "lang": "en"
+  },
+  "jsonLd": {
+    "@context": "https://schema.org",
+    "@type": "WebPage",
+    "name": "FAQ - The Fashion Blog",
+    "description": "Discover the latest fashion trends, style tips, and stories for young trendsetters.",
+    "url": "https://www.wknd-trendsetters.site/faq"
+  },
+  "migratedAt": "2026-09-28T11:42:50Z",
+  "designMdSha": "0ad4783809ca",
+  "designJsonSha": "3bca621149ee",
+  "sourceCurrentSha": "3e9cb51c0dc9",
+  "sourceProposedSha": "c6fe81d0d037",
+  "fidelityTier": "archetype",
+  "archetypeSource": null,
+  "archetypeSha": null,
+  "variants": [],
+  "gatesPassed": [
+    "content-count",
+    "content-fidelity",
+    "pixel-gate-1440"
+  ],
+  "gateEvidence": {
+    "content-count": "content-diff: none — content + roles match (faq-360-iter1.log)",
+    "content-fidelity": "Path A: main = gated faq-proposed.html (live <main> verbatim, gated 0.00%/Δ0 at 1440 and 360); metadata from capture; 0 broken internal links",
+    "pixel-gate-1440": "0.00% (0 px, threshold 10%), height delta 0px, round iter2 @1440 (faq-1440-iter2.log) [prototype regime]",
+    "pixel-gate-360": "FAIL: horizontal overflow +63px at 360 (scrollWidth 423 > viewport 360) — 0.00% (0 px, threshold 10%), height delta 0px, round iter2 @360 (faq-360-iter2.log) [prototype regime]",
+    "media-reconcile": "n/a: no delivered content file yet (content/faq.html) — media-reconcile runs in the delivery chain (row C)"
+  },
+  "contentDeviations": [],
+  "assetsBundled": 7,
+  "missingAssets": [],
+  "brokenInternalLinks": [],
+  "outputPath": "faq/index.html",
+  "outputPathDefault": "trailing-slash",
+  "sidecar": "faq/_meta.json",
+  "driverVersion": "1"
+}

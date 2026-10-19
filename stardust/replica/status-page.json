@@ -1,0 +1,120 @@
+{
+  "steps": {
+    "analyze": "done",
+    "brand": "done",
+    "templates": "done",
+    "fidelity": "done",
+    "migrate": "inprogress"
+  },
+  "templates": [
+    {
+      "name": "Home and landing pages",
+      "pages": 5,
+      "desktop": "Looks right",
+      "mobile": "Looks right",
+      "status": "done"
+    },
+    {
+      "name": "Blog and insights listings",
+      "pages": 2,
+      "desktop": "Looks right",
+      "mobile": "Looks right",
+      "status": "done"
+    },
+    {
+      "name": "Blog articles",
+      "pages": 7,
+      "desktop": "Looks right",
+      "mobile": "Looks right",
+      "status": "done"
+    },
+    {
+      "name": "FAQ page",
+      "pages": 1,
+      "desktop": "Looks right",
+      "mobile": "Looks right",
+      "status": "done"
+    }
+  ],
+  "pages": [
+    {
+      "path": "/",
+      "title": "Home",
+      "ready": true
+    },
+    {
+      "path": "/blog",
+      "title": "Blog",
+      "ready": true
+    },
+    {
+      "path": "/case-studies",
+      "title": "Case studies",
+      "ready": true
+    },
+    {
+      "path": "/blog/ace-pro-court-polo",
+      "title": "Ace Pro Court Polo",
+      "ready": true
+    },
+    {
+      "path": "/blog/fashion-blog-post",
+      "title": "Fashion blog post",
+      "ready": true
+    },
+    {
+      "path": "/blog/fashion-trends-young-culture",
+      "title": "Fashion trends: young culture",
+      "ready": true
+    },
+    {
+      "path": "/blog/fashion-trends-young-style",
+      "title": "Fashion trends: young style",
+      "ready": true
+    },
+    {
+      "path": "/blog/flip-flop-summer-style",
+      "title": "Flip-flop summer style",
+      "ready": true
+    },
+    {
+      "path": "/blog/latest-trends-young-casual-fashion",
+      "title": "Latest trends: young casual fashion",
+      "ready": true
+    },
+    {
+      "path": "/blog/street-style-trends",
+      "title": "Street style trends",
+      "ready": true
+    },
+    {
+      "path": "/faq",
+      "title": "FAQ",
+      "ready": true
+    },
+    {
+      "path": "/fashion-insights",
+      "title": "Fashion insights",
+      "ready": true
+    },
+    {
+      "path": "/fashion-trends-of-the-season",
+      "title": "Fashion trends of the season",
+      "ready": true
+    },
+    {
+      "path": "/fashion-trends-young-adults",
+      "title": "Fashion trends: young adults",
+      "ready": true
+    },
+    {
+      "path": "/fashion-trends-young-adults-casual-sport",
+      "title": "Fashion trends: young adults, casual sport",
+      "ready": true
+    }
+  ],
+  "totalPages": 15,
+  "attention": false,
+  "now": "All 15 pages are now published on the preview site and each has been measured against the original at desktop and mobile widths. Every page matches its original within a few percent, with the same text, images and layout. We are finishing a small footer refinement that applies across the whole site and running the final site-wide checks.",
+  "next": "The footer refinement is applied and every page is verified once more, then the site map and final quality checks complete the delivery."
+}

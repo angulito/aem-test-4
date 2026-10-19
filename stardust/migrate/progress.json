@@ -1,0 +1,195 @@
+{
+  "_provenance": {
+    "writtenBy": "stardust:migrate",
+    "writtenAt": "2026-09-28T11:54:03Z",
+    "note": "migrate unit ledger — handoff-contract.md § 1 row 9; same shape as rollout C-deliver units"
+  },
+  "units": {
+    "plan": {
+      "status": "done",
+      "kind": "plan",
+      "templates": [
+        "landing",
+        "listing",
+        "article",
+        "static"
+      ],
+      "pages": 15,
+      "startedAt": "2026-09-28T11:26:39Z",
+      "endedAt": "2026-09-28T11:33:07Z",
+      "verdict": "15 pages: Path A 4, Path A′ 11 (landing 4, listing 1, article 6), Path B 0; variance probe per template exit 2 = composition/content deltas only, 0 style deltas; variant budget landing 2 (cta-accent, trend-card), listing 1 (section-extra), article 0; 0 new CSS",
+      "artifacts": [
+        "stardust/migrate/plan.md",
+        "stardust/migrate/variance-landing-1440.json",
+        "stardust/migrate/variance-listing-1440.json",
+        "stardust/migrate/variance-article-1440.json"
+      ]
+    },
+    "render-landing": {
+      "status": "done",
+      "kind": "render",
+      "templates": [
+        "landing"
+      ],
+      "pages": 5,
+      "slugs": [
+        "index",
+        "case-studies",
+        "fashion-trends-of-the-season",
+        "fashion-trends-young-adults",
+        "fashion-trends-young-adults-casual-sport"
+      ],
+      "startedAt": "2026-09-28T11:33:18Z",
+      "endedAt": "2026-09-28T11:36:26Z",
+      "verdict": "rendered 5, unchanged 0, refused 0, passthrough 0 (index Path A + 4 siblings Path A′; content-count 5/5 pass with 0 drops; 6–11 in-inventory-not-migrated links per page to /blog, /faq pending later clusters)",
+      "outputs": [
+        "stardust/migrated/index.html",
+        "stardust/migrated/case-studies/index.html",
+        "stardust/migrated/fashion-trends-of-the-season/index.html",
+        "stardust/migrated/fashion-trends-young-adults/index.html",
+        "stardust/migrated/fashion-trends-young-adults-casual-sport/index.html"
+      ],
+      "gatesPending": [
+        "pixel-gate-1440",
+        "pixel-gate-360",
+        "delivery-lint",
+        "media-reconcile (n/a until delivery)"
+      ],
+      "note": "siblings advanced extracted→directed (state.mjs, hands-off) so the driver takes Path A′; pages stay directed until the report unit"
+    },
+    "render-listing": {
+      "status": "done",
+      "kind": "render",
+      "templates": [
+        "listing"
+      ],
+      "pages": 2,
+      "slugs": [
+        "blog",
+        "fashion-insights"
+      ],
+      "startedAt": "2026-09-28T11:41:00Z",
+      "endedAt": "2026-09-28T11:41:39Z",
+      "verdict": "rendered 2, unchanged 0, refused 0, passthrough 0 (blog Path A + fashion-insights Path A′; content-count 2/2 pass with 0 drops; 9 and 7 in-inventory-not-migrated links to /faq and /blog/* pending render-article / render-static)",
+      "outputs": [
+        "stardust/migrated/blog/index.html",
+        "stardust/migrated/fashion-insights/index.html"
+      ],
+      "gatesPending": [
+        "pixel-gate-1440",
+        "pixel-gate-360",
+        "delivery-lint",
+        "media-reconcile (n/a until delivery)"
+      ],
+      "note": "fashion-insights advanced extracted→directed (state.mjs --skill migrate, hands-off) so the driver takes Path A′; sibling built by stardust/scripts/migrate/build-sibling.mjs (same clone recipe as landing); variant section-extra recorded"
+    },
+    "render-article": {
+      "status": "done",
+      "kind": "render",
+      "templates": [
+        "article"
+      ],
+      "pages": 7,
+      "slugs": [
+        "blog-ace-pro-court-polo",
+        "blog-fashion-blog-post",
+        "blog-fashion-trends-young-culture",
+        "blog-fashion-trends-young-style",
+        "blog-flip-flop-summer-style",
+        "blog-latest-trends-young-casual-fashion",
+        "blog-street-style-trends"
+      ],
+      "startedAt": "2026-09-28T11:41:50Z",
+      "endedAt": "2026-09-28T11:42:35Z",
+      "verdict": "rendered 7, unchanged 0, refused 0, passthrough 0 (blog-ace-pro-court-polo Path A + 6 siblings Path A′; content-count 7/7 pass with 0 drops; 2 in-inventory-not-migrated links per page to /faq pending render-static)",
+      "outputs": [
+        "stardust/migrated/blog/ace-pro-court-polo/index.html",
+        "stardust/migrated/blog/fashion-blog-post/index.html",
+        "stardust/migrated/blog/fashion-trends-young-culture/index.html",
+        "stardust/migrated/blog/fashion-trends-young-style/index.html",
+        "stardust/migrated/blog/flip-flop-summer-style/index.html",
+        "stardust/migrated/blog/latest-trends-young-casual-fashion/index.html",
+        "stardust/migrated/blog/street-style-trends/index.html"
+      ],
+      "gatesPending": [
+        "pixel-gate-1440",
+        "pixel-gate-360",
+        "delivery-lint",
+        "media-reconcile (n/a until delivery)"
+      ],
+      "note": "6 siblings advanced extracted→directed (state.mjs --skill migrate, hands-off); siblings built by build-sibling.mjs; 0 variants (article budget 0)"
+    },
+    "render-static": {
+      "status": "done",
+      "kind": "render",
+      "templates": [
+        "static"
+      ],
+      "pages": 1,
+      "slugs": [
+        "faq"
+      ],
+      "startedAt": "2026-09-28T11:43:00Z",
+      "endedAt": "2026-09-28T11:43:37Z",
+      "verdict": "rendered 1, unchanged 0, refused 0, passthrough 0 (faq Path A; content-count 1/1 pass with 0 drops; 0 broken links); then the other 14 pages re-rendered with --force → brokenInternalLinks 0 on all 15, content-count 15/15 still pass",
+      "outputs": [
+        "stardust/migrated/faq/index.html"
+      ],
+      "gatesPending": [
+        "pixel-gate-1440",
+        "pixel-gate-360",
+        "delivery-lint",
+        "media-reconcile (n/a until delivery)"
+      ],
+      "note": "internal-links-pending decisions on 14 pages closed with internal-links-resolved after the forced re-render"
+    },
+    "pixel-bar": {
+      "status": "done",
+      "kind": "gate",
+      "templates": [
+        "landing",
+        "listing",
+        "article"
+      ],
+      "pages": 11,
+      "slugs": [
+        "case-studies",
+        "fashion-trends-of-the-season",
+        "fashion-trends-young-adults",
+        "fashion-trends-young-adults-casual-sport",
+        "fashion-insights",
+        "blog-fashion-blog-post",
+        "blog-fashion-trends-young-culture",
+        "blog-fashion-trends-young-style",
+        "blog-flip-flop-summer-style",
+        "blog-latest-trends-young-casual-fashion",
+        "blog-street-style-trends"
+      ],
+      "startedAt": "2026-09-28T11:45:05Z",
+      "note": "handoff-contract § 1 row 5: per sibling, 1440 + 360, gate.sh pixel rounds against the migrated tree served at localhost:8792 (label pb1); archetype bar ≤10% / |Δh| ≤ 8 px / overflow assert",
+      "endedAt": "2026-09-28T11:53:29Z",
+      "verdict": "22 pb1 rounds + 2 pb2: 11/11 siblings 0.00%/Δ0 at 1440 and 360 [prototype regime]; casual-sport pb1 25.14%/Δ156 @1440, 48.96%/Δ778 @360 → trend-card rules lifted from the page's scoped <style> into index.css → pb2 0.00%/Δ0; 360 overflow +63px on every page = live-mirrored R-01 (live probed 423 on one sibling per template), waived as for the archetypes",
+      "gatesPending": [
+        "delivery-lint (pre-PUT, rollout script)",
+        "media-reconcile (n/a until delivery)",
+        "pixel-gate-360 withheld by gate-evidence over the live-mirrored overflow (decision overflow-live-mirrored on each sibling)"
+      ],
+      "evidence": "stardust/replica/gates/<slug>-<w>/ (pb1, pb2), run-bg jobs <slug>-<w>-pb1/pb2, gate-evidence.mjs → sidecars pixel-gate-1440"
+    },
+    "report": {
+      "status": "done",
+      "kind": "report",
+      "templates": [
+        "landing",
+        "listing",
+        "article",
+        "static"
+      ],
+      "pages": 15,
+      "startedAt": "2026-09-28T11:44:30Z",
+      "endedAt": "2026-09-28T11:54:03Z",
+      "verdict": "15/15 pages advanced to migrated (state.mjs advance --to migrated --migrated <path> --skill migrate); report at stardust/migrate/report.md",
+      "artifact": "stardust/migrate/report.md"
+    }
+  }
+}

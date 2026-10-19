@@ -1,0 +1,65 @@
+{
+  "/blog/ace-pro-court-polo": {
+    "status": "live",
+    "attempts": 1,
+    "ts": "2026-09-28T13:39:34.241Z",
+    "put": 201,
+    "preview": 200,
+    "live": 200,
+    "verify": "ok"
+  },
+  "/blog/fashion-blog-post": {
+    "status": "live",
+    "attempts": 1,
+    "ts": "2026-09-28T13:39:39.943Z",
+    "put": 201,
+    "preview": 200,
+    "live": 200,
+    "verify": "ok"
+  },
+  "/blog/fashion-trends-young-culture": {
+    "status": "live",
+    "attempts": 1,
+    "ts": "2026-09-28T13:39:44.367Z",
+    "put": 201,
+    "preview": 200,
+    "live": 200,
+    "verify": "ok"
+  },
+  "/blog/fashion-trends-young-style": {
+    "status": "live",
+    "attempts": 1,
+    "ts": "2026-09-28T13:39:48.237Z",
+    "put": 201,
+    "preview": 200,
+    "live": 200,
+    "verify": "ok"
+  },
+  "/blog/flip-flop-summer-style": {
+    "status": "live",
+    "attempts": 1,
+    "ts": "2026-09-28T13:39:52.059Z",
+    "put": 201,
+    "preview": 200,
+    "live": 200,
+    "verify": "ok"
+  },
+  "/blog/latest-trends-young-casual-fashion": {
+    "status": "live",
+    "attempts": 1,
+    "ts": "2026-09-28T13:39:56.665Z",
+    "put": 201,
+    "preview": 200,
+    "live": 200,
+    "verify": "ok"
+  },
+  "/blog/street-style-trends": {
+    "status": "live",
+    "attempts": 1,
+    "ts": "2026-09-28T13:40:01.080Z",
+    "put": 201,
+    "preview": 200,
+    "live": 200,
+    "verify": "ok"
+  }
+}

@@ -1,0 +1,1269 @@
+{
+  "_provenance": {
+    "writtenBy": "stardust:extract",
+    "writtenAt": "2026-09-28T10:21:38.147Z",
+    "readArtifacts": [
+      "https://www.wknd-trendsetters.site/",
+      "stardust/current/_computed-styles.json",
+      "stardust/current/_crawl-log.json",
+      "stardust/current/pages/blog-ace-pro-court-polo.json",
+      "stardust/current/pages/blog-fashion-blog-post.json",
+      "stardust/current/pages/blog-fashion-trends-young-culture.json",
+      "stardust/current/pages/blog-fashion-trends-young-style.json",
+      "stardust/current/pages/blog-flip-flop-summer-style.json",
+      "stardust/current/pages/blog-latest-trends-young-casual-fashion.json",
+      "stardust/current/pages/blog-street-style-trends.json",
+      "stardust/current/pages/blog.json",
+      "stardust/current/pages/case-studies.json",
+      "stardust/current/pages/faq.json",
+      "stardust/current/pages/fashion-insights.json",
+      "stardust/current/pages/fashion-trends-of-the-season.json",
+      "stardust/current/pages/fashion-trends-young-adults-casual-sport.json",
+      "stardust/current/pages/fashion-trends-young-adults.json",
+      "stardust/current/pages/index.json"
+    ],
+    "synthesizedInputs": [],
+    "stardustVersion": "0.25.1",
+    "notes": [
+      "palette/type/motifs aggregated across all 15 extracted pages at 1440 and 360 (style-census.mjs, 30 measurements); logo, voice, hero are home-only",
+      "census logo chain returned \"none\" (the mark is an inline <svg aria-hidden> inside a.logo) — logo captured by DOM read of pages/index.html instead",
+      "home-only radius mode equals cross-page mode (20px / pill); no divergence",
+      "declared token --shadow-card is not applied anywhere in the census: cards are flat"
+    ]
+  },
+  "site": {
+    "name": "WKND Trendsetters",
+    "tagline": "Fresh looks, bold stories, real life",
+    "originUrl": "https://www.wknd-trendsetters.site/",
+    "description": "Discover the latest fashion trends, style tips, and stories for young trendsetters.",
+    "generator": "Astro (static; /_astro/ bundle)",
+    "pagesAggregated": 15
+  },
+  "origins": [
+    {
+      "url": "https://www.wknd-trendsetters.site/",
+      "role": "primary",
+      "pages": 15,
+      "contributed": [
+        "palette",
+        "type",
+        "motifs",
+        "voice",
+        "systemComponents",
+        "logo",
+        "favicon",
+        "fonts"
+      ]
+    }
+  ],
+  "logo": {
+    "source": "inline-svg",
+    "selector": "a.logo > div.nav-logo-icon > svg[viewBox=\"0 0 33 33\"]",
+    "file": "stardust/current/assets/logo.svg",
+    "wordmark": {
+      "text": "Fashion Blog",
+      "font": "Syncopate 700, uppercase, --text-sm",
+      "selector": "a.logo > div.paragraph-xl.utility-text-all-caps"
+    },
+    "variants": [
+      "currentColor: black on white header, white on black footer"
+    ],
+    "sourceUrl": "https://www.wknd-trendsetters.site/"
+  },
+  "favicon": {
+    "file": "stardust/current/assets/favicon.svg",
+    "url": "https://www.wknd-trendsetters.site/favicon.svg"
+  },
+  "palette": [
+    {
+      "value": "#000000",
+      "role": "text-primary / primary",
+      "weight": 1582,
+      "bgArea": 17136180,
+      "usedAs": [
+        "text",
+        "link",
+        "background",
+        "border",
+        "button-background",
+        "button-border",
+        "button-text",
+        "heading"
+      ],
+      "token": "--color-black",
+      "sources": [
+        {
+          "url": "https://www.wknd-trendsetters.site/blog/ace-pro-court-polo",
+          "selector": "body > div > div > div > a > div:nth-of-type(2)",
+          "prop": "text"
+        },
+        {
+          "url": "https://www.wknd-trendsetters.site/blog/flip-flop-summer-style",
+          "selector": "body > div > div > div > a > div:nth-of-type(2)",
+          "prop": "text"
+        }
+      ]
+    },
+    {
+      "value": "#ffffff",
+      "role": "background",
+      "weight": 370,
+      "bgArea": 136436692,
+      "usedAs": [
+        "text",
+        "background",
+        "button-text",
+        "button-background",
+        "border",
+        "button-border",
+        "heading"
+      ],
+      "token": "--color-white",
+      "sources": [
+        {
+          "url": "https://www.wknd-trendsetters.site/",
+          "selector": "body > a",
+          "prop": "text"
+        },
+        {
+          "url": "https://www.wknd-trendsetters.site/blog",
+          "selector": "body > a",
+          "prop": "text"
+        }
+      ]
+    },
+    {
+      "value": "#666666",
+      "role": "text-secondary",
+      "weight": 184,
+      "bgArea": 0,
+      "usedAs": [
+        "text",
+        "heading",
+        "link"
+      ],
+      "token": "--color-gray-500",
+      "sources": [
+        {
+          "url": "https://www.wknd-trendsetters.site/",
+          "selector": "#main-content > section:nth-of-type(1) > div > div > div:nth-of-type(2) > div:nth-of-type(1) > a:nth-of-type(2)",
+          "prop": "text"
+        },
+        {
+          "url": "https://www.wknd-trendsetters.site/fashion-trends-young-adults-casual-sport",
+          "selector": "#trends > div > div:nth-of-type(2) > a:nth-of-type(1) > div:nth-of-type(2) > p",
+          "prop": "text"
+        }
+      ]
+    },
+    {
+      "value": "#e8e8e8",
+      "role": "border",
+      "weight": 146,
+      "bgArea": 297168,
+      "usedAs": [
+        "border",
+        "background",
+        "button-border",
+        "button-background"
+      ],
+      "token": "--color-gray-200",
+      "sources": [
+        {
+          "url": "https://www.wknd-trendsetters.site/",
+          "selector": "body > div",
+          "prop": "border"
+        },
+        {
+          "url": "https://www.wknd-trendsetters.site/fashion-trends-young-adults-casual-sport",
+          "selector": "body > div",
+          "prop": "border"
+        }
+      ]
+    },
+    {
+      "value": "#999999",
+      "role": "text-muted",
+      "weight": 630,
+      "bgArea": 0,
+      "usedAs": [
+        "text",
+        "heading"
+      ],
+      "token": null,
+      "sources": [
+        {
+          "url": "https://www.wknd-trendsetters.site/",
+          "selector": "nav > ul > li:nth-of-type(1) > h2",
+          "prop": "text"
+        },
+        {
+          "url": "https://www.wknd-trendsetters.site/blog",
+          "selector": "nav > ul > li:nth-of-type(1) > h2",
+          "prop": "text"
+        }
+      ]
+    },
+    {
+      "value": "#404040",
+      "role": "text-tertiary",
+      "weight": 192,
+      "bgArea": 194400,
+      "usedAs": [
+        "text",
+        "background"
+      ],
+      "token": "--color-gray-700",
+      "sources": [
+        {
+          "url": "https://www.wknd-trendsetters.site/faq",
+          "selector": "header > div > div > div:nth-of-type(1) > p:nth-of-type(2)",
+          "prop": "text"
+        },
+        {
+          "url": "https://www.wknd-trendsetters.site/",
+          "selector": "footer > div > div > div > ul > li:nth-of-type(1) > a",
+          "prop": "background"
+        }
+      ]
+    },
+    {
+      "value": "#f4fe8b",
+      "role": "accent",
+      "weight": 96,
+      "bgArea": 5188445,
+      "usedAs": [
+        "background",
+        "border"
+      ],
+      "token": "--color-yellow",
+      "sources": [
+        {
+          "url": "https://www.wknd-trendsetters.site/fashion-trends-young-adults-casual-sport",
+          "selector": "#trends > div > div:nth-of-type(2) > a:nth-of-type(1) > div:nth-of-type(2) > span",
+          "prop": "background"
+        },
+        {
+          "url": "https://www.wknd-trendsetters.site/blog",
+          "selector": "#main-content > section:nth-of-type(1) > div > div > div:nth-of-type(2) > div:nth-of-type(1) > span:nth-of-type(1)",
+          "prop": "background"
+        }
+      ]
+    },
+    {
+      "value": "#cbd4ff",
+      "role": "accent-tint (declared)",
+      "weight": 0,
+      "usedAs": [
+        "token-only"
+      ],
+      "token": "--color-lavender",
+      "sources": [
+        {
+          "url": "https://www.wknd-trendsetters.site/",
+          "selector": ":root",
+          "prop": "--color-lavender"
+        }
+      ]
+    },
+    {
+      "value": "#f4e5fc",
+      "role": "accent-tint (declared)",
+      "weight": 0,
+      "usedAs": [
+        "token-only"
+      ],
+      "token": "--color-purple",
+      "sources": [
+        {
+          "url": "https://www.wknd-trendsetters.site/",
+          "selector": ":root",
+          "prop": "--color-purple"
+        }
+      ]
+    },
+    {
+      "value": "#f5f5f5",
+      "role": "neutral-scale",
+      "weight": 0,
+      "usedAs": [
+        "token-only"
+      ],
+      "token": "--color-gray-100",
+      "sources": [
+        {
+          "url": "https://www.wknd-trendsetters.site/",
+          "selector": ":root",
+          "prop": "--color-gray-100"
+        }
+      ]
+    },
+    {
+      "value": "#d4d4d4",
+      "role": "neutral-scale",
+      "weight": 0,
+      "usedAs": [
+        "token-only"
+      ],
+      "token": "--color-gray-300",
+      "sources": [
+        {
+          "url": "https://www.wknd-trendsetters.site/",
+          "selector": ":root",
+          "prop": "--color-gray-300"
+        }
+      ]
+    },
+    {
+      "value": "#171717",
+      "role": "neutral-scale",
+      "weight": 0,
+      "usedAs": [
+        "token-only"
+      ],
+      "token": "--color-gray-900",
+      "sources": [
+        {
+          "url": "https://www.wknd-trendsetters.site/",
+          "selector": ":root",
+          "prop": "--color-gray-900"
+        }
+      ]
+    },
+    {
+      "value": "#f5f5f5",
+      "role": "surface (alternating section)",
+      "weight": 0,
+      "usedAs": [
+        "background"
+      ],
+      "token": "--color-gray-100",
+      "sources": [
+        {
+          "url": "https://www.wknd-trendsetters.site/",
+          "selector": "header",
+          "prop": "background-color"
+        }
+      ]
+    }
+  ],
+  "type": {
+    "headingFamily": "Syncopate",
+    "bodyFamily": "Instrument Sans",
+    "families": [
+      {
+        "family": "Instrument Sans",
+        "count": 366,
+        "headings": 0,
+        "text": 258,
+        "buttons": 108
+      },
+      {
+        "family": "Syncopate",
+        "count": 334,
+        "headings": 334,
+        "text": 0,
+        "buttons": 0
+      },
+      {
+        "family": "Arial",
+        "count": 16,
+        "headings": 0,
+        "text": 0,
+        "buttons": 16
+      }
+    ],
+    "weights": [
+      {
+        "weight": "700",
+        "count": 334,
+        "headings": 334,
+        "text": 0,
+        "buttons": 0
+      },
+      {
+        "weight": "400",
+        "count": 274,
+        "headings": 0,
+        "text": 258,
+        "buttons": 16
+      },
+      {
+        "weight": "600",
+        "count": 108,
+        "headings": 0,
+        "text": 0,
+        "buttons": 108
+      }
+    ],
+    "sizes": [
+      {
+        "px": 56,
+        "count": 10,
+        "headings": 10,
+        "text": 0,
+        "buttons": 0
+      },
+      {
+        "px": 40,
+        "count": 69,
+        "headings": 69,
+        "text": 0,
+        "buttons": 0
+      },
+      {
+        "px": 32,
+        "count": 11,
+        "headings": 11,
+        "text": 0,
+        "buttons": 0
+      },
+      {
+        "px": 28,
+        "count": 10,
+        "headings": 10,
+        "text": 0,
+        "buttons": 0
+      },
+      {
+        "px": 24,
+        "count": 75,
+        "headings": 75,
+        "text": 0,
+        "buttons": 0
+      },
+      {
+        "px": 22,
+        "count": 11,
+        "headings": 11,
+        "text": 0,
+        "buttons": 0
+      },
+      {
+        "px": 20,
+        "count": 4,
+        "headings": 0,
+        "text": 4,
+        "buttons": 0
+      },
+      {
+        "px": 18,
+        "count": 120,
+        "headings": 52,
+        "text": 68,
+        "buttons": 0
+      },
+      {
+        "px": 16,
+        "count": 158,
+        "headings": 0,
+        "text": 158,
+        "buttons": 0
+      },
+      {
+        "px": 14,
+        "count": 232,
+        "headings": 96,
+        "text": 28,
+        "buttons": 108
+      },
+      {
+        "px": 13.33,
+        "count": 16,
+        "headings": 0,
+        "text": 0,
+        "buttons": 16
+      }
+    ],
+    "levels": {
+      "h1": {
+        "fontSize": 56,
+        "fontWeight": "700",
+        "count": 8,
+        "score": 277.19
+      },
+      "h2": {
+        "fontSize": 40,
+        "fontWeight": "700",
+        "count": 62,
+        "score": 551.18
+      },
+      "h3": {
+        "fontSize": 18,
+        "fontWeight": "700",
+        "count": 52,
+        "score": 227.15
+      }
+    },
+    "mobileLevels": {
+      "h1": {
+        "fontSize": "28px",
+        "lineHeight": "30.8px",
+        "letterSpacing": "-0.56px"
+      },
+      "h2": {
+        "fontSize": "24px",
+        "lineHeight": "26.4px",
+        "letterSpacing": "normal"
+      },
+      "h3": {
+        "fontSize": "18px",
+        "lineHeight": "19.8px",
+        "letterSpacing": "normal"
+      }
+    },
+    "headingTransform": "uppercase",
+    "headingLetterSpacing": "-0.02em",
+    "leading": {
+      "tight": "1.1",
+      "snug": "1.3",
+      "normal": "1.6"
+    },
+    "declaredScale": [
+      "--text-xs=.75rem",
+      "--text-sm=.875rem",
+      "--text-base=1rem",
+      "--text-lg=1.125rem",
+      "--text-xl=1.25rem",
+      "--text-2xl=1.5rem",
+      "--text-3xl=2rem",
+      "--text-4xl=2.5rem",
+      "--text-5xl=3.5rem"
+    ],
+    "scaleAudit": {
+      "kind": "ad-hoc",
+      "sizes": [
+        13.33,
+        14,
+        16,
+        18,
+        20,
+        22,
+        24,
+        28,
+        32,
+        40,
+        56
+      ],
+      "ratios": [
+        1.05,
+        1.143,
+        1.125,
+        1.111,
+        1.1,
+        1.091,
+        1.167,
+        1.143,
+        1.25,
+        1.4
+      ],
+      "note": "declared token steps (.75/.875/1/1.125/1.25/1.5/2/2.5/3.5rem) are a hand-picked ladder, not a constant ratio; computed sizes add 13.33px UA-default and 22/28px in-between steps"
+    },
+    "files": [
+      {
+        "file": "stardust/current/assets/fonts/instrument-sans-latin.woff2",
+        "bytes": 29904,
+        "family": "Instrument Sans",
+        "weight": "400 700 (variable)",
+        "sourceUrl": "https://www.wknd-trendsetters.site/fonts/instrument-sans-latin.woff2",
+        "format": "woff2",
+        "licensing": "Google Fonts family (SIL Open Font License) self-hosted by the source site; verify before redistribution"
+      },
+      {
+        "file": "stardust/current/assets/fonts/syncopate-400-latin.woff2",
+        "bytes": 10544,
+        "family": "Syncopate",
+        "weight": "400",
+        "sourceUrl": "https://www.wknd-trendsetters.site/fonts/syncopate-400-latin.woff2",
+        "format": "woff2",
+        "licensing": "Google Fonts family (SIL Open Font License) self-hosted by the source site; verify before redistribution"
+      },
+      {
+        "file": "stardust/current/assets/fonts/syncopate-700-latin.woff2",
+        "bytes": 10312,
+        "family": "Syncopate",
+        "weight": "700",
+        "sourceUrl": "https://www.wknd-trendsetters.site/fonts/syncopate-700-latin.woff2",
+        "format": "woff2",
+        "licensing": "Google Fonts family (SIL Open Font License) self-hosted by the source site; verify before redistribution"
+      }
+    ],
+    "sources": [
+      {
+        "url": "https://www.wknd-trendsetters.site/",
+        "selector": "header > div > div > div:nth-of-type(1) > h1",
+        "prop": "font-family"
+      },
+      {
+        "url": "https://www.wknd-trendsetters.site/",
+        "selector": "#main-content > section:nth-of-type(1) > div > div > div:nth-of-type(2) > h2",
+        "prop": "font-family"
+      }
+    ]
+  },
+  "spacing": {
+    "scale": {
+      "--space-xxs": ".25rem",
+      "--space-xs": ".5rem",
+      "--space-sm": ".75rem",
+      "--space-md": "1rem",
+      "--space-lg": "1.5rem",
+      "--space-xl": "2rem",
+      "--space-2xl": "3rem",
+      "--space-3xl": "4rem",
+      "--space-4xl": "5rem",
+      "--space-5xl": "8rem"
+    },
+    "container": {
+      "maxWidth": "1200px",
+      "padding": "1.5rem"
+    },
+    "sectionPadding": "128px 0px",
+    "sources": [
+      {
+        "url": "https://www.wknd-trendsetters.site/",
+        "selector": ":root",
+        "prop": "--space-*"
+      },
+      {
+        "url": "https://www.wknd-trendsetters.site/",
+        "selector": "header.section",
+        "prop": "padding"
+      }
+    ]
+  },
+  "motifs": {
+    "borderRadius": {
+      "mode": "20px",
+      "pill": "9999px",
+      "tokens": {
+        "--radius-sm": ".375rem",
+        "--radius-md": ".5rem",
+        "--radius-lg": "1rem",
+        "--radius-card": "1.25rem",
+        "--radius-full": "9999px"
+      },
+      "occurrences": [
+        {
+          "value": "9999px",
+          "count": 314,
+          "area": 1158292,
+          "sources": [
+            {
+              "url": "https://www.wknd-trendsetters.site/",
+              "selector": "body > div > div > div > div > div > a"
+            }
+          ]
+        },
+        {
+          "value": "20px",
+          "count": 198,
+          "area": 22881253,
+          "sources": [
+            {
+              "url": "https://www.wknd-trendsetters.site/",
+              "selector": "header > div > div > div:nth-of-type(2) > img:nth-of-type(1)"
+            }
+          ]
+        },
+        {
+          "value": "8px",
+          "count": 60,
+          "area": 172755,
+          "sources": [
+            {
+              "url": "https://www.wknd-trendsetters.site/",
+              "selector": "#nav-menu > ul > li:nth-of-type(1) > a"
+            }
+          ]
+        },
+        {
+          "value": "16px",
+          "count": 32,
+          "area": 1076952,
+          "sources": [
+            {
+              "url": "https://www.wknd-trendsetters.site/",
+              "selector": "#tab-0"
+            }
+          ]
+        },
+        {
+          "value": "0px 0px 8px 8px",
+          "count": 30,
+          "area": 205020,
+          "sources": [
+            {
+              "url": "https://www.wknd-trendsetters.site/",
+              "selector": "body > a"
+            }
+          ]
+        }
+      ]
+    },
+    "shadows": [
+      {
+        "value": "rgb(0, 0, 0) 4px 4px 0px 0px",
+        "count": 74,
+        "sources": [
+          {
+            "url": "https://www.wknd-trendsetters.site/",
+            "selector": "body > div > div > div > div > div > a"
+          }
+        ]
+      },
+      {
+        "value": "rgba(255, 255, 255, 0.3) 4px 4px 0px 0px",
+        "count": 4,
+        "sources": [
+          {
+            "url": "https://www.wknd-trendsetters.site/",
+            "selector": "#main-content > section:nth-of-type(6) > div > div > div > div:nth-of-type(2) > div > a"
+          }
+        ]
+      },
+      {
+        "value": "0 2px 8px rgba(0, 0, 0, .08)",
+        "count": 0,
+        "token": "--shadow-card",
+        "sources": [
+          {
+            "url": "https://www.wknd-trendsetters.site/",
+            "selector": ":root",
+            "prop": "--shadow-card"
+          }
+        ]
+      }
+    ],
+    "gradients": [
+      {
+        "value": "linear-gradient(to top, rgba(0, 0, 0, 0.7) 0%, rgba(0, 0, 0, 0) 60%)",
+        "count": 4,
+        "area": 1627438,
+        "sources": [
+          {
+            "url": "https://www.wknd-trendsetters.site/",
+            "selector": "#main-content > section:nth-of-type(6) > div > div > div > div:nth-of-type(1)"
+          }
+        ]
+      }
+    ],
+    "hover": [
+      {
+        "kind": "button",
+        "from": {
+          "boxShadow": "rgb(0, 0, 0) 4px 4px 0px 0px"
+        },
+        "to": {
+          "boxShadow": "rgb(0, 0, 0) 6px 6px 0px 0px"
+        },
+        "count": 40,
+        "sources": [
+          {
+            "url": "https://www.wknd-trendsetters.site/",
+            "selector": "body > div > div > div > div > div > a"
+          }
+        ]
+      },
+      {
+        "kind": "button",
+        "from": {
+          "borderColor": "rgb(232, 232, 232)"
+        },
+        "to": {
+          "borderColor": "rgb(212, 212, 212)"
+        },
+        "count": 2,
+        "sources": [
+          {
+            "url": "https://www.wknd-trendsetters.site/case-studies",
+            "selector": "#tab-1"
+          }
+        ]
+      }
+    ],
+    "patterns": [
+      "hard-offset-shadow pill button (4px 4px 0 #000, grows to 6px on hover)",
+      "rounded-1.25rem photo tiles in 2–4 column collages",
+      "ALL-CAPS Syncopate headlines with tight negative tracking",
+      "lime (#f4fe8b) uppercase tag pill on cards and article heroes",
+      "alternating white / #f5f5f5 sections, black inverse CTA band and footer",
+      "bottom-up black gradient overlay on image CTA band"
+    ],
+    "transitions": {
+      "fast": ".15s ease",
+      "normal": ".3s ease"
+    },
+    "focusRing": {
+      "color": "#000000",
+      "width": "2px",
+      "offset": "2px"
+    }
+  },
+  "componentStyle": {
+    "buttonPrimary": {
+      "background": "#000000",
+      "text": "#ffffff",
+      "border": "2px solid #000000",
+      "radius": "9999px",
+      "padding": "12px 24px",
+      "font": "Instrument Sans 600 14px",
+      "shadow": "4px 4px 0 0 #000000",
+      "hoverShadow": "6px 6px 0 0 #000000",
+      "sources": [
+        {
+          "url": "https://www.wknd-trendsetters.site/",
+          "selector": "header > div > div > div:nth-of-type(1) > div > a:nth-of-type(1)"
+        }
+      ]
+    },
+    "buttonSecondary": {
+      "background": "#ffffff",
+      "text": "#000000",
+      "border": "2px solid #000000",
+      "radius": "9999px",
+      "padding": "12px 24px",
+      "font": "Instrument Sans 600 14px",
+      "shadow": "4px 4px 0 0 #000000",
+      "hoverShadow": "6px 6px 0 0 #000000",
+      "sources": [
+        {
+          "url": "https://www.wknd-trendsetters.site/",
+          "selector": "header > div > div > div:nth-of-type(1) > div > a:nth-of-type(2)"
+        }
+      ]
+    },
+    "buttonOnInverse": {
+      "background": "#ffffff",
+      "text": "#000000",
+      "border": "2px solid #000000",
+      "radius": "9999px",
+      "shadow": "4px 4px 0 0 rgba(255,255,255,0.3)",
+      "sources": [
+        {
+          "url": "https://www.wknd-trendsetters.site/case-studies",
+          "selector": "section.inverse-section a.button"
+        }
+      ]
+    },
+    "tagPill": {
+      "background": "#f4fe8b",
+      "text": "#000000",
+      "radius": "9999px",
+      "font": "Syncopate 700 ~12–14px uppercase",
+      "sources": [
+        {
+          "url": "https://www.wknd-trendsetters.site/blog/ace-pro-court-polo",
+          "selector": "main section:nth-of-type(0) div.tag"
+        }
+      ]
+    },
+    "card": {
+      "radius": "1.25rem",
+      "shadow": "none (token --shadow-card declared, unused in census)",
+      "imageRadius": "1.25rem",
+      "sources": [
+        {
+          "url": "https://www.wknd-trendsetters.site/",
+          "selector": "section:nth-of-type(4) .card"
+        }
+      ]
+    },
+    "accordion": {
+      "element": "details/summary",
+      "count": 4,
+      "sources": [
+        {
+          "url": "https://www.wknd-trendsetters.site/faq",
+          "selector": "main details"
+        }
+      ]
+    },
+    "breadcrumb": {
+      "pattern": "Home › Blog (svg chevron)",
+      "sources": [
+        {
+          "url": "https://www.wknd-trendsetters.site/blog/ace-pro-court-polo",
+          "selector": ".breadcrumbs"
+        }
+      ]
+    }
+  },
+  "systemComponents": [
+    {
+      "name": "site-header",
+      "kind": "header",
+      "occurrences": 15,
+      "headingSequence": [],
+      "ctaLabels": [
+        "Trends",
+        "About",
+        "Blog",
+        "Support",
+        "Subscribe"
+      ],
+      "navItems": [
+        "Trends (mega menu: Casual / …)",
+        "About",
+        "Blog",
+        "Support"
+      ],
+      "logoWordmark": "FASHION BLOG",
+      "exampleSlug": "index",
+      "exampleSelector": "nav.nav-menu",
+      "examplePages": [
+        "blog-ace-pro-court-polo",
+        "blog-fashion-blog-post",
+        "blog-fashion-trends-young-culture",
+        "blog-fashion-trends-young-style",
+        "blog-flip-flop-summer-style"
+      ],
+      "notes": "identical on 15/15 pages; brand mark = 33×33 inline SVG + Syncopate all-caps wordmark; black pill Subscribe CTA right"
+    },
+    {
+      "name": "site-footer",
+      "kind": "footer",
+      "occurrences": 15,
+      "headingSequence": [
+        "Trends",
+        "Inspire",
+        "Explore"
+      ],
+      "ctaLabels": [
+        "Style",
+        "Looks",
+        "Events",
+        "Brands",
+        "Tips",
+        "Stories",
+        "People",
+        "Culture",
+        "Vibes",
+        "Fun",
+        "Travel",
+        "Beach",
+        "Night",
+        "Sport",
+        "Chill"
+      ],
+      "exampleSlug": "index",
+      "exampleSelector": "footer.footer.inverse-footer",
+      "examplePages": [
+        "blog-ace-pro-court-polo",
+        "blog-fashion-blog-post",
+        "blog-fashion-trends-young-culture",
+        "blog-fashion-trends-young-style",
+        "blog-flip-flop-summer-style"
+      ],
+      "notes": "black inverse footer, logo left, 3 link columns × 5 links (all href=\"#\"), 5 circular social icons"
+    },
+    {
+      "name": "cta-band",
+      "kind": "cta-band",
+      "occurrences": 6,
+      "examplePages": [
+        "blog",
+        "faq",
+        "fashion-insights",
+        "fashion-trends-of-the-season",
+        "fashion-trends-young-adults-casual-sport"
+      ],
+      "exampleSlug": "blog",
+      "exampleSelector": "main section:nth-of-type(3)",
+      "ctaLabels": [
+        "Subscribe",
+        "Join",
+        "See trends",
+        "Explore the blog"
+      ],
+      "notes": "lime #f4fe8b band, centered Syncopate headline + 2 pill buttons"
+    },
+    {
+      "name": "snapshot-gallery",
+      "kind": "other",
+      "occurrences": 5,
+      "examplePages": [
+        "case-studies",
+        "fashion-insights",
+        "fashion-trends-of-the-season",
+        "fashion-trends-young-adults",
+        "index"
+      ],
+      "exampleSlug": "index",
+      "exampleSelector": "main section:nth-of-type(2)",
+      "headingSequence": [
+        "Style in every snapshot"
+      ],
+      "notes": "rounded photo tile grid (2×4 / 3-col)"
+    },
+    {
+      "name": "article-card-grid",
+      "kind": "other",
+      "occurrences": 5,
+      "examplePages": [
+        "blog",
+        "fashion-insights",
+        "fashion-trends-young-adults-casual-sport",
+        "fashion-trends-young-adults",
+        "index"
+      ],
+      "exampleSlug": "index",
+      "exampleSelector": "main section:nth-of-type(4)",
+      "headingSequence": [
+        "Latest articles | Trend alert"
+      ],
+      "notes": "3–4 column cards: rounded image, lime tag pill, h3 title, excerpt"
+    },
+    {
+      "name": "featured-story",
+      "kind": "cross-promo",
+      "occurrences": 2,
+      "examplePages": [
+        "blog",
+        "fashion-trends-of-the-season"
+      ],
+      "exampleSlug": "blog",
+      "exampleSelector": "main section:nth-of-type(1)",
+      "notes": "single featured card: image + breadcrumb-ish label + h2 + byline/pill"
+    },
+    {
+      "name": "faq-accordion",
+      "kind": "other",
+      "occurrences": 2,
+      "examplePages": [
+        "faq",
+        "index"
+      ],
+      "exampleSlug": "index",
+      "exampleSelector": "main section:nth-of-type(5)",
+      "notes": "4 × details/summary; on home under \"Got questions? We've got answers.\" and on /faq"
+    },
+    {
+      "name": "image-cta-inverse",
+      "kind": "cta-band",
+      "occurrences": 2,
+      "examplePages": [
+        "case-studies",
+        "index"
+      ],
+      "exampleSlug": "index",
+      "exampleSelector": "main section:nth-of-type(6)",
+      "notes": "full-bleed dark photo with bottom-up black gradient, white Syncopate headline, white pill button"
+    },
+    {
+      "name": "breadcrumb",
+      "kind": "breadcrumb",
+      "occurrences": 7,
+      "exampleSlug": "blog-ace-pro-court-polo",
+      "exampleSelector": ".breadcrumbs",
+      "examplePages": [
+        "blog-ace-pro-court-polo",
+        "blog-fashion-blog-post",
+        "blog-fashion-trends-young-culture",
+        "blog-fashion-trends-young-style",
+        "blog-flip-flop-summer-style"
+      ],
+      "notes": "Home › Blog on every article"
+    }
+  ],
+  "iconFont": null,
+  "voice": {
+    "heroHeadline": "Fresh looks, bold stories, real life",
+    "heroSubcopy": "Dive into our latest style adventures—see how young trendsetters own every moment, from courtside to the dance floor.",
+    "heroImage": {
+      "url": "https://www.wknd-trendsetters.site/images/hero-hiphop-dance.avif",
+      "alt": "Hip-hop dance style",
+      "source": "img",
+      "domPath": "header.section > div > div > div:nth-of-type(2) > img:nth-of-type(1)",
+      "localPath": null,
+      "rect": null,
+      "notes": "first of a 3-image rounded collage (hero-hiphop-dance / hero-family-vacation / hero-music-concert.avif)"
+    },
+    "heroMedium": null,
+    "primaryCTALabel": "See case",
+    "ctaSamples": [
+      "See case",
+      "All stories",
+      "Subscribe",
+      "See trends",
+      "Explore the blog",
+      "Read the full article"
+    ],
+    "navItems": [
+      "Trends",
+      "About",
+      "Blog",
+      "Support",
+      "Subscribe"
+    ],
+    "footerHeadings": [
+      "Trends",
+      "Inspire",
+      "Explore"
+    ],
+    "firstParagraph": "Peek the latest looks in action",
+    "tone": {
+      "guess": "playful-bright",
+      "evidence": "short imperative fragments (\"Fresh looks, bold stories, real life\"), second-person, slang-adjacent (\"fits that serve\", \"Game on, style up\"), em-dash asides, no jargon"
+    },
+    "siteName": "WKND Trendsetters",
+    "wordmark": "Fashion Blog",
+    "tagline": "Fresh looks, bold stories, real life",
+    "sources": [
+      {
+        "url": "https://www.wknd-trendsetters.site/",
+        "selector": "header h1.h1-heading"
+      },
+      {
+        "url": "https://www.wknd-trendsetters.site/",
+        "selector": "header p.subheading"
+      }
+    ]
+  },
+  "voiceTable": {
+    "ctaLabels": [
+      {
+        "label": "Fashion Blog",
+        "count": 30
+      },
+      {
+        "label": "Blog",
+        "count": 22
+      },
+      {
+        "label": "Subscribe",
+        "count": 19
+      },
+      {
+        "label": "Skip to main content",
+        "count": 15
+      },
+      {
+        "label": "About",
+        "count": 15
+      },
+      {
+        "label": "Style",
+        "count": 15
+      },
+      {
+        "label": "Looks",
+        "count": 15
+      },
+      {
+        "label": "Events",
+        "count": 15
+      },
+      {
+        "label": "Brands",
+        "count": 15
+      },
+      {
+        "label": "Tips",
+        "count": 15
+      },
+      {
+        "label": "Stories",
+        "count": 15
+      },
+      {
+        "label": "People",
+        "count": 15
+      },
+      {
+        "label": "Culture",
+        "count": 15
+      },
+      {
+        "label": "Vibes",
+        "count": 15
+      },
+      {
+        "label": "Fun",
+        "count": 15
+      },
+      {
+        "label": "Travel",
+        "count": 15
+      },
+      {
+        "label": "Beach",
+        "count": 15
+      },
+      {
+        "label": "Night",
+        "count": 15
+      },
+      {
+        "label": "Sport",
+        "count": 15
+      },
+      {
+        "label": "Chill",
+        "count": 15
+      },
+      {
+        "label": "Home",
+        "count": 9
+      },
+      {
+        "label": "See trends",
+        "count": 5
+      },
+      {
+        "label": "Explore the blog",
+        "count": 3
+      },
+      {
+        "label": "Read now",
+        "count": 2
+      },
+      {
+        "label": "Read the full article",
+        "count": 2
+      },
+      {
+        "label": "See case",
+        "count": 2
+      },
+      {
+        "label": "Alex Rivera Streetwear Enthusiast",
+        "count": 2
+      },
+      {
+        "label": "Taylor Kim Casual Style Blogger",
+        "count": 2
+      },
+      {
+        "label": "Jordan Ellis Trend Spotter",
+        "count": 2
+      },
+      {
+        "label": "Morgan Blake Party Scene Curator",
+        "count": 2
+      }
+    ],
+    "headlinePatterns": [
+      "\"Fresh looks, bold …\" triad",
+      "noun + comma + imperative (\"Game on, style up\")",
+      "question headline for FAQ (\"Got questions? We've got answers.\")"
+    ]
+  },
+  "crossPromo": {
+    "detected": [
+      "cta-band",
+      "featured-story",
+      "image-cta-inverse"
+    ],
+    "notes": "subscribe/newsletter CTA band on most pages; no third-party promos"
+  },
+  "register": "brand",
+  "dynamicSurface": {
+    "summary": "static site: 0 same-site data endpoints, 0 forms, 0 third-party script hosts, 0 hydration hints (crawl.mjs --dynamics)",
+    "interactive": [
+      "nav mega-menu (Trends/Support carets)",
+      "details/summary FAQ accordion",
+      "Cloudflare email-protection link (/cdn-cgi/l/email-protection → 404 when fetched directly)"
+    ]
+  }
+}

@@ -1,0 +1,17 @@
+/* index.css — landing archetype (/) page-specific layer.
+   Every module on the home page (hero collage, featured story, snapshot gallery, testimonial tabs,
+   article-card grid, FAQ accordion, CTA band) is a shared module carried by canon.css. The live
+   page's per-instance geometry (grid align-items, card-body padding, CTA min-height, hero image
+   radius/aspect, footer logo colour…) is authored on the live DOM as inline style attributes and is
+   mirrored verbatim on the prototype markup — nothing page-specific lives in a stylesheet. */
+
+/* trend-card — landing variant `trend-card` (fashion-trends-young-adults-casual-sport only). Lifted verbatim
+   from that page's own scoped <style> (Astro data-astro-cid-5nygekyv, 675 chars); the site-wide site.css
+   has no rule for these classes, so the sibling-variance probe (1440, selector set without .trend-card)
+   could not see it — the pixel bar did (pb1: 25.14 %/Δ156 @1440, 48.96 %/Δ778 @360). */
+.trend-card { display: block; border-radius: var(--radius-card); overflow: hidden; border: 1px solid var(--color-gray-200); transition: transform .3s ease, box-shadow .3s ease; }
+.trend-card:hover { transform: translateY(-4px); box-shadow: 0 8px 24px #0000001a; }
+.trend-card-image { aspect-ratio: 4 / 3; overflow: hidden; }
+.trend-card-image img { transition: transform .3s ease; }
+.trend-card:hover .trend-card-image img { transform: scale(1.05); }
+.trend-card-body { padding: var(--space-lg); }

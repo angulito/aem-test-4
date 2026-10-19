@@ -1,0 +1,216 @@
+{
+  "generatedAt": "2026-09-28T14:31:15.447Z",
+  "target": "aem-eds",
+  "site": {
+    "sourceUrl": "https://www.wknd-trendsetters.site/",
+    "liveHost": "main--e45f2fd7--aemcoder.aem.page"
+  },
+  "stageCount": {
+    "identified": 15,
+    "prototyped": 15,
+    "deployed": 15,
+    "optimised": 15
+  },
+  "stageExclusive": {
+    "identified": 0,
+    "prototyped": 0,
+    "deployed": 0,
+    "optimised": 15
+  },
+  "pages": [
+    {
+      "slug": "index",
+      "path": "/",
+      "stage": "optimised",
+      "templateId": "index",
+      "isTemplate": true,
+      "openFindings": 0
+    },
+    {
+      "slug": "blog",
+      "path": "/blog",
+      "stage": "optimised",
+      "templateId": "blog",
+      "isTemplate": true,
+      "openFindings": 0
+    },
+    {
+      "slug": "blog-ace-pro-court-polo",
+      "path": "/blog/ace-pro-court-polo",
+      "stage": "optimised",
+      "templateId": "blog-ace-pro-court-polo",
+      "isTemplate": true,
+      "openFindings": 0
+    },
+    {
+      "slug": "blog-fashion-blog-post",
+      "path": "/blog/fashion-blog-post",
+      "stage": "optimised",
+      "templateId": "blog-ace-pro-court-polo",
+      "isTemplate": false,
+      "openFindings": 0
+    },
+    {
+      "slug": "blog-fashion-trends-young-culture",
+      "path": "/blog/fashion-trends-young-culture",
+      "stage": "optimised",
+      "templateId": "blog-ace-pro-court-polo",
+      "isTemplate": false,
+      "openFindings": 0
+    },
+    {
+      "slug": "blog-fashion-trends-young-style",
+      "path": "/blog/fashion-trends-young-style",
+      "stage": "optimised",
+      "templateId": "blog-ace-pro-court-polo",
+      "isTemplate": false,
+      "openFindings": 0
+    },
+    {
+      "slug": "blog-flip-flop-summer-style",
+      "path": "/blog/flip-flop-summer-style",
+      "stage": "optimised",
+      "templateId": "blog-ace-pro-court-polo",
+      "isTemplate": false,
+      "openFindings": 0
+    },
+    {
+      "slug": "blog-latest-trends-young-casual-fashion",
+      "path": "/blog/latest-trends-young-casual-fashion",
+      "stage": "optimised",
+      "templateId": "blog-ace-pro-court-polo",
+      "isTemplate": false,
+      "openFindings": 0
+    },
+    {
+      "slug": "blog-street-style-trends",
+      "path": "/blog/street-style-trends",
+      "stage": "optimised",
+      "templateId": "blog-ace-pro-court-polo",
+      "isTemplate": false,
+      "openFindings": 0
+    },
+    {
+      "slug": "case-studies",
+      "path": "/case-studies",
+      "stage": "optimised",
+      "templateId": "index",
+      "isTemplate": false,
+      "openFindings": 0
+    },
+    {
+      "slug": "faq",
+      "path": "/faq",
+      "stage": "optimised",
+      "templateId": "faq",
+      "isTemplate": true,
+      "openFindings": 0
+    },
+    {
+      "slug": "fashion-insights",
+      "path": "/fashion-insights",
+      "stage": "optimised",
+      "templateId": "blog",
+      "isTemplate": false,
+      "openFindings": 0
+    },
+    {
+      "slug": "fashion-trends-of-the-season",
+      "path": "/fashion-trends-of-the-season",
+      "stage": "optimised",
+      "templateId": "index",
+      "isTemplate": false,
+      "openFindings": 0
+    },
+    {
+      "slug": "fashion-trends-young-adults",
+      "path": "/fashion-trends-young-adults",
+      "stage": "optimised",
+      "templateId": "index",
+      "isTemplate": false,
+      "openFindings": 0
+    },
+    {
+      "slug": "fashion-trends-young-adults-casual-sport",
+      "path": "/fashion-trends-young-adults-casual-sport",
+      "stage": "optimised",
+      "templateId": "index",
+      "isTemplate": false,
+      "openFindings": 0
+    }
+  ],
+  "templates": [
+    {
+      "id": "blog",
+      "archetype": "blog",
+      "pageCount": 2,
+      "stages": {
+        "identified": 0,
+        "prototyped": 0,
+        "deployed": 0,
+        "optimised": 2
+      }
+    },
+    {
+      "id": "blog-ace-pro-court-polo",
+      "archetype": "blog-ace-pro-court-polo",
+      "pageCount": 7,
+      "stages": {
+        "identified": 0,
+        "prototyped": 0,
+        "deployed": 0,
+        "optimised": 7
+      }
+    },
+    {
+      "id": "faq",
+      "archetype": "faq",
+      "pageCount": 1,
+      "stages": {
+        "identified": 0,
+        "prototyped": 0,
+        "deployed": 0,
+        "optimised": 1
+      }
+    },
+    {
+      "id": "index",
+      "archetype": "index",
+      "pageCount": 5,
+      "stages": {
+        "identified": 0,
+        "prototyped": 0,
+        "deployed": 0,
+        "optimised": 5
+      }
+    }
+  ],
+  "blocks": {
+    "total": 11,
+    "converted": 11
+  },
+  "quality": {
+    "overall": 100,
+    "dimensions": {
+      "brand-tensions": null,
+      "design-ux": null,
+      "accessibility": null,
+      "seo": null,
+      "content-conversion": null,
+      "ai-search": 100,
+      "cross-page": 100
+    },
+    "severity": {
+      "P1": 0,
+      "P2": 0,
+      "P3": 0
+    },
+    "history": [
+      100
+    ]
+  },
+  "findings": {
+    "byFixability": {},
+    "byAutofix": {}
+  }
+}

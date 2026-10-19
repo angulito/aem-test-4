@@ -1,0 +1,184 @@
+{
+ "source": "http://localhost:8794/stardust/migrated/fashion-trends-young-adults/index.html",
+ "width": 1280,
+ "profile": "generic",
+ "sections": [
+  {
+   "section": "1",
+   "items": [
+    {
+     "role": "heading",
+     "order": 0,
+     "text": "Fresh fits, bold moves. Style that never sleeps"
+    },
+    {
+     "role": "body",
+     "order": 1,
+     "text": "Dive into the latest streetwear, sport-inspired looks, and party-ready outfits. See how real people rock new brands while living their best lives—on the court, at the beach, or out all night."
+    },
+    {
+     "role": "cta",
+     "order": 2,
+     "text": "See trends",
+     "href": "#trends"
+    },
+    {
+     "role": "cta",
+     "order": 3,
+     "text": "Explore the blog",
+     "href": "../fashion-insights/index.html"
+    }
+   ],
+   "imgCount": 3,
+   "editableTexts": 2,
+   "repeats": []
+  },
+  {
+   "section": "2",
+   "items": [
+    {
+     "role": "heading",
+     "order": 0,
+     "text": "Tennis looks, game strong"
+    },
+    {
+     "role": "body",
+     "order": 1,
+     "text": "Crisp polos, bold sneakers, and clean lines—serve up your best style on and off the court."
+    },
+    {
+     "role": "heading",
+     "order": 2,
+     "text": "Beach vibes, sun-kissed style"
+    },
+    {
+     "role": "body",
+     "order": 3,
+     "text": "Breezy linen, bucket hats, and sandals—catch waves and compliments all day long."
+    },
+    {
+     "role": "heading",
+     "order": 4,
+     "text": "Party nights, trend on"
+    },
+    {
+     "role": "body",
+     "order": 5,
+     "text": "Neon accents, metallics, and statement jackets—light up the night with your look."
+    }
+   ],
+   "imgCount": 3,
+   "editableTexts": 6,
+   "repeats": [
+    {
+     "unitSelector": "DIV.",
+     "count": 3,
+     "unit": {
+      "headings": 1,
+      "ctas": 0,
+      "imgs": 1,
+      "textRuns": 2
+     },
+     "uniform": true
+    }
+   ]
+  },
+  {
+   "section": "3",
+   "items": [
+    {
+     "role": "heading",
+     "order": 0,
+     "text": "Young style, real stories"
+    },
+    {
+     "role": "body",
+     "order": 1,
+     "text": "Dive into the latest looks, street style inspo, and stories from the coolest scenes."
+    }
+   ],
+   "imgCount": 0,
+   "editableTexts": 2,
+   "repeats": []
+  },
+  {
+   "section": "4",
+   "items": [
+    {
+     "role": "heading",
+     "order": 0,
+     "text": "Trends for every vibe"
+    }
+   ],
+   "imgCount": 4,
+   "editableTexts": 5,
+   "repeats": [
+    {
+     "unitSelector": "A.article-card",
+     "count": 4,
+     "unit": {
+      "headings": 1,
+      "ctas": 0,
+      "imgs": 1,
+      "textRuns": 3
+     },
+     "uniform": true
+    }
+   ]
+  },
+  {
+   "section": "5",
+   "items": [
+    {
+     "role": "heading",
+     "order": 0,
+     "text": "Style in every snapshot"
+    },
+    {
+     "role": "body",
+     "order": 1,
+     "text": "Trendy looks, real moments"
+    }
+   ],
+   "imgCount": 4,
+   "editableTexts": 2,
+   "repeats": [
+    {
+     "unitSelector": "DIV.utility-aspect-1x1",
+     "count": 4,
+     "unit": {
+      "headings": 0,
+      "ctas": 0,
+      "imgs": 1,
+      "textRuns": 0
+     },
+     "uniform": true
+    }
+   ]
+  },
+  {
+   "section": "6",
+   "items": [
+    {
+     "role": "heading",
+     "order": 0,
+     "text": "Fresh fits, bold moves"
+    },
+    {
+     "role": "body",
+     "order": 1,
+     "text": "Discover your next look."
+    },
+    {
+     "role": "cta",
+     "order": 2,
+     "text": "Subscribe",
+     "href": "#"
+    }
+   ],
+   "imgCount": 0,
+   "editableTexts": 2,
+   "repeats": []
+  }
+ ]
+}

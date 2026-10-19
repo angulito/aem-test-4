@@ -1,0 +1,231 @@
+{
+  "archetype": "https://www.wknd-trendsetters.site/blog",
+  "width": 1440,
+  "tolerance": 2,
+  "probes": {
+    "hero": "main .section:first-of-type",
+    "card": ".article-card",
+    "accent": ".accent-section"
+  },
+  "archetypeRaw": {
+    "sections": [
+      {
+        "label": "secondary-section",
+        "h": 634
+      },
+      {
+        "label": "section[1]",
+        "h": 632
+      },
+      {
+        "label": "secondary-section",
+        "h": 1080
+      },
+      {
+        "label": "accent-section",
+        "h": 515
+      }
+    ],
+    "probes": {
+      "hero": {
+        "sel": "main .section:first-of-type",
+        "count": 2,
+        "first": {
+          "rect": {
+            "w": 1440,
+            "h": 634
+          },
+          "backgroundLayers": [],
+          "backgroundColor": "rgb(245, 245, 245)",
+          "color": "rgb(0, 0, 0)",
+          "padding": "128px 0px 128px 0px",
+          "font": "instrument sans 16px/25.6px 400",
+          "borderRadius": "0px",
+          "heading": "h1 syncopate 56px/61.6px 700 rgb(0, 0, 0)",
+          "image": {
+            "w": 252,
+            "h": 168
+          },
+          "listStyle": "disc",
+          "before": null
+        },
+        "clusters": 2,
+        "text": "WKND Trendsetters Blog From tennis courts to neon nights, di"
+      },
+      "card": {
+        "sel": ".article-card",
+        "count": 6,
+        "first": {
+          "rect": {
+            "w": 276,
+            "h": 359
+          },
+          "backgroundLayers": [],
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "color": "rgb(0, 0, 0)",
+          "padding": "0px 0px 0px 0px",
+          "font": "instrument sans 16px/25.6px 400",
+          "borderRadius": "20px",
+          "heading": "h3 syncopate 18px/19.8px 700 rgb(0, 0, 0)",
+          "image": {
+            "w": 274,
+            "h": 171
+          },
+          "listStyle": "disc",
+          "before": null
+        },
+        "clusters": 1,
+        "text": "Beach Vibes February 22, 2026 Slide into summer — flip flops"
+      },
+      "accent": {
+        "sel": ".accent-section",
+        "count": 1,
+        "first": {
+          "rect": {
+            "w": 1440,
+            "h": 515
+          },
+          "backgroundLayers": [],
+          "backgroundColor": "rgb(244, 254, 139)",
+          "color": "rgb(0, 0, 0)",
+          "padding": "128px 0px 128px 0px",
+          "font": "instrument sans 16px/25.6px 400",
+          "borderRadius": "0px",
+          "heading": "h2 syncopate 40px/44px 700 rgb(0, 0, 0)",
+          "image": null,
+          "listStyle": "disc",
+          "before": null
+        },
+        "clusters": 1,
+        "text": "Fresh looks, bold vibes, endless inspoStay inspired with the"
+      }
+    }
+  },
+  "siblings": [
+    {
+      "url": "https://www.wknd-trendsetters.site/fashion-insights",
+      "findings": [
+        {
+          "kind": "SECTIONS",
+          "msg": "4 vs 5 top-level sections (archetype: secondary-section > section[1] > secondary-section > accent-section; sibling: secondary-section > section[1] > secondary-section > section[3] > accent-section) — a different template family or an extra/missing section"
+        },
+        {
+          "kind": "COUNT",
+          "probe": "card",
+          "msg": "6 → 4 matches"
+        },
+        {
+          "kind": "PROBE",
+          "probe": "card",
+          "msg": "rect{h 359 → 300}"
+        }
+      ],
+      "raw": {
+        "sections": [
+          {
+            "label": "secondary-section",
+            "h": 634
+          },
+          {
+            "label": "section[1]",
+            "h": 632
+          },
+          {
+            "label": "secondary-section",
+            "h": 705
+          },
+          {
+            "label": "section[3]",
+            "h": 1233
+          },
+          {
+            "label": "accent-section",
+            "h": 515
+          }
+        ],
+        "probes": {
+          "hero": {
+            "sel": "main .section:first-of-type",
+            "count": 2,
+            "first": {
+              "rect": {
+                "w": 1440,
+                "h": 634
+              },
+              "backgroundLayers": [],
+              "backgroundColor": "rgb(245, 245, 245)",
+              "color": "rgb(0, 0, 0)",
+              "padding": "128px 0px 128px 0px",
+              "font": "instrument sans 16px/25.6px 400",
+              "borderRadius": "0px",
+              "heading": "h1 syncopate 56px/61.6px 700 rgb(0, 0, 0)",
+              "image": {
+                "w": 252,
+                "h": 168
+              },
+              "listStyle": "disc",
+              "before": null
+            },
+            "clusters": 2,
+            "text": "WKND Trendsetters Blog From tennis courts to neon nights, di"
+          },
+          "card": {
+            "sel": ".article-card",
+            "count": 4,
+            "first": {
+              "rect": {
+                "w": 276,
+                "h": 300
+              },
+              "backgroundLayers": [],
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "color": "rgb(0, 0, 0)",
+              "padding": "0px 0px 0px 0px",
+              "font": "instrument sans 16px/25.6px 400",
+              "borderRadius": "20px",
+              "heading": "h3 syncopate 18px/19.8px 700 rgb(0, 0, 0)",
+              "image": {
+                "w": 274,
+                "h": 171
+              },
+              "listStyle": "disc",
+              "before": null
+            },
+            "clusters": 1,
+            "text": "Casual Cool May 12 Tennis style, redefined"
+          },
+          "accent": {
+            "sel": ".accent-section",
+            "count": 1,
+            "first": {
+              "rect": {
+                "w": 1440,
+                "h": 515
+              },
+              "backgroundLayers": [],
+              "backgroundColor": "rgb(244, 254, 139)",
+              "color": "rgb(0, 0, 0)",
+              "padding": "128px 0px 128px 0px",
+              "font": "instrument sans 16px/25.6px 400",
+              "borderRadius": "0px",
+              "heading": "h2 syncopate 40px/44px 700 rgb(0, 0, 0)",
+              "image": null,
+              "listStyle": "disc",
+              "before": null
+            },
+            "clusters": 1,
+            "text": "Fresh looks, bold vibes, endless inspoStay inspired with the"
+          }
+        }
+      }
+    }
+  ],
+  "summary": {
+    "siblings": 1,
+    "varying": 1,
+    "probesVarying": [
+      "SECTIONS",
+      "card"
+    ]
+  }
+}

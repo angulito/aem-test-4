@@ -1,0 +1,200 @@
+{
+ "_provenance": {
+  "writtenBy": "stardust:dynamics detect",
+  "writtenAt": "2026-09-28T11:59:23.203Z",
+  "settleMs": 5000,
+  "width": 1440,
+  "urls": [
+   "https://www.wknd-trendsetters.site/",
+   "https://www.wknd-trendsetters.site/blog",
+   "https://www.wknd-trendsetters.site/blog/ace-pro-court-polo",
+   "https://www.wknd-trendsetters.site/faq"
+  ],
+  "reachSource": "stardust/current/pages"
+ },
+ "pages": {
+  "/": {
+   "url": "https://www.wknd-trendsetters.site/",
+   "status": 200,
+   "host": "www.wknd-trendsetters.site",
+   "title": "WKND Trendsetters - Fresh Looks, Bold Stories, Real Life",
+   "forms": [],
+   "controlGroups": [],
+   "triggers": [],
+   "dialogs": [],
+   "dialogCount": 0,
+   "media": [],
+   "iframes": [],
+   "mounts": [],
+   "auth": [],
+   "commerce": {
+    "cart": false,
+    "prices": 0
+   },
+   "locale": {
+    "lang": "en",
+    "hreflang": [],
+    "switcher": []
+   },
+   "cms": {},
+   "framework": null,
+   "globals": [],
+   "clientRendered": [],
+   "listingCandidates": [],
+   "inlineScripts": 2,
+   "inlineFetch": false,
+   "mainText": 1242,
+   "domAddedAfterLoad": 0,
+   "hosts": {
+    "www.wknd-trendsetters.site": 21
+   },
+   "thirdPartyHosts": [],
+   "scripts": [],
+   "firstPartyApi": [],
+   "thirdPartyXhr": [],
+   "postBodies": [],
+   "textAtLoad": 1242,
+   "mainEmptyAtLoad": false
+  },
+  "/blog": {
+   "url": "https://www.wknd-trendsetters.site/blog",
+   "status": 200,
+   "host": "www.wknd-trendsetters.site",
+   "title": "Blog — WKND Trendsetters",
+   "forms": [],
+   "controlGroups": [],
+   "triggers": [],
+   "dialogs": [],
+   "dialogCount": 0,
+   "media": [],
+   "iframes": [],
+   "mounts": [],
+   "auth": [],
+   "commerce": {
+    "cart": false,
+    "prices": 0
+   },
+   "locale": {
+    "lang": "en",
+    "hreflang": [],
+    "switcher": []
+   },
+   "cms": {},
+   "framework": null,
+   "globals": [],
+   "clientRendered": [],
+   "listingCandidates": [],
+   "inlineScripts": 1,
+   "inlineFetch": false,
+   "mainText": 869,
+   "domAddedAfterLoad": 0,
+   "hosts": {
+    "www.wknd-trendsetters.site": 13
+   },
+   "thirdPartyHosts": [],
+   "scripts": [],
+   "firstPartyApi": [],
+   "thirdPartyXhr": [],
+   "postBodies": [],
+   "textAtLoad": 869,
+   "mainEmptyAtLoad": false
+  },
+  "/blog/ace-pro-court-polo": {
+   "url": "https://www.wknd-trendsetters.site/blog/ace-pro-court-polo",
+   "status": 200,
+   "host": "www.wknd-trendsetters.site",
+   "title": "Court cool, street ready — the Ace Pro polo | Fashion Blog",
+   "forms": [],
+   "controlGroups": [],
+   "triggers": [],
+   "dialogs": [],
+   "dialogCount": 0,
+   "media": [],
+   "iframes": [],
+   "mounts": [],
+   "auth": [],
+   "commerce": {
+    "cart": false,
+    "prices": 0
+   },
+   "locale": {
+    "lang": "en",
+    "hreflang": [],
+    "switcher": []
+   },
+   "cms": {},
+   "framework": null,
+   "globals": [],
+   "clientRendered": [],
+   "listingCandidates": [],
+   "inlineScripts": 1,
+   "inlineFetch": false,
+   "mainText": 3565,
+   "domAddedAfterLoad": 0,
+   "hosts": {
+    "www.wknd-trendsetters.site": 8
+   },
+   "thirdPartyHosts": [],
+   "scripts": [],
+   "firstPartyApi": [],
+   "thirdPartyXhr": [],
+   "postBodies": [],
+   "textAtLoad": 3565,
+   "mainEmptyAtLoad": false
+  },
+  "/faq": {
+   "url": "https://www.wknd-trendsetters.site/faq",
+   "status": 200,
+   "host": "www.wknd-trendsetters.site",
+   "title": "FAQ - The Fashion Blog",
+   "forms": [],
+   "controlGroups": [],
+   "triggers": [],
+   "dialogs": [],
+   "dialogCount": 0,
+   "media": [],
+   "iframes": [],
+   "mounts": [],
+   "auth": [],
+   "commerce": {
+    "cart": false,
+    "prices": 0
+   },
+   "locale": {
+    "lang": "en",
+    "hreflang": [],
+    "switcher": []
+   },
+   "cms": {},
+   "framework": null,
+   "globals": [],
+   "clientRendered": [],
+   "listingCandidates": [],
+   "inlineScripts": 1,
+   "inlineFetch": false,
+   "mainText": 549,
+   "domAddedAfterLoad": 0,
+   "hosts": {
+    "www.wknd-trendsetters.site": 7
+   },
+   "thirdPartyHosts": [],
+   "scripts": [
+    "https://www.wknd-trendsetters.site/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"
+   ],
+   "firstPartyApi": [],
+   "thirdPartyXhr": [],
+   "postBodies": [],
+   "textAtLoad": 549,
+   "mainEmptyAtLoad": false
+  }
+ },
+ "findings": [],
+ "reach": {
+  "pagesWithEvidence": 15,
+  "of": 15,
+  "endpoints": {},
+  "searchFormPages": 0,
+  "formPages": 0,
+  "triggerPages": {}
+ }
+}

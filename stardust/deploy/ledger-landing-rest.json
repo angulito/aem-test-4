@@ -1,0 +1,29 @@
+{
+  "/fashion-trends-of-the-season": {
+    "status": "live",
+    "attempts": 1,
+    "ts": "2026-09-28T13:51:20.472Z",
+    "put": 201,
+    "preview": 200,
+    "live": 200,
+    "verify": "ok"
+  },
+  "/fashion-trends-young-adults-casual-sport": {
+    "status": "live",
+    "attempts": 1,
+    "ts": "2026-09-28T13:51:26.917Z",
+    "put": 201,
+    "preview": 200,
+    "live": 200,
+    "verify": "ok"
+  },
+  "/fashion-trends-young-adults": {
+    "status": "live",
+    "attempts": 1,
+    "ts": "2026-09-28T13:51:31.938Z",
+    "put": 201,
+    "preview": 200,
+    "live": 200,
+    "verify": "ok"
+  }
+}

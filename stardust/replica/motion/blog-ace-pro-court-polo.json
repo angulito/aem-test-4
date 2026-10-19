@@ -1,0 +1,533 @@
+{
+  "url": "https://www.wknd-trendsetters.site/blog/ace-pro-court-polo",
+  "width": 1440,
+  "headerTimeline": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null
+  ],
+  "widgetSamples": [],
+  "hoverSamples": [
+    {
+      "sel": ".nav-link",
+      "changed": [
+        "self.background"
+      ],
+      "before": {
+        "self": {
+          "transform": "none",
+          "color": "rgb(0, 0, 0)",
+          "background": "rgba(0, 0, 0, 0)",
+          "boxShadow": "none",
+          "opacity": "1",
+          "transition": "background-color 0.15s"
+        },
+        "subs": []
+      },
+      "after": {
+        "self": {
+          "transform": "none",
+          "color": "rgb(0, 0, 0)",
+          "background": "rgb(245, 245, 245)",
+          "boxShadow": "none",
+          "opacity": "1",
+          "transition": "background-color 0.15s"
+        },
+        "subs": []
+      }
+    },
+    {
+      "sel": ".nav-right",
+      "changed": [
+        "a.button.transform",
+        "a.button.boxShadow"
+      ],
+      "before": {
+        "self": {
+          "transform": "none",
+          "color": "rgb(0, 0, 0)",
+          "background": "rgba(0, 0, 0, 0)",
+          "boxShadow": "none",
+          "opacity": "1",
+          "transition": "all"
+        },
+        "subs": [
+          {
+            "el": "a.button",
+            "transform": "none",
+            "color": "rgb(255, 255, 255)",
+            "background": "rgb(0, 0, 0)",
+            "boxShadow": "rgb(0, 0, 0) 4px 4px 0px 0px",
+            "opacity": "1",
+            "transition": "transform 0.15s, box-shadow 0.15s"
+          }
+        ]
+      },
+      "after": {
+        "self": {
+          "transform": "none",
+          "color": "rgb(0, 0, 0)",
+          "background": "rgba(0, 0, 0, 0)",
+          "boxShadow": "none",
+          "opacity": "1",
+          "transition": "all"
+        },
+        "subs": [
+          {
+            "el": "a.button",
+            "transform": "matrix(1, 0, 0, 1, -2, -2)",
+            "color": "rgb(255, 255, 255)",
+            "background": "rgb(0, 0, 0)",
+            "boxShadow": "rgb(0, 0, 0) 6px 6px 0px 0px",
+            "opacity": "1",
+            "transition": "transform 0.15s, box-shadow 0.15s"
+          }
+        ]
+      }
+    },
+    {
+      "sel": ".mega-nav-link-item",
+      "changed": [],
+      "before": {
+        "self": {
+          "transform": "none",
+          "color": "rgb(0, 0, 0)",
+          "background": "rgba(0, 0, 0, 0)",
+          "boxShadow": "none",
+          "opacity": "1",
+          "transition": "background-color 0.15s"
+        },
+        "subs": [
+          {
+            "el": "div.icon-medium",
+            "transform": "none",
+            "color": "rgb(0, 0, 0)",
+            "background": "rgba(0, 0, 0, 0)",
+            "boxShadow": "none",
+            "opacity": "1",
+            "transition": "all"
+          }
+        ]
+      },
+      "after": {
+        "self": {
+          "transform": "none",
+          "color": "rgb(0, 0, 0)",
+          "background": "rgba(0, 0, 0, 0)",
+          "boxShadow": "none",
+          "opacity": "1",
+          "transition": "background-color 0.15s"
+        },
+        "subs": [
+          {
+            "el": "div.icon-medium",
+            "transform": "none",
+            "color": "rgb(0, 0, 0)",
+            "background": "rgba(0, 0, 0, 0)",
+            "boxShadow": "none",
+            "opacity": "1",
+            "transition": "all"
+          }
+        ]
+      }
+    },
+    {
+      "sel": ".breadcrumbs",
+      "changed": [],
+      "before": {
+        "self": {
+          "transform": "none",
+          "color": "rgb(0, 0, 0)",
+          "background": "rgba(0, 0, 0, 0)",
+          "boxShadow": "none",
+          "opacity": "1",
+          "transition": "all"
+        },
+        "subs": [
+          {
+            "el": "a.text-link",
+            "transform": "none",
+            "color": "rgb(0, 0, 0)",
+            "background": "rgba(0, 0, 0, 0)",
+            "boxShadow": "none",
+            "opacity": "1",
+            "transition": "opacity 0.15s"
+          },
+          {
+            "el": "a.text-link.secondary-text-link",
+            "transform": "none",
+            "color": "rgb(102, 102, 102)",
+            "background": "rgba(0, 0, 0, 0)",
+            "boxShadow": "none",
+            "opacity": "1",
+            "transition": "opacity 0.15s"
+          }
+        ]
+      },
+      "after": {
+        "self": {
+          "transform": "none",
+          "color": "rgb(0, 0, 0)",
+          "background": "rgba(0, 0, 0, 0)",
+          "boxShadow": "none",
+          "opacity": "1",
+          "transition": "all"
+        },
+        "subs": [
+          {
+            "el": "a.text-link",
+            "transform": "none",
+            "color": "rgb(0, 0, 0)",
+            "background": "rgba(0, 0, 0, 0)",
+            "boxShadow": "none",
+            "opacity": "1",
+            "transition": "opacity 0.15s"
+          },
+          {
+            "el": "a.text-link.secondary-text-link",
+            "transform": "none",
+            "color": "rgb(102, 102, 102)",
+            "background": "rgba(0, 0, 0, 0)",
+            "boxShadow": "none",
+            "opacity": "1",
+            "transition": "opacity 0.15s"
+          }
+        ]
+      }
+    },
+    {
+      "sel": ".secondary-text-link",
+      "changed": [
+        "self.opacity"
+      ],
+      "before": {
+        "self": {
+          "transform": "none",
+          "color": "rgb(102, 102, 102)",
+          "background": "rgba(0, 0, 0, 0)",
+          "boxShadow": "none",
+          "opacity": "1",
+          "transition": "opacity 0.15s"
+        },
+        "subs": []
+      },
+      "after": {
+        "self": {
+          "transform": "none",
+          "color": "rgb(102, 102, 102)",
+          "background": "rgba(0, 0, 0, 0)",
+          "boxShadow": "none",
+          "opacity": "0.7",
+          "transition": "opacity 0.15s"
+        },
+        "subs": []
+      }
+    },
+    {
+      "sel": ".tag",
+      "changed": [],
+      "before": {
+        "self": {
+          "transform": "none",
+          "color": "rgb(0, 0, 0)",
+          "background": "rgb(244, 254, 139)",
+          "boxShadow": "none",
+          "opacity": "1",
+          "transition": "all"
+        },
+        "subs": []
+      },
+      "after": {
+        "self": {
+          "transform": "none",
+          "color": "rgb(0, 0, 0)",
+          "background": "rgb(244, 254, 139)",
+          "boxShadow": "none",
+          "opacity": "1",
+          "transition": "all"
+        },
+        "subs": []
+      }
+    },
+    {
+      "sel": ".blog-content",
+      "changed": [],
+      "before": {
+        "self": {
+          "transform": "none",
+          "color": "rgb(0, 0, 0)",
+          "background": "rgba(0, 0, 0, 0)",
+          "boxShadow": "none",
+          "opacity": "1",
+          "transition": "all"
+        },
+        "subs": [
+          {
+            "el": "h2.",
+            "transform": "none",
+            "color": "rgb(0, 0, 0)",
+            "background": "rgba(0, 0, 0, 0)",
+            "boxShadow": "none",
+            "opacity": "1",
+            "transition": "all"
+          },
+          {
+            "el": "h2.",
+            "transform": "none",
+            "color": "rgb(0, 0, 0)",
+            "background": "rgba(0, 0, 0, 0)",
+            "boxShadow": "none",
+            "opacity": "1",
+            "transition": "all"
+          },
+          {
+            "el": "h2.",
+            "transform": "none",
+            "color": "rgb(0, 0, 0)",
+            "background": "rgba(0, 0, 0, 0)",
+            "boxShadow": "none",
+            "opacity": "1",
+            "transition": "all"
+          },
+          {
+            "el": "img.",
+            "transform": "none",
+            "color": "rgb(0, 0, 0)",
+            "background": "rgba(0, 0, 0, 0)",
+            "boxShadow": "none",
+            "opacity": "1",
+            "transition": "all"
+          },
+          {
+            "el": "h3.",
+            "transform": "none",
+            "color": "rgb(0, 0, 0)",
+            "background": "rgba(0, 0, 0, 0)",
+            "boxShadow": "none",
+            "opacity": "1",
+            "transition": "all"
+          }
+        ]
+      },
+      "after": {
+        "self": {
+          "transform": "none",
+          "color": "rgb(0, 0, 0)",
+          "background": "rgba(0, 0, 0, 0)",
+          "boxShadow": "none",
+          "opacity": "1",
+          "transition": "all"
+        },
+        "subs": [
+          {
+            "el": "h2.",
+            "transform": "none",
+            "color": "rgb(0, 0, 0)",
+            "background": "rgba(0, 0, 0, 0)",
+            "boxShadow": "none",
+            "opacity": "1",
+            "transition": "all"
+          },
+          {
+            "el": "h2.",
+            "transform": "none",
+            "color": "rgb(0, 0, 0)",
+            "background": "rgba(0, 0, 0, 0)",
+            "boxShadow": "none",
+            "opacity": "1",
+            "transition": "all"
+          },
+          {
+            "el": "h2.",
+            "transform": "none",
+            "color": "rgb(0, 0, 0)",
+            "background": "rgba(0, 0, 0, 0)",
+            "boxShadow": "none",
+            "opacity": "1",
+            "transition": "all"
+          },
+          {
+            "el": "img.",
+            "transform": "none",
+            "color": "rgb(0, 0, 0)",
+            "background": "rgba(0, 0, 0, 0)",
+            "boxShadow": "none",
+            "opacity": "1",
+            "transition": "all"
+          },
+          {
+            "el": "h3.",
+            "transform": "none",
+            "color": "rgb(0, 0, 0)",
+            "background": "rgba(0, 0, 0, 0)",
+            "boxShadow": "none",
+            "opacity": "1",
+            "transition": "all"
+          }
+        ]
+      }
+    },
+    {
+      "sel": ".footer-link",
+      "changed": [],
+      "before": {
+        "self": {
+          "transform": "none",
+          "color": "rgb(153, 153, 153)",
+          "background": "rgba(0, 0, 0, 0)",
+          "boxShadow": "none",
+          "opacity": "1",
+          "transition": "color 0.15s"
+        },
+        "subs": []
+      },
+      "after": {
+        "self": {
+          "transform": "none",
+          "color": "rgb(153, 153, 153)",
+          "background": "rgba(0, 0, 0, 0)",
+          "boxShadow": "none",
+          "opacity": "1",
+          "transition": "color 0.15s"
+        },
+        "subs": []
+      }
+    },
+    {
+      "sel": ".footer-icon-link",
+      "changed": [
+        "self.background"
+      ],
+      "before": {
+        "self": {
+          "transform": "none",
+          "color": "rgb(255, 255, 255)",
+          "background": "rgb(64, 64, 64)",
+          "boxShadow": "none",
+          "opacity": "1",
+          "transition": "background-color 0.15s"
+        },
+        "subs": [
+          {
+            "el": "div.icon-small",
+            "transform": "none",
+            "color": "rgb(255, 255, 255)",
+            "background": "rgba(0, 0, 0, 0)",
+            "boxShadow": "none",
+            "opacity": "1",
+            "transition": "all"
+          }
+        ]
+      },
+      "after": {
+        "self": {
+          "transform": "none",
+          "color": "rgb(255, 255, 255)",
+          "background": "rgb(153, 153, 153)",
+          "boxShadow": "none",
+          "opacity": "1",
+          "transition": "background-color 0.15s"
+        },
+        "subs": [
+          {
+            "el": "div.icon-small",
+            "transform": "none",
+            "color": "rgb(255, 255, 255)",
+            "background": "rgba(0, 0, 0, 0)",
+            "boxShadow": "none",
+            "opacity": "1",
+            "transition": "all"
+          }
+        ]
+      }
+    }
+  ],
+  "events": {
+    "animations": [],
+    "transitions": [
+      {
+        "prop": "background-color",
+        "el": "div.nav-inner > nav.nav-menu > ul.nav-menu-list > li.nav-menu-list-item > a.nav-link",
+        "y": 0,
+        "dur": "0.15s"
+      },
+      {
+        "prop": "background-color",
+        "el": "div.nav-inner > nav.nav-menu > ul.nav-menu-list > li.nav-menu-list-item > a.nav-link",
+        "y": 0,
+        "dur": "0.15s"
+      },
+      {
+        "prop": "box-shadow",
+        "el": "div.container > div.nav-inner > div.nav-right > div.button-group > a.button",
+        "y": 0,
+        "dur": "0.15s, 0.15s"
+      },
+      {
+        "prop": "transform",
+        "el": "div.container > div.nav-inner > div.nav-right > div.button-group > a.button",
+        "y": 0,
+        "dur": "0.15s, 0.15s"
+      },
+      {
+        "prop": "box-shadow",
+        "el": "div.container > div.nav-inner > div.nav-right > div.button-group > a.button",
+        "y": 0,
+        "dur": "0.15s, 0.15s"
+      },
+      {
+        "prop": "transform",
+        "el": "div.container > div.nav-inner > div.nav-right > div.button-group > a.button",
+        "y": 0,
+        "dur": "0.15s, 0.15s"
+      },
+      {
+        "prop": "opacity",
+        "el": "div.container > div.grid-layout.tablet-1-column.grid-gap-lg > div > div.breadcrumbs > a.text-link.secondary-text-link",
+        "y": 0,
+        "dur": "0.15s"
+      },
+      {
+        "prop": "opacity",
+        "el": "div.container > div.grid-layout.tablet-1-column.grid-gap-lg > div > div.breadcrumbs > a.text-link.secondary-text-link",
+        "y": 0,
+        "dur": "0.15s"
+      },
+      {
+        "prop": "color",
+        "el": "div.grid-layout.desktop-4-column > nav > ul > li > a.footer-link.footer-link-on-inverse",
+        "y": 3461,
+        "dur": "0.15s"
+      },
+      {
+        "prop": "color",
+        "el": "div.grid-layout.desktop-4-column > nav > ul > li > a.footer-link.footer-link-on-inverse",
+        "y": 3603,
+        "dur": "0.15s"
+      },
+      {
+        "prop": "background-color",
+        "el": "div.grid-layout.desktop-4-column > div.flex-vertical.flex-gap-sm.x-left > ul.footer-icons-group > li > a.footer-icon-link",
+        "y": 3603,
+        "dur": "0.15s"
+      }
+    ],
+    "classMutations": []
+  }
+}

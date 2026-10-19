@@ -1,0 +1,771 @@
+{
+  "archetype": "https://www.wknd-trendsetters.site/blog/ace-pro-court-polo",
+  "width": 1440,
+  "tolerance": 2,
+  "probes": {
+    "hero": "main .section:first-of-type",
+    "content": ".blog-content",
+    "title": ".h1-heading",
+    "img": "main img"
+  },
+  "archetypeRaw": {
+    "sections": [
+      {
+        "label": "section[0]",
+        "h": 632
+      },
+      {
+        "label": "section[1]",
+        "h": 3381
+      }
+    ],
+    "probes": {
+      "hero": {
+        "sel": "main .section:first-of-type",
+        "count": 1,
+        "first": {
+          "rect": {
+            "w": 1440,
+            "h": 632
+          },
+          "backgroundLayers": [],
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "color": "rgb(0, 0, 0)",
+          "padding": "128px 0px 128px 0px",
+          "font": "instrument sans 16px/25.6px 400",
+          "borderRadius": "0px",
+          "heading": "h1 syncopate 40px/44px 700 rgb(0, 0, 0)",
+          "image": {
+            "w": 564,
+            "h": 376
+          },
+          "listStyle": "disc",
+          "before": null
+        },
+        "clusters": 1,
+        "text": "Home Blog Court cool, street ready — the Ace Pro polo By Tay"
+      },
+      "content": {
+        "sel": ".blog-content",
+        "count": 1,
+        "first": {
+          "rect": {
+            "w": 720,
+            "h": 3233
+          },
+          "backgroundLayers": [],
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "color": "rgb(0, 0, 0)",
+          "padding": "0px 0px 0px 0px",
+          "font": "instrument sans 16px/25.6px 400",
+          "borderRadius": "0px",
+          "heading": "h2 syncopate 40px/44px 700 rgb(0, 0, 0)",
+          "image": {
+            "w": 720,
+            "h": 392
+          },
+          "listStyle": "disc",
+          "before": null
+        },
+        "clusters": 1,
+        "text": "The Polo Gets a Glow Up Tennis polos aren’t just for the cou"
+      },
+      "title": {
+        "sel": ".h1-heading",
+        "count": 0
+      },
+      "img": {
+        "sel": "main img",
+        "count": 3,
+        "first": {
+          "rect": {
+            "w": 564,
+            "h": 376
+          },
+          "backgroundLayers": [],
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "color": "rgb(0, 0, 0)",
+          "padding": "0px 0px 0px 0px",
+          "font": "instrument sans 16px/25.6px 400",
+          "borderRadius": "20px",
+          "heading": null,
+          "image": null,
+          "listStyle": "disc",
+          "before": null
+        },
+        "clusters": 2,
+        "text": ""
+      }
+    }
+  },
+  "siblings": [
+    {
+      "url": "https://www.wknd-trendsetters.site/blog/fashion-blog-post",
+      "findings": [
+        {
+          "kind": "SECTION HEIGHTS",
+          "msg": "section[1] 3381→1387"
+        },
+        {
+          "kind": "PROBE",
+          "probe": "content",
+          "msg": "rect{h 3233 → 1227}; image [object Object] → null"
+        },
+        {
+          "kind": "COUNT",
+          "probe": "img",
+          "msg": "3 → 1 matches"
+        },
+        {
+          "kind": "CLUSTERS",
+          "probe": "img",
+          "msg": "2 → 1 distinct style families among matches (a second visual family = a variant class)"
+        }
+      ],
+      "raw": {
+        "sections": [
+          {
+            "label": "section[0]",
+            "h": 632
+          },
+          {
+            "label": "section[1]",
+            "h": 1387
+          }
+        ],
+        "probes": {
+          "hero": {
+            "sel": "main .section:first-of-type",
+            "count": 1,
+            "first": {
+              "rect": {
+                "w": 1440,
+                "h": 632
+              },
+              "backgroundLayers": [],
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "color": "rgb(0, 0, 0)",
+              "padding": "128px 0px 128px 0px",
+              "font": "instrument sans 16px/25.6px 400",
+              "borderRadius": "0px",
+              "heading": "h1 syncopate 40px/44px 700 rgb(0, 0, 0)",
+              "image": {
+                "w": 564,
+                "h": 376
+              },
+              "listStyle": "disc",
+              "before": null
+            },
+            "clusters": 1,
+            "text": "Home Blog Game on, style up By Taylor Brooks June 5, 2024 • "
+          },
+          "content": {
+            "sel": ".blog-content",
+            "count": 1,
+            "first": {
+              "rect": {
+                "w": 720,
+                "h": 1227
+              },
+              "backgroundLayers": [],
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "color": "rgb(0, 0, 0)",
+              "padding": "0px 0px 0px 0px",
+              "font": "instrument sans 16px/25.6px 400",
+              "borderRadius": "0px",
+              "heading": "h2 syncopate 40px/44px 700 rgb(0, 0, 0)",
+              "image": null,
+              "listStyle": "disc",
+              "before": null
+            },
+            "clusters": 1,
+            "text": "Athleisure Isn’t Going Anywhere If there’s one trend that’s "
+          },
+          "title": {
+            "sel": ".h1-heading",
+            "count": 0
+          },
+          "img": {
+            "sel": "main img",
+            "count": 1,
+            "first": {
+              "rect": {
+                "w": 564,
+                "h": 376
+              },
+              "backgroundLayers": [],
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "color": "rgb(0, 0, 0)",
+              "padding": "0px 0px 0px 0px",
+              "font": "instrument sans 16px/25.6px 400",
+              "borderRadius": "20px",
+              "heading": null,
+              "image": null,
+              "listStyle": "disc",
+              "before": null
+            },
+            "clusters": 1,
+            "text": ""
+          }
+        }
+      }
+    },
+    {
+      "url": "https://www.wknd-trendsetters.site/blog/fashion-trends-young-culture",
+      "findings": [
+        {
+          "kind": "SECTION HEIGHTS",
+          "msg": "section[1] 3381→1145"
+        },
+        {
+          "kind": "PROBE",
+          "probe": "content",
+          "msg": "rect{h 3233 → 985}; image [object Object] → null"
+        },
+        {
+          "kind": "COUNT",
+          "probe": "img",
+          "msg": "3 → 1 matches"
+        },
+        {
+          "kind": "CLUSTERS",
+          "probe": "img",
+          "msg": "2 → 1 distinct style families among matches (a second visual family = a variant class)"
+        }
+      ],
+      "raw": {
+        "sections": [
+          {
+            "label": "section[0]",
+            "h": 632
+          },
+          {
+            "label": "section[1]",
+            "h": 1145
+          }
+        ],
+        "probes": {
+          "hero": {
+            "sel": "main .section:first-of-type",
+            "count": 1,
+            "first": {
+              "rect": {
+                "w": 1440,
+                "h": 632
+              },
+              "backgroundLayers": [],
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "color": "rgb(0, 0, 0)",
+              "padding": "128px 0px 128px 0px",
+              "font": "instrument sans 16px/25.6px 400",
+              "borderRadius": "0px",
+              "heading": "h1 syncopate 40px/44px 700 rgb(0, 0, 0)",
+              "image": {
+                "w": 564,
+                "h": 376
+              },
+              "listStyle": "disc",
+              "before": null
+            },
+            "clusters": 1,
+            "text": "Home Blog Sunkissed and effortless By Taylor Brooks June 10,"
+          },
+          "content": {
+            "sel": ".blog-content",
+            "count": 1,
+            "first": {
+              "rect": {
+                "w": 720,
+                "h": 985
+              },
+              "backgroundLayers": [],
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "color": "rgb(0, 0, 0)",
+              "padding": "0px 0px 0px 0px",
+              "font": "instrument sans 16px/25.6px 400",
+              "borderRadius": "0px",
+              "heading": "h2 syncopate 40px/44px 700 rgb(0, 0, 0)",
+              "image": null,
+              "listStyle": "disc",
+              "before": null
+            },
+            "clusters": 1,
+            "text": "Beach Days, Best Days Nothing says summer like a perfect bea"
+          },
+          "title": {
+            "sel": ".h1-heading",
+            "count": 0
+          },
+          "img": {
+            "sel": "main img",
+            "count": 1,
+            "first": {
+              "rect": {
+                "w": 564,
+                "h": 376
+              },
+              "backgroundLayers": [],
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "color": "rgb(0, 0, 0)",
+              "padding": "0px 0px 0px 0px",
+              "font": "instrument sans 16px/25.6px 400",
+              "borderRadius": "20px",
+              "heading": null,
+              "image": null,
+              "listStyle": "disc",
+              "before": null
+            },
+            "clusters": 1,
+            "text": ""
+          }
+        }
+      }
+    },
+    {
+      "url": "https://www.wknd-trendsetters.site/blog/fashion-trends-young-style",
+      "findings": [
+        {
+          "kind": "SECTION HEIGHTS",
+          "msg": "section[1] 3381→1431"
+        },
+        {
+          "kind": "PROBE",
+          "probe": "content",
+          "msg": "rect{h 3233 → 1271}; image [object Object] → null"
+        },
+        {
+          "kind": "COUNT",
+          "probe": "img",
+          "msg": "3 → 1 matches"
+        },
+        {
+          "kind": "CLUSTERS",
+          "probe": "img",
+          "msg": "2 → 1 distinct style families among matches (a second visual family = a variant class)"
+        }
+      ],
+      "raw": {
+        "sections": [
+          {
+            "label": "section[0]",
+            "h": 632
+          },
+          {
+            "label": "section[1]",
+            "h": 1431
+          }
+        ],
+        "probes": {
+          "hero": {
+            "sel": "main .section:first-of-type",
+            "count": 1,
+            "first": {
+              "rect": {
+                "w": 1440,
+                "h": 632
+              },
+              "backgroundLayers": [],
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "color": "rgb(0, 0, 0)",
+              "padding": "128px 0px 128px 0px",
+              "font": "instrument sans 16px/25.6px 400",
+              "borderRadius": "0px",
+              "heading": "h1 syncopate 40px/44px 700 rgb(0, 0, 0)",
+              "image": {
+                "w": 564,
+                "h": 376
+              },
+              "listStyle": "disc",
+              "before": null
+            },
+            "clusters": 1,
+            "text": "Home Blog Party fits that pop By Taylor Brooks June 8, 2024 "
+          },
+          "content": {
+            "sel": ".blog-content",
+            "count": 1,
+            "first": {
+              "rect": {
+                "w": 720,
+                "h": 1271
+              },
+              "backgroundLayers": [],
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "color": "rgb(0, 0, 0)",
+              "padding": "0px 0px 0px 0px",
+              "font": "instrument sans 16px/25.6px 400",
+              "borderRadius": "0px",
+              "heading": "h2 syncopate 40px/44px 700 rgb(0, 0, 0)",
+              "image": null,
+              "listStyle": "disc",
+              "before": null
+            },
+            "clusters": 1,
+            "text": "Glow Up After Dark When the sun goes down, the real fashion "
+          },
+          "title": {
+            "sel": ".h1-heading",
+            "count": 0
+          },
+          "img": {
+            "sel": "main img",
+            "count": 1,
+            "first": {
+              "rect": {
+                "w": 564,
+                "h": 376
+              },
+              "backgroundLayers": [],
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "color": "rgb(0, 0, 0)",
+              "padding": "0px 0px 0px 0px",
+              "font": "instrument sans 16px/25.6px 400",
+              "borderRadius": "20px",
+              "heading": null,
+              "image": null,
+              "listStyle": "disc",
+              "before": null
+            },
+            "clusters": 1,
+            "text": ""
+          }
+        }
+      }
+    },
+    {
+      "url": "https://www.wknd-trendsetters.site/blog/flip-flop-summer-style",
+      "findings": [
+        {
+          "kind": "SECTION HEIGHTS",
+          "msg": "section[1] 3381→3376"
+        },
+        {
+          "kind": "PROBE",
+          "probe": "content",
+          "msg": "rect{h 3233 → 3228}"
+        }
+      ],
+      "raw": {
+        "sections": [
+          {
+            "label": "section[0]",
+            "h": 632
+          },
+          {
+            "label": "section[1]",
+            "h": 3376
+          }
+        ],
+        "probes": {
+          "hero": {
+            "sel": "main .section:first-of-type",
+            "count": 1,
+            "first": {
+              "rect": {
+                "w": 1440,
+                "h": 632
+              },
+              "backgroundLayers": [],
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "color": "rgb(0, 0, 0)",
+              "padding": "128px 0px 128px 0px",
+              "font": "instrument sans 16px/25.6px 400",
+              "borderRadius": "0px",
+              "heading": "h1 syncopate 40px/44px 700 rgb(0, 0, 0)",
+              "image": {
+                "w": 564,
+                "h": 376
+              },
+              "listStyle": "disc",
+              "before": null
+            },
+            "clusters": 1,
+            "text": "Home Blog Slide into summer — flip flops that serve By Taylo"
+          },
+          "content": {
+            "sel": ".blog-content",
+            "count": 1,
+            "first": {
+              "rect": {
+                "w": 720,
+                "h": 3228
+              },
+              "backgroundLayers": [],
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "color": "rgb(0, 0, 0)",
+              "padding": "0px 0px 0px 0px",
+              "font": "instrument sans 16px/25.6px 400",
+              "borderRadius": "0px",
+              "heading": "h2 syncopate 40px/44px 700 rgb(0, 0, 0)",
+              "image": {
+                "w": 720,
+                "h": 392
+              },
+              "listStyle": "disc",
+              "before": null
+            },
+            "clusters": 1,
+            "text": "The Slide Is Everything Let’s get one thing straight — flip "
+          },
+          "title": {
+            "sel": ".h1-heading",
+            "count": 0
+          },
+          "img": {
+            "sel": "main img",
+            "count": 3,
+            "first": {
+              "rect": {
+                "w": 564,
+                "h": 376
+              },
+              "backgroundLayers": [],
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "color": "rgb(0, 0, 0)",
+              "padding": "0px 0px 0px 0px",
+              "font": "instrument sans 16px/25.6px 400",
+              "borderRadius": "20px",
+              "heading": null,
+              "image": null,
+              "listStyle": "disc",
+              "before": null
+            },
+            "clusters": 2,
+            "text": ""
+          }
+        }
+      }
+    },
+    {
+      "url": "https://www.wknd-trendsetters.site/blog/latest-trends-young-casual-fashion",
+      "findings": [
+        {
+          "kind": "SECTION HEIGHTS",
+          "msg": "section[1] 3381→1378"
+        },
+        {
+          "kind": "PROBE",
+          "probe": "content",
+          "msg": "rect{h 3233 → 1218}; image [object Object] → null"
+        },
+        {
+          "kind": "COUNT",
+          "probe": "img",
+          "msg": "3 → 1 matches"
+        },
+        {
+          "kind": "CLUSTERS",
+          "probe": "img",
+          "msg": "2 → 1 distinct style families among matches (a second visual family = a variant class)"
+        }
+      ],
+      "raw": {
+        "sections": [
+          {
+            "label": "section[0]",
+            "h": 632
+          },
+          {
+            "label": "section[1]",
+            "h": 1378
+          }
+        ],
+        "probes": {
+          "hero": {
+            "sel": "main .section:first-of-type",
+            "count": 1,
+            "first": {
+              "rect": {
+                "w": 1440,
+                "h": 632
+              },
+              "backgroundLayers": [],
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "color": "rgb(0, 0, 0)",
+              "padding": "128px 0px 128px 0px",
+              "font": "instrument sans 16px/25.6px 400",
+              "borderRadius": "0px",
+              "heading": "h1 syncopate 40px/44px 700 rgb(0, 0, 0)",
+              "image": {
+                "w": 564,
+                "h": 376
+              },
+              "listStyle": "disc",
+              "before": null
+            },
+            "clusters": 1,
+            "text": "Home Blog Tennis style, redefined By Taylor Brooks June 12, "
+          },
+          "content": {
+            "sel": ".blog-content",
+            "count": 1,
+            "first": {
+              "rect": {
+                "w": 720,
+                "h": 1218
+              },
+              "backgroundLayers": [],
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "color": "rgb(0, 0, 0)",
+              "padding": "0px 0px 0px 0px",
+              "font": "instrument sans 16px/25.6px 400",
+              "borderRadius": "0px",
+              "heading": "h2 syncopate 40px/44px 700 rgb(0, 0, 0)",
+              "image": null,
+              "listStyle": "disc",
+              "before": null
+            },
+            "clusters": 1,
+            "text": "Serve Up Style on and off the Court Tennis isn’t just a spor"
+          },
+          "title": {
+            "sel": ".h1-heading",
+            "count": 0
+          },
+          "img": {
+            "sel": "main img",
+            "count": 1,
+            "first": {
+              "rect": {
+                "w": 564,
+                "h": 376
+              },
+              "backgroundLayers": [],
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "color": "rgb(0, 0, 0)",
+              "padding": "0px 0px 0px 0px",
+              "font": "instrument sans 16px/25.6px 400",
+              "borderRadius": "20px",
+              "heading": null,
+              "image": null,
+              "listStyle": "disc",
+              "before": null
+            },
+            "clusters": 1,
+            "text": ""
+          }
+        }
+      }
+    },
+    {
+      "url": "https://www.wknd-trendsetters.site/blog/street-style-trends",
+      "findings": [
+        {
+          "kind": "SECTION HEIGHTS",
+          "msg": "section[1] 3381→1449"
+        },
+        {
+          "kind": "PROBE",
+          "probe": "content",
+          "msg": "rect{h 3233 → 1289}; image [object Object] → null"
+        },
+        {
+          "kind": "COUNT",
+          "probe": "img",
+          "msg": "3 → 1 matches"
+        },
+        {
+          "kind": "CLUSTERS",
+          "probe": "img",
+          "msg": "2 → 1 distinct style families among matches (a second visual family = a variant class)"
+        }
+      ],
+      "raw": {
+        "sections": [
+          {
+            "label": "section[0]",
+            "h": 632
+          },
+          {
+            "label": "section[1]",
+            "h": 1449
+          }
+        ],
+        "probes": {
+          "hero": {
+            "sel": "main .section:first-of-type",
+            "count": 1,
+            "first": {
+              "rect": {
+                "w": 1440,
+                "h": 632
+              },
+              "backgroundLayers": [],
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "color": "rgb(0, 0, 0)",
+              "padding": "128px 0px 128px 0px",
+              "font": "instrument sans 16px/25.6px 400",
+              "borderRadius": "0px",
+              "heading": "h1 syncopate 40px/44px 700 rgb(0, 0, 0)",
+              "image": {
+                "w": 564,
+                "h": 376
+              },
+              "listStyle": "disc",
+              "before": null
+            },
+            "clusters": 1,
+            "text": "Home Blog Street style, your way By Taylor Kim June 2, 2024 "
+          },
+          "content": {
+            "sel": ".blog-content",
+            "count": 1,
+            "first": {
+              "rect": {
+                "w": 720,
+                "h": 1289
+              },
+              "backgroundLayers": [],
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "color": "rgb(0, 0, 0)",
+              "padding": "0px 0px 0px 0px",
+              "font": "instrument sans 16px/25.6px 400",
+              "borderRadius": "0px",
+              "heading": "h2 syncopate 40px/44px 700 rgb(0, 0, 0)",
+              "image": null,
+              "listStyle": "disc",
+              "before": null
+            },
+            "clusters": 1,
+            "text": "The Streets Are the Real Runway Forget fashion week—the real"
+          },
+          "title": {
+            "sel": ".h1-heading",
+            "count": 0
+          },
+          "img": {
+            "sel": "main img",
+            "count": 1,
+            "first": {
+              "rect": {
+                "w": 564,
+                "h": 376
+              },
+              "backgroundLayers": [],
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "color": "rgb(0, 0, 0)",
+              "padding": "0px 0px 0px 0px",
+              "font": "instrument sans 16px/25.6px 400",
+              "borderRadius": "20px",
+              "heading": null,
+              "image": null,
+              "listStyle": "disc",
+              "before": null
+            },
+            "clusters": 1,
+            "text": ""
+          }
+        }
+      }
+    }
+  ],
+  "summary": {
+    "siblings": 6,
+    "varying": 6,
+    "probesVarying": [
+      "SECTION HEIGHTS",
+      "content",
+      "img"
+    ]
+  }
+}

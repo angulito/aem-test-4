@@ -1,0 +1,277 @@
+{
+ "source": "http://localhost:8793/stardust/migrated/case-studies/index.html",
+ "width": 1280,
+ "profile": "generic",
+ "sections": [
+  {
+   "section": "1",
+   "items": [
+    {
+     "role": "heading",
+     "order": 0,
+     "text": "Fresh looks, bold stories, real life"
+    },
+    {
+     "role": "body",
+     "order": 1,
+     "text": "Dive into our latest style adventures—see how young trendsetters own every moment, from courtside to the dance floor."
+    },
+    {
+     "role": "cta",
+     "order": 2,
+     "text": "See case",
+     "href": "#cases"
+    }
+   ],
+   "imgCount": 0,
+   "editableTexts": 2,
+   "repeats": []
+  },
+  {
+   "section": "2",
+   "items": [
+    {
+     "role": "cta",
+     "order": 0,
+     "text": "Home",
+     "href": "../index.html"
+    },
+    {
+     "role": "body",
+     "order": 1,
+     "text": "Case studies"
+    },
+    {
+     "role": "heading",
+     "order": 2,
+     "text": "Fresh looks, bold moves, real stories"
+    },
+    {
+     "role": "body",
+     "order": 3,
+     "text": "By"
+    },
+    {
+     "role": "body",
+     "order": 4,
+     "text": "Taylor Brooks"
+    },
+    {
+     "role": "body",
+     "order": 5,
+     "text": "June 12, 2024"
+    },
+    {
+     "role": "body",
+     "order": 6,
+     "text": "•"
+    },
+    {
+     "role": "body",
+     "order": 7,
+     "text": "4 min read"
+    }
+   ],
+   "imgCount": 1,
+   "editableTexts": 1,
+   "repeats": [
+    {
+     "unitSelector": "DIV.",
+     "count": 2,
+     "unit": {
+      "headings": 0,
+      "ctas": 0,
+      "imgs": 1,
+      "textRuns": 0
+     },
+     "uniform": false
+    }
+   ]
+  },
+  {
+   "section": "3",
+   "items": [
+    {
+     "role": "heading",
+     "order": 0,
+     "text": "Style in every snapshot"
+    },
+    {
+     "role": "body",
+     "order": 1,
+     "text": "Peek the latest looks in action"
+    }
+   ],
+   "imgCount": 8,
+   "editableTexts": 2,
+   "repeats": [
+    {
+     "unitSelector": "DIV.utility-aspect-1x1",
+     "count": 8,
+     "unit": {
+      "headings": 0,
+      "ctas": 0,
+      "imgs": 1,
+      "textRuns": 0
+     },
+     "uniform": true
+    }
+   ]
+  },
+  {
+   "section": "4",
+   "items": [
+    {
+     "role": "body",
+     "order": 0,
+     "text": "Alex Rivera"
+    },
+    {
+     "role": "body",
+     "order": 1,
+     "text": "Streetwear Enthusiast"
+    },
+    {
+     "role": "body",
+     "order": 2,
+     "text": "“Wearing new brands makes every day feel like a runway. I love mixing sporty vibes with bold colors—perfect for tennis or a night out!”"
+    },
+    {
+     "role": "body",
+     "order": 3,
+     "text": "Taylor Kim"
+    },
+    {
+     "role": "body",
+     "order": 4,
+     "text": "Casual Style Blogger"
+    },
+    {
+     "role": "body",
+     "order": 5,
+     "text": "“Fresh looks, comfy fits—my go-to for beach days and city strolls. These brands keep my style on point and effortless.”"
+    },
+    {
+     "role": "body",
+     "order": 6,
+     "text": "Jordan Ellis"
+    },
+    {
+     "role": "body",
+     "order": 7,
+     "text": "Trend Spotter"
+    },
+    {
+     "role": "body",
+     "order": 8,
+     "text": "“Nothing beats the confidence boost from a killer outfit. I'm always ready for spontaneous adventures in these cool threads.”"
+    },
+    {
+     "role": "body",
+     "order": 9,
+     "text": "Morgan Blake"
+    },
+    {
+     "role": "body",
+     "order": 10,
+     "text": "Party Scene Curator"
+    },
+    {
+     "role": "body",
+     "order": 11,
+     "text": "“From rooftop parties to late-night hangs, these styles turn heads. Fashion should be fun, and this is pure fun!”"
+    },
+    {
+     "role": "body",
+     "order": 12,
+     "text": "Alex Rivera"
+    },
+    {
+     "role": "body",
+     "order": 13,
+     "text": "Streetwear Enthusiast"
+    },
+    {
+     "role": "body",
+     "order": 14,
+     "text": "Taylor Kim"
+    },
+    {
+     "role": "body",
+     "order": 15,
+     "text": "Casual Style Blogger"
+    },
+    {
+     "role": "body",
+     "order": 16,
+     "text": "Jordan Ellis"
+    },
+    {
+     "role": "body",
+     "order": 17,
+     "text": "Trend Spotter"
+    },
+    {
+     "role": "body",
+     "order": 18,
+     "text": "Morgan Blake"
+    },
+    {
+     "role": "body",
+     "order": 19,
+     "text": "Party Scene Curator"
+    }
+   ],
+   "imgCount": 8,
+   "editableTexts": 4,
+   "repeats": [
+    {
+     "unitSelector": "DIV.tab-pane",
+     "count": 4,
+     "unit": {
+      "headings": 0,
+      "ctas": 0,
+      "imgs": 1,
+      "textRuns": 3
+     },
+     "uniform": true
+    },
+    {
+     "unitSelector": "BUTTON.tab-menu-link",
+     "count": 4,
+     "unit": {
+      "headings": 0,
+      "ctas": 0,
+      "imgs": 1,
+      "textRuns": 2
+     },
+     "uniform": true
+    }
+   ]
+  },
+  {
+   "section": "5",
+   "items": [
+    {
+     "role": "heading",
+     "order": 0,
+     "text": "Fresh looks, bold stories, real life"
+    },
+    {
+     "role": "body",
+     "order": 1,
+     "text": "Dive into our latest case study: see how young trendsetters rock new brands from courtside to the dance floor."
+    },
+    {
+     "role": "cta",
+     "order": 2,
+     "text": "See more",
+     "href": "#"
+    }
+   ],
+   "imgCount": 1,
+   "editableTexts": 2,
+   "repeats": []
+  }
+ ]
+}

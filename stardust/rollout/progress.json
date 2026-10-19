@@ -1,0 +1,250 @@
+{
+  "_provenance": {
+    "writtenBy": "stardust:replica/handoff C-deliver",
+    "writtenAt": "2026-09-28T12:04:42.073Z"
+  },
+  "order": [
+    "foundation",
+    "landing-core",
+    "landing-rest",
+    "listing-static",
+    "article",
+    "final"
+  ],
+  "units": {
+    "foundation": {
+      "status": "done",
+      "kind": "foundation",
+      "templates": [
+        "chrome"
+      ],
+      "pages": 2,
+      "blocks": 2,
+      "gates": {
+        "360": {
+          "navbar": "quiet (2 tag-only)",
+          "footer": "quiet",
+          "overflow": "428 vs live 423 (R-01 live-mirrored)"
+        },
+        "1440": {
+          "navbar": "quiet (6 tag-only lines, 0 geometric)",
+          "footer": "quiet (25 tag-only lines, 0 geometric, Δh 0)",
+          "navHeight": "83.39px = live"
+        },
+        "chrome": "chrome-parity navbar+footer geometric 0 at 1440/360 after 4 fixes (brand font, footer gap 48, instagram svg, icons padding)",
+        "media": "48/48 uploaded to media/wknd"
+      },
+      "startedAt": "2026-09-28T12:04:42.073Z",
+      "endedAt": "2026-09-28T12:42:49.402Z",
+      "verdict": "foundation: nav+footer live, media 48/48, lint clean, code pushed 53edea3, chrome parity geometric 0 at 1440/360, frozen 8 paths"
+    },
+    "landing-core": {
+      "status": "done",
+      "kind": "cluster",
+      "templates": [
+        "index"
+      ],
+      "pages": 2,
+      "blocks": 7,
+      "gates": {
+        "360": {
+          "index": "1.39% / Δ-1px (pub2; pub1 13.64%/+68 fixed tab-menu ≤479px)",
+          "case-studies": "3.69% / Δ-1px"
+        },
+        "1440": {
+          "index": "0.75% / Δ-1px",
+          "case-studies": "0.61% / Δ-1px"
+        },
+        "crop": "header 0.00% / footer 2.84% (frozen footer → foundation-requests, C-final)",
+        "chrome": "header quiet after probe artifact (live hero paired with chrome); footer 21 tag-only (frozen)",
+        "content": "0 text/structure loss; 4 MISSING ICON (avatar rendition classification artifact, renders 48×48 both sides) + 5 MISSING ARIA-LABEL footer (frozen → request)",
+        "overflow": "1440 0; 360 build 423 = live 423 (R-01 accepted)",
+        "roundtrip": "--ew 7/7 + 5/5 closed, editable 47/47 + 24/24, 0 dead",
+        "aiReadability": "/ 100, /case-studies 100"
+      },
+      "startedAt": "2026-09-28T12:47:04.762Z",
+      "endedAt": "2026-09-28T13:27:06.708Z",
+      "verdict": "landing-core: pages 2/2 live, blocks 7, gate 1440 0.75% / 360 1.39%, requests 1",
+      "residuals": [
+        "R-LC1 content-diff MISSING ICON ×4: pipeline media_<hash> rendition not classified as icon by the probe; avatars render 48×48 both sides",
+        "R-LC2 footer crop 2.84% vs 2% bar + 5 social aria-labels: frozen footer, queued in foundation-requests.md for C-final",
+        "R-LC3 case-studies hero CTA #cases has no in-page target (source section id, not authorable)"
+      ]
+    },
+    "landing-rest": {
+      "status": "done",
+      "kind": "cluster",
+      "templates": [
+        "index"
+      ],
+      "pages": 3,
+      "blocks": 2,
+      "gates": {
+        "360": {
+          "fashion-trends-of-the-season": "1.48% / Δ0",
+          "fashion-trends-young-adults": "1.59% / Δ0 (pub2; pub1 26.55%/-64)",
+          "fashion-trends-young-adults-casual-sport": "1.44% / Δ0"
+        },
+        "1440": {
+          "fashion-trends-of-the-season": "1.67% / Δ0 (pub1 --full)",
+          "fashion-trends-young-adults": "0.91% / Δ-1 (pub2; pub1 13.32%/-63)",
+          "fashion-trends-young-adults-casual-sport": "1.40% / Δ0"
+        },
+        "crop": "season 1440 header 0.00% / footer 2.96% (frozen footer → request)",
+        "chrome": "header 16 (live-hero pairing artifact) / footer 21 (frozen, known)",
+        "content": "5 structural = MISSING ARIA-LABEL footer (known); 0 other",
+        "overflow": "1440 0 on all 3; 360 build 423 = live 423 (R-01)",
+        "roundtrip": "editable 21/21, 30/30, 35/35, 0 dead",
+        "aiReadability": "100 ×3"
+      },
+      "startedAt": "2026-09-28T13:29:15.414Z",
+      "endedAt": "2026-09-28T14:00:02.250Z",
+      "verdict": "landing-rest: pages 3/3 live, blocks 2, gate 1440 1.67% / 360 1.48%, requests 2",
+      "residuals": [
+        "R-LR1 footer aria-labels + chrome deltas: frozen footer / probe artifact",
+        "R-LR2 visual-diff STRETCHED IMAGE ×7: source forced aspect crops incl. image-columns live stretch quirk (mirrored via display: contents)",
+        "R-LR3 hero CTA #trends has no in-page target (live section id)",
+        "R-LR4 FONT LOAD FAILED on metric-fallback faces in captures; pixel passed",
+        "young-adults pub1: live centred intro 64px margin-bottom, fixed in image-columns CSS → pub2"
+      ],
+      "sharedBlockEdits": [
+        "featured-story optional leading head row (splitHead)",
+        "snapshot-gallery content-driven 3-up (tiles %4!=0 && %3==0)",
+        "text-align:center on .snapshot-head/.article-cards-head/.cta-center (utility-text-align-center undefined in delivered CSS)"
+      ]
+    },
+    "listing-static": {
+      "status": "done",
+      "kind": "cluster",
+      "templates": [
+        "blog",
+        "faq"
+      ],
+      "pages": 3,
+      "blocks": 1,
+      "gates": {
+        "360": {
+          "blog": "2.74% / Δ0",
+          "fashion-insights": "3.42% / Δ-1px",
+          "faq": "1.91% / Δ-1px (pub2; pub1 5.09%/-13)"
+        },
+        "1440": {
+          "blog": "1.78% / Δ-1px",
+          "fashion-insights": "1.29% / Δ-1px",
+          "faq": "1.29% / Δ0 (pub2; pub1 9.64%/+29)"
+        },
+        "crop": "blog header 0.00% / footer 1.80%; faq header 0.00% / footer 2.19% (frozen footer → request)",
+        "chrome": "header live-hero pairing artifact; footer 15 link-tag + 5 aria deltas (frozen/known)",
+        "content": "5 structural red per page = MISSING ARIA-LABEL footer (known); 0 DEAD/DROPPED/DUPLICATED",
+        "overflow": "1440 0; 360 build 423 = live 423 (R-01)",
+        "roundtrip": "editable 32/32, 27/27, 22/22",
+        "aiReadability": "100 ×3"
+      },
+      "startedAt": "2026-09-28T13:29:15.414Z",
+      "endedAt": "2026-09-28T13:46:23.948Z",
+      "verdict": "listing-static: pages 3/3 live, blocks 1, gate 1440 1.78% / 360 2.74%, requests 1",
+      "residuals": [
+        "R-LS1 footer aria-labels / chrome footer deltas: frozen footer, requested",
+        "R-LS2 visual-diff STRETCHED IMAGE (blog 7, faq 1) = prototype forced aspect crops",
+        "R-LS3 hero CTA #articles has no in-page target (live section id, not authorable)",
+        "R-LS4 faq footer band 2.19% vs 2% bar (frozen footer)",
+        "R-LS5 capture FONT LOAD FAILED for fallback faces (capture env); pixel passed"
+      ],
+      "sharedBlockEdits": [
+        "snapshot-gallery.js variant three-column",
+        "hero.css .hero.media-4x3 .hero-media grid-template-columns 1fr",
+        "faq-accordion.css .no-head .faq-list 48rem→45rem"
+      ]
+    },
+    "article": {
+      "status": "done",
+      "kind": "cluster",
+      "templates": [
+        "blog-ace-pro-court-polo"
+      ],
+      "pages": 7,
+      "blocks": 1,
+      "gates": {
+        "360": {
+          "blog-ace-pro-court-polo": "2.76% / Δ0 (pub2; pub1 11.88%/-136)",
+          "blog-fashion-blog-post": "1.57% / Δ0",
+          "blog-fashion-trends-young-culture": "1.74% / Δ-1",
+          "blog-fashion-trends-young-style": "1.79% / Δ-1",
+          "blog-flip-flop-summer-style": "2.30% / Δ0",
+          "blog-latest-trends-young-casual-fashion": "1.48% / Δ-1",
+          "blog-street-style-trends": "1.50% / Δ-1"
+        },
+        "1440": {
+          "blog-ace-pro-court-polo": "1.47% / Δ-1 (pub2; pub1 7.98%/-131)",
+          "blog-fashion-blog-post": "0.99% / Δ0",
+          "blog-fashion-trends-young-culture": "1.05% / Δ-1",
+          "blog-fashion-trends-young-style": "0.99% / Δ0",
+          "blog-flip-flop-summer-style": "1.12% / Δ-1",
+          "blog-latest-trends-young-casual-fashion": "0.89% / Δ-1",
+          "blog-street-style-trends": "0.83% / Δ-1"
+        },
+        "crop": "ace 1440 header 0.00% / footer 1.80%",
+        "chrome": "22 deltas, all frozen-footer link tag/padding pairs (known)",
+        "content": "5 structural = MISSING ARIA-LABEL footer (frozen, known); yellows: hero date line one <p>, breadcrumb chevron ::before vs inline svg",
+        "overflow": "1440 0 on all 7; 360 build 423 = live 423 on all 7 (R-01)",
+        "roundtrip": "EW editable 38/38 + 5/5, dead 0",
+        "aiReadability": "100 ×7"
+      },
+      "startedAt": "2026-09-28T13:29:15.414Z",
+      "endedAt": "2026-09-28T13:52:21.020Z",
+      "verdict": "article: pages 7/7 live, blocks 1, gate 1440 1.47% / 360 2.76%, requests 0",
+      "residuals": [
+        "R-A1 footer aria-labels + chrome footer deltas: frozen footer, requested by landing-core",
+        "R-A2 visual-diff STRETCHED IMAGE on hero lead: prototype forced 3/2 object-fit crop",
+        "R-A3 MISSING ICON breadcrumb chevron: CSS ::before data-URI vs inline svg live (pixel-identical)",
+        "blog-content table: runtime wraps bare cells in <p>; fixed with .blog-content :is(th,td) p margin 0"
+      ]
+    },
+    "final": {
+      "status": "done",
+      "kind": "final",
+      "templates": [
+        "index",
+        "blog",
+        "blog-ace-pro-court-polo",
+        "faq"
+      ],
+      "pages": 15,
+      "blocks": 11,
+      "gates": {
+        "360": {
+          "index": "1.22% Δ-1",
+          "blog": "2.29% Δ0",
+          "blog-ace-pro-court-polo": "2.76% Δ0",
+          "faq": "1.51% Δ-1"
+        },
+        "1440": {
+          "index": "0.40% Δ-1",
+          "blog": "1.07% Δ-1",
+          "blog-ace-pro-court-polo": "1.34% Δ-1",
+          "faq": "0.75% Δ0"
+        },
+        "crop": "footer band (bar 2%) 1440: index 0.23 / blog 0.23 / article 0.15 / faq 0.55; 360: 0.45 / 0.38 / 0.52 / 0.34 — was 2.84 / 1.80 / – / 2.19",
+        "chrome": "footer 21 → 1 delta per archetype (brand <a> wraps the logo icon on live: 181×32 vs 141×22, granularity only); header live-hero pairing artifact unchanged",
+        "content": "0 structural red on blog / article / faq; index 4 = R-LC1 avatar icons classified as images by the probe (5× MISSING ARIA-LABEL [footer] cleared)",
+        "overflow": "1440 0; 360 build 423 = live 423 (R-01 live-mirrored)",
+        "freeze": "foundation re-frozen after the applied requests (17 files), check exit 0",
+        "coverage": "15/15 pages verified, 11 blocks"
+      },
+      "startedAt": "2026-09-28T14:04:28.870Z",
+      "endedAt": "2026-09-28T14:17:19.442Z",
+      "verdict": "final: requests 4 (applied 3, declined 1), foundation re-frozen, archetypes re-gated on the published origin 1440 0.40/1.07/1.34/0.75% · 360 1.22/2.29/2.76/1.51%, footer bands ≤ 0.55%, coverage 15/15 verified",
+      "requests": {
+        "queued": 4,
+        "applied": [
+          "footer brand column bottom-pinned social row",
+          "icon-only aria-labelled social links + live <div>-in-<a> link wrapping",
+          "utility-text-align-center foundation utility"
+        ],
+        "declined": [
+          "centred default-content intro section style (scoped override gated at 0.91%)"
+        ]
+      }
+    }
+  }
+}

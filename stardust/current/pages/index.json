@@ -1,0 +1,633 @@
+{
+  "_provenance": {
+    "renderedBy": "playwright",
+    "fetchedAt": "2026-09-28T10:11:37.930Z",
+    "waitMode": "medium",
+    "waitMs": 2500,
+    "httpStatus": 200
+  },
+  "slug": "index",
+  "url": "https://www.wknd-trendsetters.site/",
+  "renderedBy": "playwright",
+  "fetchedAt": "2026-09-28T10:11:37.930Z",
+  "finalUrl": "https://www.wknd-trendsetters.site/",
+  "title": "WKND Trendsetters - Fresh Looks, Bold Stories, Real Life",
+  "description": "Discover the latest fashion trends, style tips, and stories for young trendsetters.",
+  "og": {
+    "title": null,
+    "description": null,
+    "image": null,
+    "type": null
+  },
+  "headings": [
+    {
+      "tag": "h1",
+      "text": "Fresh looks, bold stories, real life"
+    },
+    {
+      "tag": "h2",
+      "text": "Fresh looks, bold moves, real stories"
+    },
+    {
+      "tag": "h2",
+      "text": "Style in every snapshot"
+    },
+    {
+      "tag": "h2",
+      "text": "Latest articles"
+    },
+    {
+      "tag": "h3",
+      "text": "Tennis style, redefined"
+    },
+    {
+      "tag": "h3",
+      "text": "Sunkissed and effortless"
+    },
+    {
+      "tag": "h3",
+      "text": "Party fits that pop"
+    },
+    {
+      "tag": "h3",
+      "text": "Game on, style up"
+    },
+    {
+      "tag": "h2",
+      "text": "Got questions? We've got answers."
+    },
+    {
+      "tag": "h2",
+      "text": "Fresh looks, bold stories, real life"
+    },
+    {
+      "tag": "h2",
+      "text": "Trends"
+    },
+    {
+      "tag": "h2",
+      "text": "Inspire"
+    },
+    {
+      "tag": "h2",
+      "text": "Explore"
+    }
+  ],
+  "body": [
+    "Dive into our latest style adventures—see how young trendsetters own every moment, from courtside to the dance floor.",
+    "Peek the latest looks in action",
+    "“Wearing new brands makes every day feel like a runway. I love mixing sporty vibes with bold colors—perfect for tennis or a night out!”",
+    "Fresh looks, bold moves",
+    "Fashion FAQs, answered fast",
+    "We keep it fresh! Check our weekly trend roundups and street style snaps for what's hot right now.",
+    "Absolutely! Tag us on socials or use our upload form to get featured in our next style story.",
+    "From city streets to beach parties, we're always on the lookout for bold looks and cool creators.",
+    "Sign up for our newsletter or jump into the comments—everyone's welcome to join the fun!",
+    "Dive into our latest case study: see how young trendsetters rock new brands from courtside to the dance floor. Discover the style, the vibe, and the impact—one story at a time."
+  ],
+  "codeBlocks": [],
+  "ctas": [
+    {
+      "label": "Skip to main content",
+      "href": "#main-content"
+    },
+    {
+      "label": "Fashion Blog",
+      "href": "/"
+    },
+    {
+      "label": "About",
+      "href": "/fashion-trends-of-the-season"
+    },
+    {
+      "label": "Blog",
+      "href": "/blog"
+    },
+    {
+      "label": "Subscribe",
+      "href": "#"
+    },
+    {
+      "label": "See case",
+      "href": "/case-studies"
+    },
+    {
+      "label": "All stories",
+      "href": "/fashion-insights"
+    },
+    {
+      "label": "Home",
+      "href": "/"
+    },
+    {
+      "label": "Case studies",
+      "href": "/case-studies"
+    },
+    {
+      "label": "Alex Rivera Streetwear Enthusiast",
+      "href": null
+    },
+    {
+      "label": "Taylor Kim Casual Style Blogger",
+      "href": null
+    },
+    {
+      "label": "Jordan Ellis Trend Spotter",
+      "href": null
+    },
+    {
+      "label": "Morgan Blake Party Scene Curator",
+      "href": null
+    },
+    {
+      "label": "Casual Cool May 12 Tennis style, redefined",
+      "href": "/blog/latest-trends-young-casual-fashion"
+    },
+    {
+      "label": "Beach Vibes May 10 Sunkissed and effortless",
+      "href": "/blog/fashion-trends-young-culture"
+    },
+    {
+      "label": "Night Out May 8 Party fits that pop",
+      "href": "/blog/fashion-trends-young-style"
+    },
+    {
+      "label": "Sport Mode May 5 Game on, style up",
+      "href": "/blog/fashion-blog-post"
+    },
+    {
+      "label": "See more",
+      "href": "#"
+    },
+    {
+      "label": "Fashion Blog",
+      "href": "/"
+    },
+    {
+      "label": "Style",
+      "href": "#"
+    },
+    {
+      "label": "Looks",
+      "href": "#"
+    },
+    {
+      "label": "Events",
+      "href": "#"
+    },
+    {
+      "label": "Brands",
+      "href": "#"
+    },
+    {
+      "label": "Tips",
+      "href": "#"
+    },
+    {
+      "label": "Stories",
+      "href": "#"
+    },
+    {
+      "label": "People",
+      "href": "#"
+    },
+    {
+      "label": "Culture",
+      "href": "#"
+    },
+    {
+      "label": "Vibes",
+      "href": "#"
+    },
+    {
+      "label": "Fun",
+      "href": "#"
+    },
+    {
+      "label": "Travel",
+      "href": "#"
+    },
+    {
+      "label": "Beach",
+      "href": "#"
+    },
+    {
+      "label": "Night",
+      "href": "#"
+    },
+    {
+      "label": "Sport",
+      "href": "#"
+    },
+    {
+      "label": "Chill",
+      "href": "#"
+    }
+  ],
+  "links": [
+    "https://www.wknd-trendsetters.site/#main-content",
+    "https://www.wknd-trendsetters.site/",
+    "https://www.wknd-trendsetters.site/fashion-trends-young-adults-casual-sport",
+    "https://www.wknd-trendsetters.site/fashion-trends-young-adults",
+    "https://www.wknd-trendsetters.site/blog",
+    "https://www.wknd-trendsetters.site/case-studies",
+    "https://www.wknd-trendsetters.site/fashion-trends-of-the-season",
+    "https://www.wknd-trendsetters.site/faq",
+    "https://www.wknd-trendsetters.site/#",
+    "https://www.wknd-trendsetters.site/fashion-insights",
+    "https://www.wknd-trendsetters.site/blog/latest-trends-young-casual-fashion",
+    "https://www.wknd-trendsetters.site/blog/fashion-trends-young-culture",
+    "https://www.wknd-trendsetters.site/blog/fashion-trends-young-style",
+    "https://www.wknd-trendsetters.site/blog/fashion-blog-post"
+  ],
+  "media": {
+    "imgs": [
+      {
+        "src": "https://www.wknd-trendsetters.site/images/hero-hiphop-dance.avif",
+        "alt": "Hip-hop dance style",
+        "w": 800,
+        "h": 547
+      },
+      {
+        "src": "https://www.wknd-trendsetters.site/images/hero-family-vacation.avif",
+        "alt": "Family on vacation",
+        "w": 800,
+        "h": 547
+      },
+      {
+        "src": "https://www.wknd-trendsetters.site/images/hero-music-concert.avif",
+        "alt": "Music fans at concert",
+        "w": 800,
+        "h": 547
+      },
+      {
+        "src": "https://www.wknd-trendsetters.site/images/adventure-spots.avif",
+        "alt": "Thrilling adventure spots",
+        "w": 800,
+        "h": 547
+      },
+      {
+        "src": "https://www.wknd-trendsetters.site/images/hero-hiphop-dance.avif",
+        "alt": "Hip-hop dance",
+        "w": 800,
+        "h": 547
+      },
+      {
+        "src": "https://www.wknd-trendsetters.site/images/beach-destination.avif",
+        "alt": "Beach destination",
+        "w": 800,
+        "h": 547
+      },
+      {
+        "src": "https://www.wknd-trendsetters.site/images/concert-crowd.avif",
+        "alt": "Concert crowd",
+        "w": 800,
+        "h": 547
+      },
+      {
+        "src": "https://www.wknd-trendsetters.site/images/campus-life.avif",
+        "alt": "Campus life",
+        "w": 800,
+        "h": 547
+      },
+      {
+        "src": "https://www.wknd-trendsetters.site/images/gaming-tournaments.avif",
+        "alt": "Gaming tournaments",
+        "w": 800,
+        "h": 547
+      },
+      {
+        "src": "https://www.wknd-trendsetters.site/images/mobile-game-character.avif",
+        "alt": "Mobile game character",
+        "w": 800,
+        "h": 547
+      },
+      {
+        "src": "https://www.wknd-trendsetters.site/images/fashion-inspiration.avif",
+        "alt": "Fashion inspiration",
+        "w": 800,
+        "h": 547
+      },
+      {
+        "src": "https://www.wknd-trendsetters.site/images/campus-tour.avif",
+        "alt": "Campus tour",
+        "w": 800,
+        "h": 547
+      },
+      {
+        "src": "https://www.wknd-trendsetters.site/images/hero-hiphop-dance.avif",
+        "alt": "Alex Rivera",
+        "w": 800,
+        "h": 547
+      },
+      {
+        "src": "https://www.wknd-trendsetters.site/images/mobile-game-character.avif",
+        "alt": "Morgan Blake",
+        "w": 800,
+        "h": 547
+      },
+      {
+        "src": "https://www.wknd-trendsetters.site/images/avatar-alex.avif",
+        "alt": "",
+        "w": 800,
+        "h": 800
+      },
+      {
+        "src": "https://www.wknd-trendsetters.site/images/avatar-taylor.avif",
+        "alt": "",
+        "w": 800,
+        "h": 800
+      },
+      {
+        "src": "https://www.wknd-trendsetters.site/images/avatar-jordan.avif",
+        "alt": "",
+        "w": 800,
+        "h": 800
+      },
+      {
+        "src": "https://www.wknd-trendsetters.site/images/avatar-morgan.avif",
+        "alt": "",
+        "w": 800,
+        "h": 800
+      },
+      {
+        "src": "https://www.wknd-trendsetters.site/images/hero-hiphop-dance.avif",
+        "alt": "Tennis style, redefined",
+        "w": 800,
+        "h": 547
+      },
+      {
+        "src": "https://www.wknd-trendsetters.site/images/fundraising-event.avif",
+        "alt": "Sunkissed and effortless",
+        "w": 800,
+        "h": 547
+      },
+      {
+        "src": "https://www.wknd-trendsetters.site/images/hero-family-vacation.avif",
+        "alt": "Party fits that pop",
+        "w": 800,
+        "h": 547
+      },
+      {
+        "src": "https://www.wknd-trendsetters.site/images/mobile-game-character.avif",
+        "alt": "Game on, style up",
+        "w": 800,
+        "h": 547
+      },
+      {
+        "src": "https://www.wknd-trendsetters.site/images/networking-event.avif",
+        "alt": "",
+        "w": 800,
+        "h": 547
+      }
+    ],
+    "allImgCount": 25,
+    "cssBackgrounds": [],
+    "modals": [],
+    "videos": [],
+    "iframes": []
+  },
+  "customProps": {
+    "--color-white": "#ffffff",
+    "--color-black": "#000000",
+    "--color-yellow": "#f4fe8b",
+    "--color-lavender": "#cbd4ff",
+    "--color-purple": "#f4e5fc",
+    "--color-gray-100": "#f5f5f5",
+    "--color-gray-200": "#e8e8e8",
+    "--color-gray-300": "#d4d4d4",
+    "--color-gray-500": "#666666",
+    "--color-gray-700": "#404040",
+    "--color-gray-900": "#171717",
+    "--font-heading": "\"Syncopate\", sans-serif",
+    "--font-body": "\"Instrument Sans\", sans-serif",
+    "--text-xs": ".75rem",
+    "--text-sm": ".875rem",
+    "--text-base": "1rem",
+    "--text-lg": "1.125rem",
+    "--text-xl": "1.25rem",
+    "--text-2xl": "1.5rem",
+    "--text-3xl": "2rem",
+    "--text-4xl": "2.5rem",
+    "--text-5xl": "3.5rem",
+    "--leading-tight": "1.1",
+    "--leading-snug": "1.3",
+    "--leading-normal": "1.6",
+    "--space-xxs": ".25rem",
+    "--space-xs": ".5rem",
+    "--space-sm": ".75rem",
+    "--space-md": "1rem",
+    "--space-lg": "1.5rem",
+    "--space-xl": "2rem",
+    "--space-2xl": "3rem",
+    "--space-3xl": "4rem",
+    "--space-4xl": "5rem",
+    "--space-5xl": "8rem",
+    "--container-max": "1200px",
+    "--container-padding": "1.5rem",
+    "--radius-sm": ".375rem",
+    "--radius-md": ".5rem",
+    "--radius-lg": "1rem",
+    "--radius-card": "1.25rem",
+    "--radius-full": "9999px",
+    "--shadow-button": "4px 4px 0 0 #000000",
+    "--shadow-card": "0 2px 8px rgba(0, 0, 0, .08)",
+    "--transition-fast": ".15s ease",
+    "--transition-normal": ".3s ease",
+    "--focus-ring-color": "#000000",
+    "--focus-ring-width": "2px",
+    "--focus-ring-offset": "2px",
+    "--icon-xs": ".75rem",
+    "--icon-sm": "1rem",
+    "--icon-md": "1.5rem",
+    "--icon-lg": "2rem",
+    "--icon-xl": "3rem"
+  },
+  "_signals": {
+    "filteredInterstitials": 0,
+    "distinctHeadings": 12,
+    "mainTextLen": 3124,
+    "realImageCount": 23,
+    "trackingOnlyMedia": false,
+    "spaShellSuspect": false,
+    "screenshotMode": "fullPage"
+  },
+  "dynamic": {
+    "endpoints": [],
+    "thirdPartyScriptHosts": [],
+    "truncated": false,
+    "inlineData": [],
+    "globalState": [],
+    "frameworkHints": [],
+    "forms": [],
+    "ariaLiveRegions": 0,
+    "triggers": [],
+    "mediaIds": [],
+    "summary": {
+      "sameSiteEndpoints": 0,
+      "thirdPartyEndpoints": 0,
+      "thirdPartyScriptHosts": 0,
+      "inlineDataBlobs": 0,
+      "forms": 0,
+      "searchForms": 0,
+      "hydrated": false
+    }
+  },
+  "screenshot": "assets/screenshots/index.png",
+  "renderedHtml": "pages/index.html",
+  "type": "landing",
+  "slots": {
+    "hero": {
+      "headline": "Fresh looks, bold stories, real life",
+      "subcopy": "Dive into our latest style adventures—see how young trendsetters own every moment, from courtside to the dance floor.",
+      "ctas": [
+        {
+          "label": "See case",
+          "href": "/case-studies"
+        },
+        {
+          "label": "All stories",
+          "href": "/fashion-insights"
+        }
+      ],
+      "collage": [
+        {
+          "src": "/images/hero-hiphop-dance.avif",
+          "alt": "Hip-hop dance style"
+        },
+        {
+          "src": "/images/hero-family-vacation.avif",
+          "alt": "Family on vacation"
+        },
+        {
+          "src": "/images/hero-music-concert.avif",
+          "alt": "Music fans at concert"
+        }
+      ]
+    },
+    "sections": [
+      {
+        "selector": "main section:nth-of-type(1)",
+        "heading": "Fresh looks, bold moves, real stories",
+        "imgs": 1,
+        "buttons": 0,
+        "cards": 0,
+        "inverse": false,
+        "tint": false
+      },
+      {
+        "selector": "main section:nth-of-type(2)",
+        "heading": "Style in every snapshot",
+        "imgs": 8,
+        "buttons": 0,
+        "cards": 0,
+        "inverse": false,
+        "tint": true
+      },
+      {
+        "selector": "main section:nth-of-type(3)",
+        "heading": null,
+        "imgs": 8,
+        "buttons": 0,
+        "cards": 0,
+        "inverse": false,
+        "tint": false
+      },
+      {
+        "selector": "main section:nth-of-type(4)",
+        "heading": "Latest articles",
+        "imgs": 4,
+        "buttons": 0,
+        "cards": 16,
+        "inverse": false,
+        "tint": true
+      },
+      {
+        "selector": "main section:nth-of-type(5)",
+        "heading": "Got questions? We've got answers.",
+        "imgs": 0,
+        "buttons": 0,
+        "cards": 0,
+        "inverse": false,
+        "tint": false
+      },
+      {
+        "selector": "main section:nth-of-type(6)",
+        "heading": "Fresh looks, bold stories, real life",
+        "imgs": 1,
+        "buttons": 2,
+        "cards": 2,
+        "inverse": true,
+        "tint": false
+      }
+    ],
+    "card-grid": [
+      {
+        "href": "/blog/latest-trends-young-casual-fashion",
+        "image": "/images/hero-hiphop-dance.avif",
+        "tag": "Casual Cool",
+        "date": "May 12",
+        "title": "Tennis style, redefined"
+      },
+      {
+        "href": "/blog/fashion-trends-young-culture",
+        "image": "/images/fundraising-event.avif",
+        "tag": "Beach Vibes",
+        "date": "May 10",
+        "title": "Sunkissed and effortless"
+      },
+      {
+        "href": "/blog/fashion-trends-young-style",
+        "image": "/images/hero-family-vacation.avif",
+        "tag": "Night Out",
+        "date": "May 8",
+        "title": "Party fits that pop"
+      },
+      {
+        "href": "/blog/fashion-blog-post",
+        "image": "/images/mobile-game-character.avif",
+        "tag": "Sport Mode",
+        "date": "May 5",
+        "title": "Game on, style up"
+      }
+    ],
+    "gallery": {
+      "selector": "main section:nth-of-type(2)",
+      "heading": "Style in every snapshot",
+      "imgs": 8,
+      "buttons": 0,
+      "cards": 0,
+      "inverse": false,
+      "tint": true
+    },
+    "faq": [
+      {
+        "q": "How do I spot the latest trends?",
+        "a": "We keep it fresh! Check our weekly trend roundups and street style snaps for what's hot right now."
+      },
+      {
+        "q": "Can I share my own outfit pics?",
+        "a": "Absolutely! Tag us on socials or use our upload form to get featured in our next style story."
+      },
+      {
+        "q": "Where do you find your style inspo?",
+        "a": "From city streets to beach parties, we're always on the lookout for bold looks and cool creators."
+      },
+      {
+        "q": "How can I join your community?",
+        "a": "Sign up for our newsletter or jump into the comments—everyone's welcome to join the fun!"
+      }
+    ],
+    "quotes": [],
+    "cta-band": null,
+    "image-cta": {
+      "selector": "main section:nth-of-type(6)",
+      "heading": "Fresh looks, bold stories, real life",
+      "imgs": 1,
+      "buttons": 2,
+      "cards": 2,
+      "inverse": true,
+      "tint": false
+    }
+  }
+}

@@ -1,0 +1,188 @@
+{
+ "source": "http://localhost:8795/stardust/migrated/faq/index.html",
+ "width": 1280,
+ "profile": "generic",
+ "sections": [
+  {
+   "section": "1",
+   "items": [
+    {
+     "role": "heading",
+     "order": 0,
+     "text": "Got questions? We've got answers."
+    },
+    {
+     "role": "body",
+     "order": 1,
+     "text": "Fashion FAQs, answered fast"
+    },
+    {
+     "role": "body",
+     "order": 2,
+     "text": "Curious about trends, tips, or our vibe? Find all the style scoop and community know-how right here."
+    }
+   ],
+   "imgCount": 1,
+   "editableTexts": 3,
+   "repeats": [
+    {
+     "unitSelector": "DIV.",
+     "count": 2,
+     "unit": {
+      "headings": 1,
+      "ctas": 0,
+      "imgs": 0,
+      "textRuns": 3
+     },
+     "uniform": false
+    }
+   ]
+  },
+  {
+   "section": "2",
+   "items": [
+    {
+     "role": "body",
+     "order": 0,
+     "text": "How do I spot the latest trends?"
+    },
+    {
+     "role": "body",
+     "order": 1,
+     "text": "We keep it fresh! Check our weekly trend roundups and street style snaps for what's hot right now."
+    },
+    {
+     "role": "body",
+     "order": 2,
+     "text": "Can I share my own outfit pics?"
+    },
+    {
+     "role": "body",
+     "order": 3,
+     "text": "Absolutely! Tag us on socials or use our upload form to get featured in our next style story."
+    },
+    {
+     "role": "body",
+     "order": 4,
+     "text": "Where do you find your style inspo?"
+    },
+    {
+     "role": "body",
+     "order": 5,
+     "text": "From city streets to beach parties, we're always on the lookout for bold looks and cool creators."
+    },
+    {
+     "role": "body",
+     "order": 6,
+     "text": "How can I join your community?"
+    },
+    {
+     "role": "body",
+     "order": 7,
+     "text": "Sign up for our newsletter or jump into the comments—everyone's welcome to join the fun!"
+    }
+   ],
+   "imgCount": 0,
+   "editableTexts": 4,
+   "repeats": [
+    {
+     "unitSelector": "DETAILS.faq-item",
+     "count": 4,
+     "unit": {
+      "headings": 0,
+      "ctas": 0,
+      "imgs": 0,
+      "textRuns": 2
+     },
+     "uniform": true
+    }
+   ]
+  },
+  {
+   "section": "3",
+   "items": [
+    {
+     "role": "heading",
+     "order": 0,
+     "text": "Let's connect"
+    },
+    {
+     "role": "body",
+     "order": 1,
+     "text": "Got more questions or want to chat? Reach out—we love hearing from our community."
+    },
+    {
+     "role": "heading",
+     "order": 2,
+     "text": "Email"
+    },
+    {
+     "role": "cta",
+     "order": 3,
+     "text": "hello@fashionblog.com",
+     "href": "mailto:hello@fashionblog.com"
+    },
+    {
+     "role": "heading",
+     "order": 4,
+     "text": "Phone"
+    },
+    {
+     "role": "cta",
+     "order": 5,
+     "text": "+1 (555) 123-9876",
+     "href": "tel:+15551239876"
+    },
+    {
+     "role": "heading",
+     "order": 6,
+     "text": "Address"
+    },
+    {
+     "role": "body",
+     "order": 7,
+     "text": "101 Trend Ave, SF, CA"
+    }
+   ],
+   "imgCount": 0,
+   "editableTexts": 6,
+   "repeats": [
+    {
+     "unitSelector": "DIV.",
+     "count": 2,
+     "unit": {
+      "headings": 1,
+      "ctas": 0,
+      "imgs": 0,
+      "textRuns": 2
+     },
+     "uniform": false
+    }
+   ]
+  },
+  {
+   "section": "4",
+   "items": [
+    {
+     "role": "heading",
+     "order": 0,
+     "text": "Fresh fits, bold moves, all day"
+    },
+    {
+     "role": "body",
+     "order": 1,
+     "text": "Join our community of trendsetters."
+    },
+    {
+     "role": "cta",
+     "order": 2,
+     "text": "Join now",
+     "href": "#"
+    }
+   ],
+   "imgCount": 0,
+   "editableTexts": 2,
+   "repeats": []
+  }
+ ]
+}

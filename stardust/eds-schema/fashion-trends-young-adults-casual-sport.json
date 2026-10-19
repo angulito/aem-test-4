@@ -1,0 +1,121 @@
+{
+ "source": "http://localhost:8794/stardust/migrated/fashion-trends-young-adults-casual-sport/index.html",
+ "width": 1280,
+ "profile": "generic",
+ "sections": [
+  {
+   "section": "1",
+   "items": [
+    {
+     "role": "heading",
+     "order": 0,
+     "text": "Fresh fits, bold moves, all you"
+    },
+    {
+     "role": "body",
+     "order": 1,
+     "text": "From tennis courts to neon nights, we're serving up the latest trends and stories from the coolest scenes."
+    },
+    {
+     "role": "cta",
+     "order": 2,
+     "text": "See trends",
+     "href": "#trends"
+    }
+   ],
+   "imgCount": 2,
+   "editableTexts": 2,
+   "repeats": []
+  },
+  {
+   "section": "2",
+   "items": [
+    {
+     "role": "heading",
+     "order": 0,
+     "text": "Trend alert"
+    },
+    {
+     "role": "body",
+     "order": 1,
+     "text": "Fresh fits, bold moves"
+    }
+   ],
+   "imgCount": 8,
+   "editableTexts": 18,
+   "repeats": [
+    {
+     "unitSelector": "A.trend-card",
+     "count": 8,
+     "unit": {
+      "headings": 1,
+      "ctas": 0,
+      "imgs": 1,
+      "textRuns": 3
+     },
+     "uniform": true
+    }
+   ]
+  },
+  {
+   "section": "3",
+   "items": [
+    {
+     "role": "heading",
+     "order": 0,
+     "text": "Fresh fits, bold moves"
+    },
+    {
+     "role": "body",
+     "order": 1,
+     "text": "Dive into the latest street style, sporty looks, and party-ready outfits."
+    },
+    {
+     "role": "cta",
+     "order": 2,
+     "text": "Explore the blog",
+     "href": "../fashion-insights/index.html"
+    }
+   ],
+   "imgCount": 1,
+   "editableTexts": 2,
+   "repeats": [
+    {
+     "unitSelector": "DIV.",
+     "count": 2,
+     "unit": {
+      "headings": 0,
+      "ctas": 0,
+      "imgs": 1,
+      "textRuns": 0
+     },
+     "uniform": false
+    }
+   ]
+  },
+  {
+   "section": "4",
+   "items": [
+    {
+     "role": "heading",
+     "order": 0,
+     "text": "Fresh fits, bold moves, all day"
+    },
+    {
+     "role": "body",
+     "order": 1,
+     "text": "Discover the latest trends and get inspired."
+    },
+    {
+     "role": "cta",
+     "order": 2,
+     "text": "Subscribe",
+     "href": "#"
+    }
+   ],
+   "imgCount": 0,
+   "editableTexts": 2,
+   "repeats": []
+  }
+ ]
+}

@@ -1,0 +1,162 @@
+{
+ "source": "http://localhost:8795/stardust/migrated/fashion-insights/index.html",
+ "width": 1280,
+ "profile": "generic",
+ "sections": [
+  {
+   "section": "1",
+   "items": [
+    {
+     "role": "heading",
+     "order": 0,
+     "text": "WKND Trendsetters Blog"
+    },
+    {
+     "role": "body",
+     "order": 1,
+     "text": "From tennis courts to neon nights, discover the latest trends, style inspo, and stories from the coolest scenes. Dive into a world where fashion meets fun—your next look starts here."
+    },
+    {
+     "role": "cta",
+     "order": 2,
+     "text": "Read now",
+     "href": "#articles"
+    },
+    {
+     "role": "cta",
+     "order": 3,
+     "text": "See trends",
+     "href": "../fashion-trends-of-the-season/index.html"
+    }
+   ],
+   "imgCount": 1,
+   "editableTexts": 2,
+   "repeats": []
+  },
+  {
+   "section": "2",
+   "items": [
+    {
+     "role": "eyebrow",
+     "order": 0,
+     "text": "Featured"
+    },
+    {
+     "role": "heading",
+     "order": 1,
+     "text": "Fresh looks, bold moves"
+    },
+    {
+     "role": "body",
+     "order": 2,
+     "text": "Dive into our latest style adventures—see how young trendsetters own every moment."
+    },
+    {
+     "role": "cta",
+     "order": 3,
+     "text": "Read the full article",
+     "href": "../blog/latest-trends-young-casual-fashion/index.html"
+    }
+   ],
+   "imgCount": 1,
+   "editableTexts": 2,
+   "repeats": [
+    {
+     "unitSelector": "DIV.",
+     "count": 2,
+     "unit": {
+      "headings": 0,
+      "ctas": 0,
+      "imgs": 1,
+      "textRuns": 0
+     },
+     "uniform": false
+    }
+   ]
+  },
+  {
+   "section": "3",
+   "items": [
+    {
+     "role": "heading",
+     "order": 0,
+     "text": "Latest Articles"
+    },
+    {
+     "role": "body",
+     "order": 1,
+     "text": "Fresh looks, bold moves"
+    }
+   ],
+   "imgCount": 4,
+   "editableTexts": 6,
+   "repeats": [
+    {
+     "unitSelector": "A.article-card",
+     "count": 4,
+     "unit": {
+      "headings": 1,
+      "ctas": 0,
+      "imgs": 1,
+      "textRuns": 3
+     },
+     "uniform": true
+    }
+   ]
+  },
+  {
+   "section": "4",
+   "items": [
+    {
+     "role": "heading",
+     "order": 0,
+     "text": "Style in every snapshot"
+    },
+    {
+     "role": "body",
+     "order": 1,
+     "text": "Peek the latest looks in action"
+    }
+   ],
+   "imgCount": 6,
+   "editableTexts": 2,
+   "repeats": [
+    {
+     "unitSelector": "DIV.utility-aspect-1x1",
+     "count": 6,
+     "unit": {
+      "headings": 0,
+      "ctas": 0,
+      "imgs": 1,
+      "textRuns": 0
+     },
+     "uniform": true
+    }
+   ]
+  },
+  {
+   "section": "5",
+   "items": [
+    {
+     "role": "heading",
+     "order": 0,
+     "text": "Fresh looks, bold vibes, endless inspo"
+    },
+    {
+     "role": "body",
+     "order": 1,
+     "text": "Stay inspired with the latest trends and stories."
+    },
+    {
+     "role": "cta",
+     "order": 2,
+     "text": "Subscribe",
+     "href": "#"
+    }
+   ],
+   "imgCount": 0,
+   "editableTexts": 2,
+   "repeats": []
+  }
+ ]
+}

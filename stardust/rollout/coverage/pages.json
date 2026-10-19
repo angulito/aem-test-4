@@ -1,0 +1,366 @@
+{
+  "_provenance": {
+    "writtenBy": "stardust:rollout/inventory",
+    "writtenAt": "2026-09-28T11:57:48.631Z",
+    "readArtifacts": [
+      "stardust/migrated"
+    ],
+    "stardustVersion": "0.0.0"
+  },
+  "generatedAt": "2026-09-28T14:21:39.648Z",
+  "pages": [
+    {
+      "slug": "blog",
+      "path": "/blog",
+      "title": "Blog — WKND Trendsetters",
+      "templateId": "blog",
+      "source": {
+        "migratedHtml": "stardust/migrated/blog/index.html",
+        "metaJson": "stardust/migrated/blog/_meta.json",
+        "sourceHash": "sha256:de05d3cce5e728107b45bbfd02865292aa49aaad88b5f59cc77800745322ac09"
+      },
+      "blocks": [
+        "hero",
+        "featured-story",
+        "article-cards",
+        "cta-band"
+      ],
+      "delivery": {
+        "status": "verified",
+        "deployedUrl": "https://main--e45f2fd7--aemcoder.aem.page/blog",
+        "deployedAt": null,
+        "verifiedAt": "2026-09-28T14:21:39.648Z",
+        "error": null
+      }
+    },
+    {
+      "slug": "blog-ace-pro-court-polo",
+      "path": "/blog/ace-pro-court-polo",
+      "title": "Court cool, street ready — the Ace Pro polo | Fashion Blog",
+      "templateId": "blog-ace-pro-court-polo",
+      "source": {
+        "migratedHtml": "stardust/migrated/blog/ace-pro-court-polo/index.html",
+        "metaJson": "stardust/migrated/blog/ace-pro-court-polo/_meta.json",
+        "sourceHash": "sha256:76abeb1ccbfea7986bea47cec1e46eaa80b1cf74c4e55abfe7e6409c0b05d932"
+      },
+      "blocks": [
+        "hero",
+        "blog-content"
+      ],
+      "delivery": {
+        "status": "verified",
+        "deployedUrl": "https://main--e45f2fd7--aemcoder.aem.page/blog/ace-pro-court-polo",
+        "deployedAt": null,
+        "verifiedAt": "2026-09-28T14:21:39.648Z",
+        "error": null
+      }
+    },
+    {
+      "slug": "blog-fashion-blog-post",
+      "path": "/blog/fashion-blog-post",
+      "title": "Game on, style up | Fashion Blog",
+      "templateId": "blog-ace-pro-court-polo",
+      "source": {
+        "migratedHtml": "stardust/migrated/blog/fashion-blog-post/index.html",
+        "metaJson": "stardust/migrated/blog/fashion-blog-post/_meta.json",
+        "sourceHash": "sha256:6356425311c6263a452f01a64b979a0e0540628bdbb800bdfc622a326f9b3ee5"
+      },
+      "blocks": [
+        "hero",
+        "blog-content"
+      ],
+      "delivery": {
+        "status": "verified",
+        "deployedUrl": "https://main--e45f2fd7--aemcoder.aem.page/blog/fashion-blog-post",
+        "deployedAt": null,
+        "verifiedAt": "2026-09-28T14:21:39.648Z",
+        "error": null
+      }
+    },
+    {
+      "slug": "blog-fashion-trends-young-culture",
+      "path": "/blog/fashion-trends-young-culture",
+      "title": "Sunkissed and effortless | Fashion Blog",
+      "templateId": "blog-ace-pro-court-polo",
+      "source": {
+        "migratedHtml": "stardust/migrated/blog/fashion-trends-young-culture/index.html",
+        "metaJson": "stardust/migrated/blog/fashion-trends-young-culture/_meta.json",
+        "sourceHash": "sha256:13f8edb128e5c8b1eff222996ed394b032df28d9ae4689f035cc9f14e9fcdfb0"
+      },
+      "blocks": [
+        "hero",
+        "blog-content"
+      ],
+      "delivery": {
+        "status": "verified",
+        "deployedUrl": "https://main--e45f2fd7--aemcoder.aem.page/blog/fashion-trends-young-culture",
+        "deployedAt": null,
+        "verifiedAt": "2026-09-28T14:21:39.648Z",
+        "error": null
+      }
+    },
+    {
+      "slug": "blog-fashion-trends-young-style",
+      "path": "/blog/fashion-trends-young-style",
+      "title": "Party fits that pop | Fashion Blog",
+      "templateId": "blog-ace-pro-court-polo",
+      "source": {
+        "migratedHtml": "stardust/migrated/blog/fashion-trends-young-style/index.html",
+        "metaJson": "stardust/migrated/blog/fashion-trends-young-style/_meta.json",
+        "sourceHash": "sha256:3f143a868386121ed8c43b4db848546533b34b5336859707209f60b8a14f08f6"
+      },
+      "blocks": [
+        "hero",
+        "blog-content"
+      ],
+      "delivery": {
+        "status": "verified",
+        "deployedUrl": "https://main--e45f2fd7--aemcoder.aem.page/blog/fashion-trends-young-style",
+        "deployedAt": null,
+        "verifiedAt": "2026-09-28T14:21:39.648Z",
+        "error": null
+      }
+    },
+    {
+      "slug": "blog-flip-flop-summer-style",
+      "path": "/blog/flip-flop-summer-style",
+      "title": "Slide into summer — flip flops that serve | Fashion Blog",
+      "templateId": "blog-ace-pro-court-polo",
+      "source": {
+        "migratedHtml": "stardust/migrated/blog/flip-flop-summer-style/index.html",
+        "metaJson": "stardust/migrated/blog/flip-flop-summer-style/_meta.json",
+        "sourceHash": "sha256:52cf223c7de5dd4a72743b5f9f5a0902ed9c5a2d18b7512d4538e55c4c3b0fa6"
+      },
+      "blocks": [
+        "hero",
+        "blog-content"
+      ],
+      "delivery": {
+        "status": "verified",
+        "deployedUrl": "https://main--e45f2fd7--aemcoder.aem.page/blog/flip-flop-summer-style",
+        "deployedAt": null,
+        "verifiedAt": "2026-09-28T14:21:39.648Z",
+        "error": null
+      }
+    },
+    {
+      "slug": "blog-latest-trends-young-casual-fashion",
+      "path": "/blog/latest-trends-young-casual-fashion",
+      "title": "Tennis style, redefined | Fashion Blog",
+      "templateId": "blog-ace-pro-court-polo",
+      "source": {
+        "migratedHtml": "stardust/migrated/blog/latest-trends-young-casual-fashion/index.html",
+        "metaJson": "stardust/migrated/blog/latest-trends-young-casual-fashion/_meta.json",
+        "sourceHash": "sha256:c6280fe0ee18c49be6f3f40500bf28e18907b43001208ead2288aa9019ec8b25"
+      },
+      "blocks": [
+        "hero",
+        "blog-content"
+      ],
+      "delivery": {
+        "status": "verified",
+        "deployedUrl": "https://main--e45f2fd7--aemcoder.aem.page/blog/latest-trends-young-casual-fashion",
+        "deployedAt": null,
+        "verifiedAt": "2026-09-28T14:21:39.648Z",
+        "error": null
+      }
+    },
+    {
+      "slug": "blog-street-style-trends",
+      "path": "/blog/street-style-trends",
+      "title": "Street style, your way | Fashion Blog",
+      "templateId": "blog-ace-pro-court-polo",
+      "source": {
+        "migratedHtml": "stardust/migrated/blog/street-style-trends/index.html",
+        "metaJson": "stardust/migrated/blog/street-style-trends/_meta.json",
+        "sourceHash": "sha256:8be9f4a826881986462fa8bf0b24f3ce525975595de46fc0f201c3862c1975be"
+      },
+      "blocks": [
+        "hero",
+        "blog-content"
+      ],
+      "delivery": {
+        "status": "verified",
+        "deployedUrl": "https://main--e45f2fd7--aemcoder.aem.page/blog/street-style-trends",
+        "deployedAt": null,
+        "verifiedAt": "2026-09-28T14:21:39.648Z",
+        "error": null
+      }
+    },
+    {
+      "slug": "case-studies",
+      "path": "/case-studies",
+      "title": "Inspiring Case Studies | Fashion Blog",
+      "templateId": "index",
+      "source": {
+        "migratedHtml": "stardust/migrated/case-studies/index.html",
+        "metaJson": "stardust/migrated/case-studies/_meta.json",
+        "sourceHash": "sha256:f8eea9f41913c13df03676a3d49e162f325b8e5e6fced294b7d62ee9f2c03741"
+      },
+      "blocks": [
+        "hero",
+        "featured-story",
+        "snapshot-gallery",
+        "testimonial-tabs",
+        "cta-band"
+      ],
+      "delivery": {
+        "status": "verified",
+        "deployedUrl": "https://main--e45f2fd7--aemcoder.aem.page/case-studies",
+        "deployedAt": null,
+        "verifiedAt": "2026-09-28T14:21:39.648Z",
+        "error": null
+      }
+    },
+    {
+      "slug": "faq",
+      "path": "/faq",
+      "title": "FAQ - The Fashion Blog",
+      "templateId": "faq",
+      "source": {
+        "migratedHtml": "stardust/migrated/faq/index.html",
+        "metaJson": "stardust/migrated/faq/_meta.json",
+        "sourceHash": "sha256:c36cd21f5fec49a522d49f71c36ab5368fc47061f97d5f9a921dd05484eff410"
+      },
+      "blocks": [
+        "hero",
+        "faq-accordion",
+        "contact-details",
+        "cta-band"
+      ],
+      "delivery": {
+        "status": "verified",
+        "deployedUrl": "https://main--e45f2fd7--aemcoder.aem.page/faq",
+        "deployedAt": null,
+        "verifiedAt": "2026-09-28T14:21:39.648Z",
+        "error": null
+      }
+    },
+    {
+      "slug": "fashion-insights",
+      "path": "/fashion-insights",
+      "title": "Fashion Blog - Discover Trends in Young Fashion",
+      "templateId": "blog",
+      "source": {
+        "migratedHtml": "stardust/migrated/fashion-insights/index.html",
+        "metaJson": "stardust/migrated/fashion-insights/_meta.json",
+        "sourceHash": "sha256:fc73ee1e8cbbb21dd972df92bc49d9d6e4a8aa259b09983a624c946121737856"
+      },
+      "blocks": [
+        "hero",
+        "featured-story",
+        "article-cards",
+        "snapshot-gallery",
+        "cta-band"
+      ],
+      "delivery": {
+        "status": "verified",
+        "deployedUrl": "https://main--e45f2fd7--aemcoder.aem.page/fashion-insights",
+        "deployedAt": null,
+        "verifiedAt": "2026-09-28T14:21:39.648Z",
+        "error": null
+      }
+    },
+    {
+      "slug": "fashion-trends-of-the-season",
+      "path": "/fashion-trends-of-the-season",
+      "title": "Top Fashion Trends for Young People | Fashion Blog",
+      "templateId": "index",
+      "source": {
+        "migratedHtml": "stardust/migrated/fashion-trends-of-the-season/index.html",
+        "metaJson": "stardust/migrated/fashion-trends-of-the-season/_meta.json",
+        "sourceHash": "sha256:4780391c246724c7a243847249d12e5b378eccac91c72aecd7435fca99cf0789"
+      },
+      "blocks": [
+        "hero",
+        "featured-story",
+        "image-columns",
+        "snapshot-gallery",
+        "cta-band"
+      ],
+      "delivery": {
+        "status": "verified",
+        "deployedUrl": "https://main--e45f2fd7--aemcoder.aem.page/fashion-trends-of-the-season",
+        "deployedAt": null,
+        "verifiedAt": "2026-09-28T14:21:39.648Z",
+        "error": null
+      }
+    },
+    {
+      "slug": "fashion-trends-young-adults",
+      "path": "/fashion-trends-young-adults",
+      "title": "Fashion Trends for Young Adults - Fashion Blog",
+      "templateId": "index",
+      "source": {
+        "migratedHtml": "stardust/migrated/fashion-trends-young-adults/index.html",
+        "metaJson": "stardust/migrated/fashion-trends-young-adults/_meta.json",
+        "sourceHash": "sha256:9acc571d725a0824875637b8f660afb4bff59b64dc45256cd0df905765977b13"
+      },
+      "blocks": [
+        "hero",
+        "image-columns",
+        "article-cards",
+        "snapshot-gallery",
+        "cta-band"
+      ],
+      "delivery": {
+        "status": "verified",
+        "deployedUrl": "https://main--e45f2fd7--aemcoder.aem.page/fashion-trends-young-adults",
+        "deployedAt": null,
+        "verifiedAt": "2026-09-28T14:21:39.648Z",
+        "error": null
+      }
+    },
+    {
+      "slug": "fashion-trends-young-adults-casual-sport",
+      "path": "/fashion-trends-young-adults-casual-sport",
+      "title": "Fashion Trends for Young Adults | Fashion Blog",
+      "templateId": "index",
+      "source": {
+        "migratedHtml": "stardust/migrated/fashion-trends-young-adults-casual-sport/index.html",
+        "metaJson": "stardust/migrated/fashion-trends-young-adults-casual-sport/_meta.json",
+        "sourceHash": "sha256:78c561706d701fa6759ad7a3e579eb3c3f813c91cfee7a104c9c43e8ad1cb1d6"
+      },
+      "blocks": [
+        "hero",
+        "trend-cards",
+        "featured-story",
+        "cta-band"
+      ],
+      "delivery": {
+        "status": "verified",
+        "deployedUrl": "https://main--e45f2fd7--aemcoder.aem.page/fashion-trends-young-adults-casual-sport",
+        "deployedAt": null,
+        "verifiedAt": "2026-09-28T14:21:39.648Z",
+        "error": null
+      }
+    },
+    {
+      "slug": "index",
+      "path": "/",
+      "title": "WKND Trendsetters - Fresh Looks, Bold Stories, Real Life",
+      "templateId": "index",
+      "source": {
+        "migratedHtml": "stardust/migrated/index.html",
+        "metaJson": "stardust/migrated/_meta.json",
+        "sourceHash": "sha256:e4ba0fb8663b2a30af2550e223fcc8b9cd878b317098cd78484b646b5939ea1b"
+      },
+      "blocks": [
+        "hero",
+        "featured-story",
+        "snapshot-gallery",
+        "testimonial-tabs",
+        "article-cards",
+        "faq-accordion",
+        "cta-band"
+      ],
+      "delivery": {
+        "status": "verified",
+        "deployedUrl": "https://main--e45f2fd7--aemcoder.aem.page/",
+        "deployedAt": null,
+        "verifiedAt": "2026-09-28T14:21:39.648Z",
+        "error": null
+      }
+    }
+  ]
+}

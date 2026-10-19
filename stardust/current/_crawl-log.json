@@ -1,0 +1,127 @@
+{
+  "discovery": {
+    "fetchTechnique": "headless",
+    "count": 16,
+    "concurrency": 3,
+    "mode": "--pages (16 fixed URLs from replica site-plan; sitemap/BFS discovery bypassed)",
+    "filteredAsJunk": [],
+    "userChoice": "replica coordinator fixed scope; hands-off"
+  },
+  "consent": {
+    "method": "auto"
+  },
+  "favicon": {
+    "url": "https://www.wknd-trendsetters.site/favicon.svg",
+    "file": "assets/favicon.svg"
+  },
+  "crawl": {
+    "failures": []
+  },
+  "captureGaps": {
+    "roots": [],
+    "detail": "uncaptured first-level targets: none (no locale root captured)"
+  },
+  "dynamicSurface": {
+    "pages": 1,
+    "pagesWithSameSiteData": 0,
+    "pagesWithSearchForm": 0,
+    "pagesHydrated": 0,
+    "truncatedPages": 0,
+    "endpoints": [],
+    "thirdPartyScriptHosts": [],
+    "frameworkHints": [],
+    "globalState": [],
+    "formTargets": []
+  },
+  "visionCheck": [
+    {
+      "slug": "blog-ace-pro-court-polo",
+      "verdict": "ok",
+      "notes": "hero text matches record; imagery count consistent; logo visible; no consent/bot/blank"
+    },
+    {
+      "slug": "blog-fashion-blog-post",
+      "verdict": "ok",
+      "notes": "hero text matches record; imagery count consistent; logo visible; no consent/bot/blank"
+    },
+    {
+      "slug": "blog-fashion-trends-young-culture",
+      "verdict": "ok",
+      "notes": "hero text matches record; imagery count consistent; logo visible; no consent/bot/blank"
+    },
+    {
+      "slug": "blog-fashion-trends-young-style",
+      "verdict": "ok",
+      "notes": "hero text matches record; imagery count consistent; logo visible; no consent/bot/blank"
+    },
+    {
+      "slug": "blog-flip-flop-summer-style",
+      "verdict": "ok",
+      "notes": "hero text matches record; imagery count consistent; logo visible; no consent/bot/blank"
+    },
+    {
+      "slug": "blog-latest-trends-young-casual-fashion",
+      "verdict": "ok",
+      "notes": "hero text matches record; imagery count consistent; logo visible; no consent/bot/blank"
+    },
+    {
+      "slug": "blog-street-style-trends",
+      "verdict": "ok",
+      "notes": "hero text matches record; imagery count consistent; logo visible; no consent/bot/blank"
+    },
+    {
+      "slug": "blog",
+      "verdict": "ok",
+      "notes": "hero text matches record; imagery count consistent; logo visible; no consent/bot/blank"
+    },
+    {
+      "slug": "faq",
+      "verdict": "ok",
+      "notes": "hero text matches record; imagery count consistent; logo visible; no consent/bot/blank"
+    },
+    {
+      "slug": "fashion-insights",
+      "verdict": "ok",
+      "notes": "hero text matches record; imagery count consistent; logo visible; no consent/bot/blank"
+    },
+    {
+      "slug": "fashion-trends-of-the-season",
+      "verdict": "ok",
+      "notes": "hero text matches record; imagery count consistent; logo visible; no consent/bot/blank"
+    },
+    {
+      "slug": "fashion-trends-young-adults-casual-sport",
+      "verdict": "ok",
+      "notes": "hero text matches record; imagery count consistent; logo visible; no consent/bot/blank"
+    },
+    {
+      "slug": "fashion-trends-young-adults",
+      "verdict": "ok",
+      "notes": "hero text matches record; imagery count consistent; logo visible; no consent/bot/blank"
+    },
+    {
+      "slug": "index",
+      "verdict": "ok",
+      "notes": "hero text matches record; imagery count consistent; logo visible; no consent/bot/blank"
+    },
+    {
+      "slug": "case-studies",
+      "verdict": "recaptured",
+      "notes": "screenshot showed a text-only hero while sibling landings carry a collage; recaptured at --wait slow (waitMs 5000): identical — the hero <header> holds no <img>/<picture>/background in the settled DOM, so the record (16 imgs, 0 css backgrounds) is accurate and the text-only hero is the source design"
+    },
+    {
+      "slug": "cdn-cgi-l-email-protection",
+      "verdict": "n/a",
+      "notes": "not captured (HTTP 404); no screenshot"
+    }
+  ],
+  "siblingCandidates": [],
+  "recaptures": [
+    {
+      "slug": "case-studies",
+      "waitMode": "slow",
+      "at": "2026-09-28T10:15:54.358Z",
+      "reason": "vision-check suspect"
+    }
+  ]
+}

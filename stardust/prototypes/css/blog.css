@@ -1,0 +1,7 @@
+/* blog.css — listing archetype (/blog) page-specific layer.
+   Imports nothing new: every module on /blog (hero header, featured story, article-card grid, accent
+   CTA band) is a shared module already carried by canon.css (lifted from site.css + the captured
+   inline <style>). The per-instance geometry (grid align-items, subheading/paragraph margins, card
+   title font-size, CTA max-width/centering, hero image radius/aspect) is authored on the live DOM as
+   inline style attributes and is mirrored verbatim on the prototype markup. No page-specific rule
+   exists in site.css for this page, so this file intentionally carries none. */

@@ -1,0 +1,35 @@
+{
+  "_provenance": {
+    "writtenBy": "stardust:rollout/inventory",
+    "writtenAt": "2026-09-28T11:57:48.631Z",
+    "stardustVersion": "0.0.0"
+  },
+  "target": "aem-eds",
+  "site": {
+    "sourceUrl": "https://www.wknd-trendsetters.site/",
+    "da": {
+      "org": "aemcoder",
+      "site": "e45f2fd7",
+      "ref": "main"
+    },
+    "liveHost": "main--e45f2fd7--aemcoder.aem.page"
+  },
+  "lastRun": {
+    "at": "2026-09-28T14:21:39.648Z",
+    "pages": {
+      "total": 15,
+      "verified": 15,
+      "deployed": 0,
+      "pending": 0,
+      "contentPending": 0,
+      "stale": 0,
+      "failed": 0
+    },
+    "blocks": {
+      "total": 11,
+      "converted": 11,
+      "pending": 0
+    },
+    "verifyFailures": 0
+  }
+}

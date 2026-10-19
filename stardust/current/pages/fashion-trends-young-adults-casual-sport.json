@@ -1,0 +1,471 @@
+{
+  "_provenance": {
+    "renderedBy": "playwright",
+    "fetchedAt": "2026-09-28T10:12:01.331Z",
+    "waitMode": "medium",
+    "waitMs": 2500,
+    "httpStatus": 200
+  },
+  "slug": "fashion-trends-young-adults-casual-sport",
+  "url": "https://www.wknd-trendsetters.site/fashion-trends-young-adults-casual-sport",
+  "renderedBy": "playwright",
+  "fetchedAt": "2026-09-28T10:12:01.331Z",
+  "finalUrl": "https://www.wknd-trendsetters.site/fashion-trends-young-adults-casual-sport",
+  "title": "Fashion Trends for Young Adults | Fashion Blog",
+  "description": "Discover the latest fashion trends, style tips, and stories for young trendsetters.",
+  "og": {
+    "title": null,
+    "description": null,
+    "image": null,
+    "type": null
+  },
+  "headings": [
+    {
+      "tag": "h1",
+      "text": "Fresh fits, bold moves, all you"
+    },
+    {
+      "tag": "h2",
+      "text": "Trend alert"
+    },
+    {
+      "tag": "h3",
+      "text": "Tennis looks that serve"
+    },
+    {
+      "tag": "h3",
+      "text": "Sunkissed & effortless"
+    },
+    {
+      "tag": "h3",
+      "text": "Party after dark"
+    },
+    {
+      "tag": "h3",
+      "text": "City strolls, cool fits"
+    },
+    {
+      "tag": "h3",
+      "text": "Move in style"
+    },
+    {
+      "tag": "h3",
+      "text": "Vibes for days"
+    },
+    {
+      "tag": "h3",
+      "text": "Laid-back, always cool"
+    },
+    {
+      "tag": "h3",
+      "text": "Throwback energy"
+    },
+    {
+      "tag": "h2",
+      "text": "Fresh fits, bold moves"
+    },
+    {
+      "tag": "h2",
+      "text": "Fresh fits, bold moves, all day"
+    },
+    {
+      "tag": "h2",
+      "text": "Trends"
+    },
+    {
+      "tag": "h2",
+      "text": "Inspire"
+    },
+    {
+      "tag": "h2",
+      "text": "Explore"
+    }
+  ],
+  "body": [
+    "From tennis courts to neon nights, we're serving up the latest trends and stories from the coolest scenes.",
+    "Fresh fits, bold moves",
+    "Ace your day with sporty style—see how Jamie rocks bold sneakers and a vintage tee on the court.",
+    "Taylor chills seaside in breezy linen and bucket hats—get the scoop on this summer's must-haves.",
+    "Morgan lights up the night in neon and metallics—discover the best fits for your next night out.",
+    "Jordan mixes oversized hoodies with chunky kicks—urban style made easy for every adventure.",
+    "Casey's athleisure edit: track pants, crop tops, and attitude—perfect for on-the-go days.",
+    "Skylar's festival picks: fringe, bold prints, and all the energy—see what's trending this season.",
+    "Riley keeps it comfy in joggers and slides—find out how to master the art of relaxed style.",
+    "Avery brings back '90s flair with crop tops and baggy jeans—nostalgia never looked so fresh.",
+    "Dive into the latest street style, sporty looks, and party-ready outfits.",
+    "Discover the latest trends and get inspired."
+  ],
+  "codeBlocks": [],
+  "ctas": [
+    {
+      "label": "Skip to main content",
+      "href": "#main-content"
+    },
+    {
+      "label": "Fashion Blog",
+      "href": "/"
+    },
+    {
+      "label": "About",
+      "href": "/fashion-trends-of-the-season"
+    },
+    {
+      "label": "Blog",
+      "href": "/blog"
+    },
+    {
+      "label": "Subscribe",
+      "href": "#"
+    },
+    {
+      "label": "See trends",
+      "href": "#trends"
+    },
+    {
+      "label": "Casual Tennis looks that serve Ace your day with sporty style—see how Jamie rocks bold sneakers and a vintage tee on the court.",
+      "href": "/fashion-trends-young-adults"
+    },
+    {
+      "label": "Beach Sunkissed & effortless Taylor chills seaside in breezy linen and bucket hats—get the scoop on this summer's must-haves.",
+      "href": "/fashion-trends-young-adults"
+    },
+    {
+      "label": "Nightlife Party after dark Morgan lights up the night in neon and metallics—discover the best fits for your next night out.",
+      "href": "/fashion-trends-young-adults"
+    },
+    {
+      "label": "Street City strolls, cool fits Jordan mixes oversized hoodies with chunky kicks—urban style made easy for every adventure.",
+      "href": "/fashion-trends-young-adults"
+    },
+    {
+      "label": "Sport Move in style Casey's athleisure edit: track pants, crop tops, and attitude—perfect for on-the-go days.",
+      "href": "/fashion-trends-young-adults"
+    },
+    {
+      "label": "Festival Vibes for days Skylar's festival picks: fringe, bold prints, and all the energy—see what's trending this season.",
+      "href": "/fashion-trends-young-adults"
+    },
+    {
+      "label": "Chill Laid-back, always cool Riley keeps it comfy in joggers and slides—find out how to master the art of relaxed style.",
+      "href": "/fashion-trends-young-adults"
+    },
+    {
+      "label": "Retro Throwback energy Avery brings back '90s flair with crop tops and baggy jeans—nostalgia never looked so fresh.",
+      "href": "/fashion-trends-young-adults"
+    },
+    {
+      "label": "Explore the blog",
+      "href": "/fashion-insights"
+    },
+    {
+      "label": "Subscribe",
+      "href": "#"
+    },
+    {
+      "label": "Fashion Blog",
+      "href": "/"
+    },
+    {
+      "label": "Style",
+      "href": "#"
+    },
+    {
+      "label": "Looks",
+      "href": "#"
+    },
+    {
+      "label": "Events",
+      "href": "#"
+    },
+    {
+      "label": "Brands",
+      "href": "#"
+    },
+    {
+      "label": "Tips",
+      "href": "#"
+    },
+    {
+      "label": "Stories",
+      "href": "#"
+    },
+    {
+      "label": "People",
+      "href": "#"
+    },
+    {
+      "label": "Culture",
+      "href": "#"
+    },
+    {
+      "label": "Vibes",
+      "href": "#"
+    },
+    {
+      "label": "Fun",
+      "href": "#"
+    },
+    {
+      "label": "Travel",
+      "href": "#"
+    },
+    {
+      "label": "Beach",
+      "href": "#"
+    },
+    {
+      "label": "Night",
+      "href": "#"
+    },
+    {
+      "label": "Sport",
+      "href": "#"
+    },
+    {
+      "label": "Chill",
+      "href": "#"
+    }
+  ],
+  "links": [
+    "https://www.wknd-trendsetters.site/fashion-trends-young-adults-casual-sport#main-content",
+    "https://www.wknd-trendsetters.site/",
+    "https://www.wknd-trendsetters.site/fashion-trends-young-adults-casual-sport",
+    "https://www.wknd-trendsetters.site/fashion-trends-young-adults",
+    "https://www.wknd-trendsetters.site/blog",
+    "https://www.wknd-trendsetters.site/case-studies",
+    "https://www.wknd-trendsetters.site/fashion-trends-of-the-season",
+    "https://www.wknd-trendsetters.site/faq",
+    "https://www.wknd-trendsetters.site/fashion-trends-young-adults-casual-sport#",
+    "https://www.wknd-trendsetters.site/fashion-trends-young-adults-casual-sport#trends",
+    "https://www.wknd-trendsetters.site/fashion-insights"
+  ],
+  "media": {
+    "imgs": [
+      {
+        "src": "https://www.wknd-trendsetters.site/images/mobile-game-character.avif",
+        "alt": "Fashion trend",
+        "w": 800,
+        "h": 547
+      },
+      {
+        "src": "https://www.wknd-trendsetters.site/images/customer-headshot.avif",
+        "alt": "Trendsetter",
+        "w": 800,
+        "h": 800
+      },
+      {
+        "src": "https://www.wknd-trendsetters.site/images/hero-hiphop-dance.avif",
+        "alt": "Tennis looks that serve",
+        "w": 800,
+        "h": 547
+      },
+      {
+        "src": "https://www.wknd-trendsetters.site/images/hero-music-concert.avif",
+        "alt": "Sunkissed & effortless",
+        "w": 800,
+        "h": 547
+      },
+      {
+        "src": "https://www.wknd-trendsetters.site/images/celebrities-events.avif",
+        "alt": "Party after dark",
+        "w": 800,
+        "h": 547
+      },
+      {
+        "src": "https://www.wknd-trendsetters.site/images/networking-event.avif",
+        "alt": "City strolls, cool fits",
+        "w": 800,
+        "h": 547
+      },
+      {
+        "src": "https://www.wknd-trendsetters.site/images/trending-outfits.avif",
+        "alt": "Move in style",
+        "w": 800,
+        "h": 547
+      },
+      {
+        "src": "https://www.wknd-trendsetters.site/images/successful-events.avif",
+        "alt": "Vibes for days",
+        "w": 800,
+        "h": 547
+      },
+      {
+        "src": "https://www.wknd-trendsetters.site/images/shopping-bag.avif",
+        "alt": "Laid-back, always cool",
+        "w": 800,
+        "h": 547
+      },
+      {
+        "src": "https://www.wknd-trendsetters.site/images/people-coffee.avif",
+        "alt": "Throwback energy",
+        "w": 800,
+        "h": 547
+      },
+      {
+        "src": "https://www.wknd-trendsetters.site/images/bustling-pub.avif",
+        "alt": "Casual style",
+        "w": 800,
+        "h": 547
+      }
+    ],
+    "allImgCount": 11,
+    "cssBackgrounds": [],
+    "modals": [],
+    "videos": [],
+    "iframes": []
+  },
+  "customProps": {
+    "--color-white": "#ffffff",
+    "--color-black": "#000000",
+    "--color-yellow": "#f4fe8b",
+    "--color-lavender": "#cbd4ff",
+    "--color-purple": "#f4e5fc",
+    "--color-gray-100": "#f5f5f5",
+    "--color-gray-200": "#e8e8e8",
+    "--color-gray-300": "#d4d4d4",
+    "--color-gray-500": "#666666",
+    "--color-gray-700": "#404040",
+    "--color-gray-900": "#171717",
+    "--font-heading": "\"Syncopate\", sans-serif",
+    "--font-body": "\"Instrument Sans\", sans-serif",
+    "--text-xs": ".75rem",
+    "--text-sm": ".875rem",
+    "--text-base": "1rem",
+    "--text-lg": "1.125rem",
+    "--text-xl": "1.25rem",
+    "--text-2xl": "1.5rem",
+    "--text-3xl": "2rem",
+    "--text-4xl": "2.5rem",
+    "--text-5xl": "3.5rem",
+    "--leading-tight": "1.1",
+    "--leading-snug": "1.3",
+    "--leading-normal": "1.6",
+    "--space-xxs": ".25rem",
+    "--space-xs": ".5rem",
+    "--space-sm": ".75rem",
+    "--space-md": "1rem",
+    "--space-lg": "1.5rem",
+    "--space-xl": "2rem",
+    "--space-2xl": "3rem",
+    "--space-3xl": "4rem",
+    "--space-4xl": "5rem",
+    "--space-5xl": "8rem",
+    "--container-max": "1200px",
+    "--container-padding": "1.5rem",
+    "--radius-sm": ".375rem",
+    "--radius-md": ".5rem",
+    "--radius-lg": "1rem",
+    "--radius-card": "1.25rem",
+    "--radius-full": "9999px",
+    "--shadow-button": "4px 4px 0 0 #000000",
+    "--shadow-card": "0 2px 8px rgba(0, 0, 0, .08)",
+    "--transition-fast": ".15s ease",
+    "--transition-normal": ".3s ease",
+    "--focus-ring-color": "#000000",
+    "--focus-ring-width": "2px",
+    "--focus-ring-offset": "2px",
+    "--icon-xs": ".75rem",
+    "--icon-sm": "1rem",
+    "--icon-md": "1.5rem",
+    "--icon-lg": "2rem",
+    "--icon-xl": "3rem"
+  },
+  "_signals": {
+    "filteredInterstitials": 0,
+    "distinctHeadings": 15,
+    "mainTextLen": 1353,
+    "realImageCount": 11,
+    "trackingOnlyMedia": false,
+    "spaShellSuspect": false,
+    "screenshotMode": "fullPage"
+  },
+  "dynamic": {
+    "endpoints": [],
+    "thirdPartyScriptHosts": [],
+    "truncated": false,
+    "inlineData": [],
+    "globalState": [],
+    "frameworkHints": [],
+    "forms": [],
+    "ariaLiveRegions": 0,
+    "triggers": [],
+    "mediaIds": [],
+    "summary": {
+      "sameSiteEndpoints": 0,
+      "thirdPartyEndpoints": 0,
+      "thirdPartyScriptHosts": 0,
+      "inlineDataBlobs": 0,
+      "forms": 0,
+      "searchForms": 0,
+      "hydrated": false
+    }
+  },
+  "screenshot": "assets/screenshots/fashion-trends-young-adults-casual-sport.png",
+  "renderedHtml": "pages/fashion-trends-young-adults-casual-sport.html",
+  "type": "landing",
+  "slots": {
+    "hero": {
+      "headline": "Fresh fits, bold moves, all you",
+      "subcopy": "From tennis courts to neon nights, we're serving up the latest trends and stories from the coolest scenes.",
+      "ctas": [
+        {
+          "label": "See trends",
+          "href": "#trends"
+        }
+      ],
+      "collage": [
+        {
+          "src": "/images/mobile-game-character.avif",
+          "alt": "Fashion trend"
+        },
+        {
+          "src": "/images/customer-headshot.avif",
+          "alt": "Trendsetter"
+        }
+      ]
+    },
+    "sections": [
+      {
+        "selector": "main section:nth-of-type(1)",
+        "heading": "Trend alert",
+        "imgs": 8,
+        "buttons": 0,
+        "cards": 24,
+        "inverse": false,
+        "tint": false
+      },
+      {
+        "selector": "main section:nth-of-type(2)",
+        "heading": "Fresh fits, bold moves",
+        "imgs": 1,
+        "buttons": 2,
+        "cards": 0,
+        "inverse": false,
+        "tint": true
+      },
+      {
+        "selector": "main section:nth-of-type(3)",
+        "heading": "Fresh fits, bold moves, all day",
+        "imgs": 0,
+        "buttons": 2,
+        "cards": 0,
+        "inverse": false,
+        "tint": false
+      }
+    ],
+    "card-grid": [],
+    "gallery": null,
+    "faq": [],
+    "quotes": [],
+    "cta-band": {
+      "selector": "main section:nth-of-type(3)",
+      "heading": "Fresh fits, bold moves, all day",
+      "imgs": 0,
+      "buttons": 2,
+      "cards": 0,
+      "inverse": false,
+      "tint": false
+    },
+    "image-cta": null
+  }
+}

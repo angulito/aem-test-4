@@ -1,0 +1,55 @@
+/* image-columns — optional centred head + three image-led columns */
+.image-columns .image-columns-head {
+  margin-bottom: var(--space-3xl); /* live: the centred head carries 64px below, columns or not */
+  text-align: center;
+}
+
+.image-columns .headline :is(h1, h2, h3) {
+  margin: 0;
+}
+
+.image-columns .lede {
+  margin-top: var(--space-sm);
+  font-size: var(--text-lg);
+  line-height: var(--leading-normal);
+}
+
+/*
+ * Source rhythm (measured live at 1440): the column image is a direct child of the grid item
+ * with `height: 100%` + `aspect-ratio: 3 / 2`, so it stretches to the grid row and the title/body
+ * flow below the row box. The wrappers are `display: contents` so the image resolves its height
+ * against the grid item exactly as the source does.
+ */
+.image-columns .column-media,
+.image-columns .column-media picture {
+  display: contents;
+}
+
+.image-columns .column-media img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  aspect-ratio: 3 / 2;
+  object-fit: cover;
+  border-radius: var(--radius-card);
+  margin-bottom: var(--space-lg);
+}
+
+.image-columns .column-title :is(h2, h3, h4) {
+  margin: 0;
+}
+
+.image-columns .column-title h2 {
+  font-size: var(--text-3xl);
+}
+
+.image-columns .column-title h3 {
+  font-size: var(--text-2xl);
+}
+
+.image-columns .column-body {
+  margin-top: var(--space-xs);
+  font-size: var(--text-sm);
+  line-height: var(--leading-normal);
+  color: var(--color-gray-500);
+}

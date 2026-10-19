@@ -1,0 +1,85 @@
+{
+  "slug": "blog-fashion-blog-post",
+  "type": "article",
+  "renderBranch": "A'",
+  "template": "blog-ace-pro-court-polo",
+  "modules": [
+    "hero",
+    "blog-content"
+  ],
+  "slotsFilled": [
+    "section",
+    "section"
+  ],
+  "canonShas": {
+    "header": null,
+    "footer": "560c4952a6ab",
+    "css": "bfc32bed2145"
+  },
+  "deviations": [],
+  "migrationDecisions": [
+    {
+      "kind": "internal-links-pending",
+      "hrefs": [
+        "/faq"
+      ],
+      "reason": "in-inventory-not-migrated: target renders in render-static; re-render with --force after that unit or let rollout E2 link audit resolve"
+    },
+    {
+      "kind": "internal-links-resolved",
+      "reason": "re-rendered with --force after render-static: every in-inventory target has a rendered file, brokenInternalLinks 0"
+    },
+    {
+      "kind": "overflow-live-mirrored",
+      "width": 360,
+      "build": "scrollWidth 423 (+63px)",
+      "live": "scrollWidth 423 (+63px) — measure.mjs overflow-live-pb1.txt on case-studies, fashion-insights, blog-fashion-blog-post (one per template; chrome identical on every page)",
+      "register": "R-01 (deferred)",
+      "reason": "same waiver the coordinator recorded for the four archetypes: the live .nav-inner row overflows the 360 viewport by the same 63px; pixel 0.00%/Δ0 at 360 — mirrored verbatim, not a build fault"
+    }
+  ],
+  "metadata": {
+    "title": "Game on, style up | Fashion Blog",
+    "description": "Casey's athleisure edit: track pants, crop tops, and attitude—perfect for on-the-go days.",
+    "canonical": null,
+    "lang": "en"
+  },
+  "jsonLd": {
+    "@context": "https://schema.org",
+    "@type": "Article",
+    "headline": "Game on, style up | Fashion Blog",
+    "description": "Casey's athleisure edit: track pants, crop tops, and attitude—perfect for on-the-go days.",
+    "mainEntityOfPage": "https://www.wknd-trendsetters.site/blog/fashion-blog-post"
+  },
+  "migratedAt": "2026-09-28T11:43:03Z",
+  "designMdSha": "0ad4783809ca",
+  "designJsonSha": "3bca621149ee",
+  "sourceCurrentSha": "18fb289c82d9",
+  "sourceProposedSha": "b2870bf2fec3",
+  "fidelityTier": "sibling",
+  "archetypeSource": "blog-ace-pro-court-polo",
+  "archetypeSha": "d684b4cb99f1",
+  "variants": [],
+  "gatesPassed": [
+    "content-count",
+    "variance-probe",
+    "content-fidelity",
+    "pixel-gate-1440"
+  ],
+  "gateEvidence": {
+    "content-count": "live capture vs rendered (document-level, scripts/styles stripped): h1 1/1 h2 8/8 h3 4/4 h4 0/0 p 7/7 li 47/47 img 1/1 alt 1/1 a[href] 40/40 button 1/1 text 2333/2333; 0 drops",
+    "variance-probe": "variance-article-1440.json (run-bg variance-article-1440, exit 2): same 2 sections; only .blog-content height and image count differ (copy length — content, not style); 0 computed-style deltas → clone as-is, 0 variants",
+    "content-fidelity": "Path A′ clone (build-sibling.mjs): article archetype chrome/head + captured live <main> verbatim (/images/ srcs remapped, 0 scripts dropped); title/description swapped for captured values",
+    "pixel-gate-1440": "0.00% (0 px, threshold 10%), height delta 0px, round pb1 @1440 (blog-fashion-blog-post-1440-pb1.log) [prototype regime]",
+    "pixel-gate-360": "FAIL: horizontal overflow +63px at 360 (scrollWidth 423 > viewport 360) — 0.00% (0 px, threshold 10%), height delta 0px, round pb1 @360 (blog-fashion-blog-post-360-pb1.log) [prototype regime]",
+    "media-reconcile": "n/a: no delivered content file yet (content/blog/fashion-blog-post.html) — media-reconcile runs in the delivery chain (row C)"
+  },
+  "contentDeviations": [],
+  "assetsBundled": 7,
+  "missingAssets": [],
+  "brokenInternalLinks": [],
+  "outputPath": "blog/fashion-blog-post/index.html",
+  "outputPathDefault": "trailing-slash",
+  "sidecar": "blog/fashion-blog-post/_meta.json",
+  "driverVersion": "1"
+}

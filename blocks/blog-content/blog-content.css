@@ -1,0 +1,61 @@
+/* blog-content — rich-text article body (stardust/prototypes/css/blog-ace-pro-court-polo.css,
+   lifted 1:1; the live page's inline section/container geometry folded in below) */
+
+/* live: <section class="section" style="padding-top: 0"> <div class="container" style="max-width: 48rem"> */
+main > .section.blog-content-container {
+  padding-top: 0;
+}
+
+main > .section > .blog-content-wrapper {
+  max-width: 48rem;
+}
+
+.blog-content h2 {
+  margin-top: 2.5rem;
+  margin-bottom: 1rem;
+}
+
+.blog-content h3 {
+  margin-top: 2rem;
+  margin-bottom: 0.75rem;
+}
+
+.blog-content p {
+  margin-bottom: 1.25rem;
+  line-height: 1.7;
+}
+
+.blog-content ul,
+.blog-content ol {
+  margin-bottom: 1.25rem;
+  padding-left: 1.5rem;
+}
+
+.blog-content li {
+  margin-bottom: 0.5rem;
+  list-style: disc;
+}
+
+.blog-content ol li {
+  list-style: decimal;
+}
+
+.blog-content blockquote {
+  border-left: 4px solid var(--color-yellow);
+  padding-left: 1.5rem;
+  margin: 2rem 0;
+  font-style: italic;
+  color: var(--color-gray-700);
+}
+
+.blog-content img {
+  border-radius: var(--radius-card);
+  margin: 2rem 0;
+}
+
+/* the runtime wraps a bare-text cell in <p> before decorate(); live table cells are bare text,
+   so the prose paragraph rhythm must not apply inside the table (measure.mjs: +21.6px per cell) */
+.blog-content :is(th, td) p {
+  margin: 0;
+  line-height: inherit;
+}

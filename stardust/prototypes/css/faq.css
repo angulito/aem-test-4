@@ -1,0 +1,8 @@
+/* faq.css — static archetype (/faq) page-specific layer.
+   Imports nothing new: every module on /faq (hero header, FAQ accordion .faq-list/.faq-item/.faq-question/
+   .faq-icon/.faq-answer lifted from the page's Astro-scoped <style>, contact section typography, accent CTA
+   band) is a shared module already carried by canon.css. The per-instance geometry (grid align-items,
+   subheading/paragraph margins, FAQ container max-width 48rem, .contact-items flex column, CTA
+   max-width/centering, hero image radius/aspect) is authored on the live DOM as inline style attributes and
+   is mirrored verbatim on the prototype markup. `.contact-items` has no authored rule in site.css or the
+   captured <style>, so none is written here. This file intentionally carries no rules. */

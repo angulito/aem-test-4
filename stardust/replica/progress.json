@@ -1,0 +1,803 @@
+{
+  "landing": {
+    "archetype": "index",
+    "liveUrl": "https://www.wknd-trendsetters.site/",
+    "prototype": "stardust/prototypes/index-proposed.html",
+    "iterations": {
+      "360": 1,
+      "1440": 1
+    },
+    "gates": {
+      "360": {
+        "pixelPct": 0,
+        "heightDelta": 0,
+        "structuralRed": 0,
+        "visualFlags": "15 advisory, all justified (same set as 1440)",
+        "chrome": "quiet",
+        "overflow": "+63px (build scrollWidth 423) — LIVE measures the identical 423 (measure.mjs, gates/index-360/overflow-live-iter1.txt): live defect mirrored, not a build fault",
+        "pass": true,
+        "passOnPixelBars": true,
+        "gateExit": 2,
+        "confirmRound": "iter2 0.00% / Δ0 after motion pass",
+        "waiver": "overflow assert waived by coordinator: live page has the identical +63px scrollWidth at 360 (measure.mjs, gates/index-360/overflow-live-iter1.txt); mirrored verbatim, register entry R-01 (deferred)"
+      },
+      "1440": {
+        "pixelPct": 0,
+        "heightDelta": 0,
+        "structuralRed": 0,
+        "visualFlags": "15 advisory, all justified (14 object-fit cover crops mirrored from live; 1 SURFACE/GROUND pairing artifact — two identical-text headings on different grounds, pixel 0.00% proves parity)",
+        "chrome": "quiet",
+        "overflow": "ok",
+        "pass": true,
+        "confirmRound": "iter2 0.00% / Δ0 after motion pass"
+      }
+    },
+    "justified": [
+      {
+        "probe": "content",
+        "flag": "🟡 MISSING BODY [#main-content]: live tabs <script> text",
+        "why": "live inlines the tabs script inside main; the prototype re-authors the same state machine in a body-level <script> (rewrite, not a drop)"
+      },
+      {
+        "probe": "visual",
+        "flag": "STRETCHED IMAGE ×14",
+        "why": "object-fit: cover crops lifted from site.css (.cover-image, aspect utilities) — rendered dims identical to live, pixel 0.00%"
+      },
+      {
+        "probe": "visual",
+        "flag": "SURFACE/GROUND MISMATCH heading \"Fresh looks, bold stories, real life\"",
+        "why": "hero h1 (black on gray-100) and CTA-band h2 (white on overlay) carry identical text; the matcher pairs them cross-wise. Both sides render identically (pixel 0.00% at both widths)"
+      }
+    ],
+    "residuals": [
+      {
+        "breakpoint": "360",
+        "region": "header .nav-inner",
+        "band": "y 0–83",
+        "pct": 0,
+        "cause": "live-mirrored horizontal overflow: .nav-inner flex row (logo + Subscribe .nav-right w122 + hamburger 40px, gap 2rem, nowrap) is wider than the 328px container on LIVE too; button.nav-mobile-menu-button renders at x383–423 off-viewport on both sides (root scrollWidth 423 live and build). Fixing it is a design change with no inconsistency-register entry — left verbatim.",
+        "flaggedFor": "user",
+        "evidence": [
+          "stardust/replica/gates/index-360/overflow-iter1.txt",
+          "stardust/replica/gates/index-360/overflow-live-iter1.txt"
+        ]
+      }
+    ],
+    "motion": {
+      "observed": 12,
+      "implemented": 12,
+      "dead": [
+        ".tab-menu-link hover",
+        ".footer-icon-link hover",
+        ".text-link hover",
+        ".mega-nav-link-item hover",
+        ".footer-link hover",
+        "header scroll-morph",
+        "#nav-toggle box sample (class is-open fired: parity)",
+        "tabs box sample (class is-active fired 8×: parity)",
+        "faq details box sample"
+      ],
+      "files": [
+        "stardust/replica/motion/index.json",
+        "stardust/replica/motion/index-build.json",
+        "stardust/replica/motion/index-360.json",
+        "stardust/replica/motion/index-360-build.json"
+      ],
+      "note": "1440: 12 parity / 0 missing / 0 extra; 360: is-open parity. Hover rules for the dead families are the lifted site.css rules (identical on both sides); no motion invented."
+    },
+    "canonChanges": [],
+    "gatedAt": "2026-09-28T10:51:12.000Z",
+    "status": "gated",
+    "approvedBy": "hands-off"
+  },
+  "listing": {
+    "archetype": "blog",
+    "liveUrl": "https://www.wknd-trendsetters.site/blog",
+    "prototype": "stardust/prototypes/blog-proposed.html",
+    "iterations": {
+      "360": 1,
+      "1440": 1
+    },
+    "gates": {
+      "360": {
+        "pixelPct": 0,
+        "heightDelta": 0,
+        "structuralRed": 0,
+        "visualFlags": "7 advisory, all justified (same set as 1440)",
+        "chrome": "quiet",
+        "chromeCrop": "navbar y0+83 100.00%, footer y4259+1038 100.00%",
+        "overflow": "+63px (build scrollWidth 423) — LIVE measures the identical 423 (measure.mjs, gates/blog-360/overflow-live-iter1.txt): live defect mirrored (R-01), not a build fault",
+        "pass": true,
+        "passOnPixelBars": true,
+        "gateExit": 2,
+        "confirmRound": "iter2 0.00% / Δ0 after motion pass",
+        "waiver": "overflow assert waived by coordinator: live-mirrored +63px (R-01 deferred)"
+      },
+      "1440": {
+        "pixelPct": 0,
+        "heightDelta": 0,
+        "structuralRed": 0,
+        "visualFlags": "7 advisory, all justified (7 object-fit cover crops mirrored from live)",
+        "chrome": "quiet",
+        "chromeCrop": "navbar y0+83 100.00%, footer y2944+367 100.00%",
+        "overflow": "ok",
+        "pass": true,
+        "confirmRound": "iter2 0.00% / Δ0 after motion pass"
+      }
+    },
+    "justified": [
+      {
+        "probe": "visual",
+        "flag": "STRETCHED IMAGE ×7 (ace-polo-court-style, flip-flop-beach-style, hero-hiphop-dance, fundraising-event, hero-family-vacation, mobile-game-character, street-style)",
+        "why": "object-fit: cover crops lifted from site.css (.cover-image, .utility-aspect-3x2, article-card image) — rendered dims identical to live, pixel 0.00% at both widths"
+      }
+    ],
+    "residuals": [
+      {
+        "breakpoint": "360",
+        "region": "header .nav-inner",
+        "band": "y 0–83",
+        "pct": 0,
+        "cause": "live-mirrored horizontal overflow: .nav-inner flex row (logo + Subscribe .nav-right + hamburger, gap 2rem, nowrap) exceeds the 328px mobile container on LIVE too; button.nav-mobile-menu-button Δx0/Δw0 and root scrollWidth 423 on both sides (measure.mjs). Same header as index; register entry R-01, deferred — no design change without a register entry.",
+        "flaggedFor": "user",
+        "evidence": [
+          "stardust/replica/gates/blog-360/overflow-iter1.txt",
+          "stardust/replica/gates/blog-360/overflow-live-iter1.txt",
+          "stardust/replica/gates/blog-360/overflow-iter2.txt"
+        ]
+      }
+    ],
+    "motion": {
+      "observed": 11,
+      "implemented": 11,
+      "dead": [
+        ".tag hover",
+        ".footer-icon-link hover",
+        ".mega-nav-link-item hover",
+        "header scroll-morph",
+        "#nav-toggle box sample (class is-open fired: parity)",
+        ".button hover at 360 (no measured diff on live)"
+      ],
+      "files": [
+        "stardust/replica/motion/blog.json",
+        "stardust/replica/motion/blog-build.json",
+        "stardust/replica/motion/blog-360.json",
+        "stardust/replica/motion/blog-360-build.json",
+        "stardust/replica/motion/blog-compare-1440.txt",
+        "stardust/replica/motion/blog-compare-360.txt"
+      ],
+      "note": "1440: 10 parity (.button/.secondary-button/.article-card/.nav-link ×2/.footer-link hovers + 4 transition families) / 0 missing / 0 extra; 360: is-open parity 1×/1×. Hover rules are the lifted canon.css rules; nothing invented, no JS beyond the nav toggle (same mechanism as live)."
+    },
+    "canonChanges": [],
+    "chromeCheck": "chrome-parity.mjs at 1440 against live /blog before any round: header 4/4 texts 1/1 icons, footer 19/19 texts 6/6 icons, exit 0 (gates/blog-1440/chrome-parity-pre.txt); gate iter1 chrome-parity quiet at both widths",
+    "gatedAt": "2026-09-28T11:00:36.870Z",
+    "status": "gated",
+    "approvedBy": "hands-off"
+  },
+  "article": {
+    "archetype": "blog-ace-pro-court-polo",
+    "liveUrl": "https://www.wknd-trendsetters.site/blog/ace-pro-court-polo",
+    "prototype": "stardust/prototypes/blog-ace-pro-court-polo-proposed.html",
+    "pageCss": "stardust/prototypes/css/blog-ace-pro-court-polo.css",
+    "siblings": "the six other /blog/* articles (not built; every module lifted as a whole rule set)",
+    "iterations": {
+      "360": 1,
+      "1440": 1
+    },
+    "gates": {
+      "360": {
+        "pixelPct": 0,
+        "heightDelta": 0,
+        "structuralRed": 0,
+        "visualFlags": "1 advisory, justified (same cover crop, 328x219)",
+        "chrome": "quiet (navbar region 2/2 texts 2/2 icons; footer 19/19, 6/6)",
+        "chromeCrop": "navbar y0+83 100.00%, footer y4690+1038 100.00%",
+        "overflow": "+63px (build scrollWidth 423) — LIVE measures the identical 423 (measure.mjs, gates/blog-ace-pro-court-polo-360/overflow-live-iter1.txt; button.nav-mobile-menu-button and .nav-inner Δ0): live defect mirrored (R-01), not a build fault",
+        "pass": true,
+        "passOnPixelBars": true,
+        "gateExit": 2,
+        "confirmRound": "iter2 0.00% / Δ0 after motion pass",
+        "waiver": "overflow assert waived by coordinator: live-mirrored +63px (R-01 deferred)"
+      },
+      "1440": {
+        "pixelPct": 0,
+        "heightDelta": 0,
+        "structuralRed": 0,
+        "visualFlags": "1 advisory, justified (1 object-fit cover crop mirrored from live: hero ace-polo-court-style 800x436 → 564x376)",
+        "chrome": "quiet (chrome-parity --region header=.navbar|.navbar: 6/6 texts 3/3 icons; footer 19/19, 6/6). gate.sh default `header` region matches no element on EITHER side — this page has no <header>; symmetric no-match, not a delta",
+        "chromeCrop": "navbar y0+83 100.00%, footer y4136+367 100.00%",
+        "overflow": "ok",
+        "pass": true,
+        "gateExit": 0,
+        "confirmRound": "iter2 0.00% / Δ0 after motion pass"
+      }
+    },
+    "justified": [
+      {
+        "probe": "visual",
+        "flag": "STRETCHED IMAGE ×1 (ace-polo-court-style.avif)",
+        "why": "object-fit: cover crop lifted from site.css (.cover-image + .utility-aspect-3x2) — rendered dims identical to live, pixel 0.00% at both widths"
+      },
+      {
+        "probe": "chrome",
+        "flag": "chrome-parity REGION header: no element matches on live or build",
+        "why": "the article page has no <header> element (hero is section.section, mirrored as captured; site header is div.navbar). Re-run with --region header=.navbar|.navbar is quiet at both widths (gates/*/chrome-parity-pre.txt)"
+      }
+    ],
+    "residuals": [
+      {
+        "breakpoint": "360",
+        "region": "header .nav-inner",
+        "band": "y 0–83",
+        "pct": 0,
+        "cause": "live-mirrored horizontal overflow: .nav-inner flex row (logo + Subscribe .nav-right + hamburger, gap 2rem, nowrap) exceeds the 328px mobile container on LIVE too; button.nav-mobile-menu-button Δx0/Δw0 and root scrollWidth 423 on both sides (measure.mjs). Same canon header as index/blog; register entry R-01, deferred — no design change without a register entry.",
+        "flaggedFor": "user",
+        "evidence": [
+          "stardust/replica/gates/blog-ace-pro-court-polo-360/overflow-iter1.txt",
+          "stardust/replica/gates/blog-ace-pro-court-polo-360/overflow-live-iter1.txt",
+          "stardust/replica/gates/blog-ace-pro-court-polo-360/overflow-iter2.txt"
+        ]
+      }
+    ],
+    "motion": {
+      "observed": 10,
+      "implemented": 10,
+      "dead": [
+        ".mega-nav-link-item hover",
+        ".breadcrumbs .text-link hover",
+        ".tag hover",
+        ".blog-content img hover",
+        ".footer-link hover",
+        "#nav-toggle box sample (class is-open fired: parity)",
+        ".nav-right .button hover at 360 (no measured diff on live)",
+        ".tag hover at 360"
+      ],
+      "files": [
+        "stardust/replica/motion/blog-ace-pro-court-polo.json",
+        "stardust/replica/motion/blog-ace-pro-court-polo-build.json",
+        "stardust/replica/motion/blog-ace-pro-court-polo-360.json",
+        "stardust/replica/motion/blog-ace-pro-court-polo-360-build.json",
+        "stardust/replica/motion/blog-ace-pro-court-polo-compare-1440.txt",
+        "stardust/replica/motion/blog-ace-pro-court-polo-compare-360.txt"
+      ],
+      "note": "1440: 9 parity (.nav-link, .nav-right .button, .secondary-text-link, .footer-icon-link hovers + background-color/box-shadow/color/opacity/transform transitions, 150ms) / 0 missing / 0 extra; 360: is-open added 1×/1× parity. Hover rules are the lifted canon.css rules; no JS beyond the nav toggle (same mechanism as live)."
+    },
+    "canonChanges": [],
+    "chromeCheck": "chrome-parity.mjs @1440 vs live article before any round, --region header=.navbar|.navbar: header 6/6 texts 3/3 icons, footer 19/19 texts 6/6 icons, exit 0 (gates/blog-ace-pro-court-polo-1440/chrome-parity-pre.txt); @360 same, exit 0 (gates/blog-ace-pro-court-polo-360/chrome-parity-pre.txt)",
+    "markerNote": "gate.sh --marker \"Ace Pro Court Polo\" (present 2× on live and build): the brief's literal \"WKND\" occurs 0× on the live article page (title is \"… | Fashion Blog\"), so the identity assert exited 4; adding the string would be a content change",
+    "gatedAt": "2026-09-28T11:11:56.183Z",
+    "status": "gated",
+    "approvedBy": "hands-off"
+  },
+  "static": {
+    "archetype": "faq",
+    "liveUrl": "https://www.wknd-trendsetters.site/faq",
+    "prototype": "stardust/prototypes/faq-proposed.html",
+    "pageCss": "stardust/prototypes/css/faq.css",
+    "siblings": "none (single static page)",
+    "iterations": {
+      "360": 1,
+      "1440": 1
+    },
+    "gates": {
+      "360": {
+        "pixelPct": 0,
+        "heightDelta": 0,
+        "structuralRed": 0,
+        "visualFlags": "1 advisory, justified (same hero crop)",
+        "chrome": "quiet",
+        "overflow": "+63px (build scrollWidth 423) — LIVE measures the identical 423 (measure.mjs, gates/faq-360/overflow-live-iter1.txt; button.nav-mobile-menu-button and .nav-inner Δ0): live defect mirrored, not a build fault",
+        "pass": true,
+        "passOnPixelBars": true,
+        "gateExit": 2,
+        "confirmRound": "iter2 0.00% / Δ0 after motion pass (exit 2 on the overflow assert only)",
+        "chromeCrop": "header y0+83 100.00%, footer y2191+1038 100.00% (gates/faq-360/chrome-{header,footer}-diff.png)",
+        "waiver": "overflow assert waived by coordinator: live-mirrored +63px (R-01 deferred)"
+      },
+      "1440": {
+        "pixelPct": 0,
+        "heightDelta": 0,
+        "structuralRed": 0,
+        "visualFlags": "1 advisory, justified (hero object-fit cover crop mirrored from live)",
+        "chrome": "quiet",
+        "overflow": "ok",
+        "pass": true,
+        "gateExit": 0,
+        "confirmRound": "iter2 0.00% / Δ0 after motion pass (exit 0)",
+        "chromeCrop": "header y0+83 100.00%, footer y2290+367 100.00% (gates/faq-1440/chrome-{header,footer}-diff.png)"
+      }
+    },
+    "justified": [
+      {
+        "probe": "visual",
+        "flag": "STRETCHED IMAGE faq-hero.avif natural 800x547 → rendered (object-fit cover)",
+        "why": "object-fit: cover crop lifted from site.css .cover-image + inline aspect-ratio 4/3 mirrored from live; rendered dims identical, pixel 0.00% at both widths"
+      }
+    ],
+    "residuals": [
+      {
+        "breakpoint": "360",
+        "region": "header .nav-inner",
+        "band": "y 0–83",
+        "pct": 0,
+        "cause": "live-mirrored horizontal overflow: button.nav-mobile-menu-button renders off-viewport on LIVE too (root scrollWidth 423 live and build, Δ0; button and .nav-inner rects Δ0). Fixing it is a design change with no inconsistency-register entry — left verbatim (R-01, deferred).",
+        "flaggedFor": "user",
+        "evidence": [
+          "stardust/replica/gates/faq-360/overflow-live-iter1.txt",
+          "stardust/replica/gates/faq-360/overflow-iter1.txt",
+          "stardust/replica/gates/faq-360/overflow-iter2.txt"
+        ]
+      }
+    ],
+    "motion": {
+      "observed": 12,
+      "implemented": 12,
+      "dead": [
+        ".accent-section .button hover",
+        ".contact-items a hover",
+        ".logo hover",
+        "header scroll-morph"
+      ],
+      "files": [
+        "stardust/replica/motion/faq.json",
+        "stardust/replica/motion/faq-build.json",
+        "stardust/replica/motion/faq-360.json",
+        "stardust/replica/motion/faq-360-build.json",
+        "stardust/replica/motion/faq-compare-1440.txt",
+        "stardust/replica/motion/faq-compare-360.txt"
+      ],
+      "note": "1440: 9 parity / 0 missing / 0 extra — hovers .faq-question (background 300ms), .nav-link, .nav-right .button (box-shadow+transform), .footer-icon-link, .footer-link; transitions background-color 6/6, box-shadow 2/2, color 2/2, transform 6/6 (4× svg.faq-icon rotate .3s on details open at y465/638/811/984 + 2× nav button). 360: 3 parity / 0 missing / 0 extra — #nav-toggle adds is-open 1×/1× on nav.nav-menu; transform 4/4 (.faq-icon at y427/656/885/1115). Accordion is native <details>/<summary> on live and build (no JS); nav toggle = the live 204 B inline module re-authored. Nothing added, nothing invented."
+    },
+    "canonChanges": [],
+    "chromeCheck": "chrome-parity.mjs vs live /faq with --region header=.navbar|.navbar: @1440 header 6/6 texts 3/3 icons, footer 19/19 texts 6/6 icons, quiet (exit 0); @360 header 2/2 texts 2/2 icons, footer 19/19, quiet. Live /faq navbar and footer are byte-identical (whitespace-normalised) to live /blog; chrome spliced from blog-proposed.html.",
+    "markerNote": "\"WKND\" occurs 0× in live /faq HTML (title \"FAQ - The Fashion Blog\"); gate.sh --marker \"Got questions\" (h1, 1× on both sides).",
+    "liftNote": "stardust/replica/lift/faq-tokens.md",
+    "gatedAt": "2026-09-28T11:23:37.036Z",
+    "status": "gated",
+    "approvedBy": "hands-off"
+  },
+  "siblings": {
+    "blog-fashion-blog-post": {
+      "archetype": "blog-ace-pro-court-polo",
+      "variants": [],
+      "pixel": {
+        "360": {
+          "pct": 0,
+          "px": 0,
+          "heightDelta": 0,
+          "overflowX": 63,
+          "verdict": "PASS",
+          "label": "pb1",
+          "regime": "prototype"
+        },
+        "1440": {
+          "pct": 0,
+          "px": 0,
+          "heightDelta": 0,
+          "overflowX": 0,
+          "verdict": "PASS",
+          "label": "pb1",
+          "regime": "prototype"
+        }
+      },
+      "contentDiff": null,
+      "deliveryLint": null,
+      "media": null,
+      "gatesPassed": [
+        "content-count",
+        "variance-probe",
+        "content-fidelity",
+        "pixel-gate-1440"
+      ],
+      "migrated": "stardust/migrated/blog/fashion-blog-post/index.html"
+    },
+    "blog-fashion-trends-young-culture": {
+      "archetype": "blog-ace-pro-court-polo",
+      "variants": [],
+      "pixel": {
+        "360": {
+          "pct": 0,
+          "px": 0,
+          "heightDelta": 0,
+          "overflowX": 63,
+          "verdict": "PASS",
+          "label": "pb1",
+          "regime": "prototype"
+        },
+        "1440": {
+          "pct": 0,
+          "px": 0,
+          "heightDelta": 0,
+          "overflowX": 0,
+          "verdict": "PASS",
+          "label": "pb1",
+          "regime": "prototype"
+        }
+      },
+      "contentDiff": null,
+      "deliveryLint": null,
+      "media": null,
+      "gatesPassed": [
+        "content-count",
+        "variance-probe",
+        "content-fidelity",
+        "pixel-gate-1440"
+      ],
+      "migrated": "stardust/migrated/blog/fashion-trends-young-culture/index.html"
+    },
+    "blog-fashion-trends-young-style": {
+      "archetype": "blog-ace-pro-court-polo",
+      "variants": [],
+      "pixel": {
+        "360": {
+          "pct": 0,
+          "px": 0,
+          "heightDelta": 0,
+          "overflowX": 63,
+          "verdict": "PASS",
+          "label": "pb1",
+          "regime": "prototype"
+        },
+        "1440": {
+          "pct": 0,
+          "px": 0,
+          "heightDelta": 0,
+          "overflowX": 0,
+          "verdict": "PASS",
+          "label": "pb1",
+          "regime": "prototype"
+        }
+      },
+      "contentDiff": null,
+      "deliveryLint": null,
+      "media": null,
+      "gatesPassed": [
+        "content-count",
+        "variance-probe",
+        "content-fidelity",
+        "pixel-gate-1440"
+      ],
+      "migrated": "stardust/migrated/blog/fashion-trends-young-style/index.html"
+    },
+    "blog-flip-flop-summer-style": {
+      "archetype": "blog-ace-pro-court-polo",
+      "variants": [],
+      "pixel": {
+        "360": {
+          "pct": 0,
+          "px": 0,
+          "heightDelta": 0,
+          "overflowX": 63,
+          "verdict": "PASS",
+          "label": "pb1",
+          "regime": "prototype"
+        },
+        "1440": {
+          "pct": 0,
+          "px": 0,
+          "heightDelta": 0,
+          "overflowX": 0,
+          "verdict": "PASS",
+          "label": "pb1",
+          "regime": "prototype"
+        }
+      },
+      "contentDiff": null,
+      "deliveryLint": null,
+      "media": null,
+      "gatesPassed": [
+        "content-count",
+        "variance-probe",
+        "content-fidelity",
+        "pixel-gate-1440"
+      ],
+      "migrated": "stardust/migrated/blog/flip-flop-summer-style/index.html"
+    },
+    "blog-latest-trends-young-casual-fashion": {
+      "archetype": "blog-ace-pro-court-polo",
+      "variants": [],
+      "pixel": {
+        "360": {
+          "pct": 0,
+          "px": 0,
+          "heightDelta": 0,
+          "overflowX": 63,
+          "verdict": "PASS",
+          "label": "pb1",
+          "regime": "prototype"
+        },
+        "1440": {
+          "pct": 0,
+          "px": 0,
+          "heightDelta": 0,
+          "overflowX": 0,
+          "verdict": "PASS",
+          "label": "pb1",
+          "regime": "prototype"
+        }
+      },
+      "contentDiff": null,
+      "deliveryLint": null,
+      "media": null,
+      "gatesPassed": [
+        "content-count",
+        "variance-probe",
+        "content-fidelity",
+        "pixel-gate-1440"
+      ],
+      "migrated": "stardust/migrated/blog/latest-trends-young-casual-fashion/index.html"
+    },
+    "blog-street-style-trends": {
+      "archetype": "blog-ace-pro-court-polo",
+      "variants": [],
+      "pixel": {
+        "360": {
+          "pct": 0,
+          "px": 0,
+          "heightDelta": 0,
+          "overflowX": 63,
+          "verdict": "PASS",
+          "label": "pb1",
+          "regime": "prototype"
+        },
+        "1440": {
+          "pct": 0,
+          "px": 0,
+          "heightDelta": 0,
+          "overflowX": 0,
+          "verdict": "PASS",
+          "label": "pb1",
+          "regime": "prototype"
+        }
+      },
+      "contentDiff": null,
+      "deliveryLint": null,
+      "media": null,
+      "gatesPassed": [
+        "content-count",
+        "variance-probe",
+        "content-fidelity",
+        "pixel-gate-1440"
+      ],
+      "migrated": "stardust/migrated/blog/street-style-trends/index.html"
+    },
+    "case-studies": {
+      "archetype": "index",
+      "variants": [],
+      "pixel": {
+        "360": {
+          "pct": 0,
+          "px": 0,
+          "heightDelta": 0,
+          "overflowX": 63,
+          "verdict": "PASS",
+          "label": "pb1",
+          "regime": "prototype"
+        },
+        "1440": {
+          "pct": 0,
+          "px": 0,
+          "heightDelta": 0,
+          "overflowX": 0,
+          "verdict": "PASS",
+          "label": "pb1",
+          "regime": "prototype"
+        }
+      },
+      "contentDiff": null,
+      "deliveryLint": null,
+      "media": null,
+      "gatesPassed": [
+        "variance-probe",
+        "content-count",
+        "content-fidelity",
+        "pixel-gate-1440"
+      ],
+      "migrated": "stardust/migrated/case-studies/index.html"
+    },
+    "fashion-insights": {
+      "archetype": "blog",
+      "variants": [
+        "section-extra"
+      ],
+      "pixel": {
+        "360": {
+          "pct": 0,
+          "px": 0,
+          "heightDelta": 0,
+          "overflowX": 63,
+          "verdict": "PASS",
+          "label": "pb1",
+          "regime": "prototype"
+        },
+        "1440": {
+          "pct": 0,
+          "px": 0,
+          "heightDelta": 0,
+          "overflowX": 0,
+          "verdict": "PASS",
+          "label": "pb1",
+          "regime": "prototype"
+        }
+      },
+      "contentDiff": null,
+      "deliveryLint": null,
+      "media": null,
+      "gatesPassed": [
+        "variance-probe",
+        "content-count",
+        "content-fidelity",
+        "pixel-gate-1440"
+      ],
+      "migrated": "stardust/migrated/fashion-insights/index.html"
+    },
+    "fashion-trends-of-the-season": {
+      "archetype": "index",
+      "variants": [
+        "cta-accent"
+      ],
+      "pixel": {
+        "360": {
+          "pct": 0,
+          "px": 0,
+          "heightDelta": 0,
+          "overflowX": 63,
+          "verdict": "PASS",
+          "label": "pb1",
+          "regime": "prototype"
+        },
+        "1440": {
+          "pct": 0,
+          "px": 0,
+          "heightDelta": 0,
+          "overflowX": 0,
+          "verdict": "PASS",
+          "label": "pb1",
+          "regime": "prototype"
+        }
+      },
+      "contentDiff": null,
+      "deliveryLint": null,
+      "media": null,
+      "gatesPassed": [
+        "variance-probe",
+        "content-count",
+        "content-fidelity",
+        "pixel-gate-1440"
+      ],
+      "migrated": "stardust/migrated/fashion-trends-of-the-season/index.html"
+    },
+    "fashion-trends-young-adults": {
+      "archetype": "index",
+      "variants": [
+        "cta-accent"
+      ],
+      "pixel": {
+        "360": {
+          "pct": 0,
+          "px": 0,
+          "heightDelta": 0,
+          "overflowX": 63,
+          "verdict": "PASS",
+          "label": "pb1",
+          "regime": "prototype"
+        },
+        "1440": {
+          "pct": 0,
+          "px": 0,
+          "heightDelta": 0,
+          "overflowX": 0,
+          "verdict": "PASS",
+          "label": "pb1",
+          "regime": "prototype"
+        }
+      },
+      "contentDiff": null,
+      "deliveryLint": null,
+      "media": null,
+      "gatesPassed": [
+        "variance-probe",
+        "content-count",
+        "content-fidelity",
+        "pixel-gate-1440"
+      ],
+      "migrated": "stardust/migrated/fashion-trends-young-adults/index.html"
+    },
+    "fashion-trends-young-adults-casual-sport": {
+      "archetype": "index",
+      "variants": [
+        "cta-accent",
+        "trend-card"
+      ],
+      "pixel": {
+        "360": {
+          "pct": 0,
+          "px": 0,
+          "heightDelta": 0,
+          "overflowX": 63,
+          "verdict": "PASS",
+          "label": "pb2",
+          "regime": "prototype"
+        },
+        "1440": {
+          "pct": 0,
+          "px": 0,
+          "heightDelta": 0,
+          "overflowX": 0,
+          "verdict": "PASS",
+          "label": "pb2",
+          "regime": "prototype"
+        }
+      },
+      "contentDiff": null,
+      "deliveryLint": null,
+      "media": null,
+      "gatesPassed": [
+        "variance-probe",
+        "content-count",
+        "content-fidelity",
+        "pixel-gate-1440"
+      ],
+      "migrated": "stardust/migrated/fashion-trends-young-adults-casual-sport/index.html"
+    }
+  },
+  "migrate": {
+    "at": "2026-09-28T11:52:52.295Z",
+    "pages": 15,
+    "archetypes": 4,
+    "siblings": 11,
+    "thin": 0,
+    "gates": {
+      "content-count": 15,
+      "content-fidelity": 15,
+      "pixel-gate-1440": 15,
+      "variance-probe": 11
+    },
+    "missing": {
+      "blog-fashion-blog-post": [
+        "pixel-gate-360",
+        "delivery-lint"
+      ],
+      "blog-fashion-trends-young-culture": [
+        "pixel-gate-360",
+        "delivery-lint"
+      ],
+      "blog-fashion-trends-young-style": [
+        "pixel-gate-360",
+        "delivery-lint"
+      ],
+      "blog-flip-flop-summer-style": [
+        "pixel-gate-360",
+        "delivery-lint"
+      ],
+      "blog-latest-trends-young-casual-fashion": [
+        "pixel-gate-360",
+        "delivery-lint"
+      ],
+      "blog-street-style-trends": [
+        "pixel-gate-360",
+        "delivery-lint"
+      ],
+      "case-studies": [
+        "pixel-gate-360",
+        "delivery-lint"
+      ],
+      "fashion-insights": [
+        "pixel-gate-360",
+        "delivery-lint"
+      ],
+      "fashion-trends-of-the-season": [
+        "pixel-gate-360",
+        "delivery-lint"
+      ],
+      "fashion-trends-young-adults": [
+        "pixel-gate-360",
+        "delivery-lint"
+      ],
+      "fashion-trends-young-adults-casual-sport": [
+        "pixel-gate-360",
+        "delivery-lint"
+      ]
+    }
+  }
+}
